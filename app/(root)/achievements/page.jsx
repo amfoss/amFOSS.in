@@ -12,6 +12,7 @@ const page = () => {
         </div>
       </div>
       <GridComponent />
+      <div className="py-20"></div>
     </>
   );
 };
