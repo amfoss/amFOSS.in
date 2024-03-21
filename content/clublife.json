@@ -1,0 +1,32 @@
+{
+  "fosslab": {
+    "title": "THE FOSSLAB",
+    "description": "Where members convene after class hours everyday, connect with each other, and conduct all club-related activities like talks, meetings, and debates. "
+  },
+  "taskForces": {
+    "title": "TASK FORCES",
+    "description": "Units within amFOSS that support its student-run structure, while offering members ongoing opportunities to show off a variety of non-technical skills.",
+    "content": [
+      {
+        "title": "Graphics Processing Unit",
+        "description": "A most phenomenal team of creatives who do all kinds of painstaking work, from creating posters for events to designing the best website ever."
+      },
+      {
+        "title": "Content Writing Team",
+        "description": "The wordsmiths who carefully word social media posts, blogs, and any other written content (except for this one!)"
+      },
+      {
+        "title": "News team",
+        "description": "In charge of keeping track of the latest community updates, and compiling the annual newsletter."
+      },
+      {
+        "title": "Media team",
+        "description": "The photographers, videographers, and editors who often capture the members at their finest moments."
+      },
+      {
+        "title": "Internal Events",
+        "description": "Handles scheduling and coordinating internal events like FOSSTalks, movie screenings, and amFOSS Play."
+      }
+    ]
+  }
+}
