@@ -1,0 +1,34 @@
+[
+    {
+        "title" : "MENTOR",
+        "desc" : "Ensure great passion has greater direction"
+    },
+    {
+        "title" : "LEARN",
+        "desc" : "Explore technical domains and build an array of skills"
+    },
+    {
+        "title" : "CONTRIBUTE",
+        "desc" : "Make meaningful contributions to open source"
+    },
+    {
+        "title" : "NETWORK",
+        "desc" : "Attend hackathons, conferences, and talks"
+    },
+    {
+        "title" : "WORK",
+        "desc" : "Gain experience working on real-life projects"
+    },
+    {
+        "title" : "SERVICE",
+        "desc" : "Provide consultancy and build technical solutions"
+    },
+    {
+        "title" : "RESEARCH",
+        "desc" : "Delve into the various fields of academia"
+    },
+    {
+        "title" : "FOSTER",
+        "desc" : "Organise workshops, talks, and events promoting OSS"
+    }
+]

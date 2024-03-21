@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Github",
+    "image": "./assets/icons/socials/Vector.svg",
+    "ref": "https://github.com/amfoss"
+  },
+  {
+    "title": "X",
+    "image": "./assets/icons/socials/Vector-2.svg",
+    "ref": "https://twitter.com/amfoss_in"
+  },
+  {
+    "title": "Gitlab",
+    "image": "./assets/icons/socials/Vector-1.svg",
+    "ref": "https://gitlab.com/amfoss"
+  }
+]
