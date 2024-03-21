@@ -28,5 +28,31 @@
         "description": "Handles scheduling and coordinating internal events like FOSSTalks, movie screenings, and amFOSS Play."
       }
     ]
+  },
+  "activities": {
+    "fosstalks": {
+      "title": "FOSSTalks",
+      "description": "A weekly stage where two chosen members deliver a presentation—on anything from the newest tech to pressing societal issues."
+    },
+    "amfossplays": {
+      "title": "Amfoss Play",
+      "description": "A biweekly event for sports activities featuring a range of activities like marathons, football, badminton, and cricket."
+    },
+    "documentary": {
+      "title": "Documentary",
+      "description": "A thought-provoking documentary is screened, post which members discuss their perspectives and comment on each others ideas."
+    },
+    "opentalks": {
+      "title": "OpenTalks",
+      "description": "A session where an external guest speaker gives a talk and shares their insights, expertise, or advice."
+    },
+    "amfossbiosnight": {
+      "title": "amFOSS-bi0s Night",
+      "description": "An annual cultural celebration hosted with our sister club, bi0s. Features good food, music, art, and games, all produced by members themselves."
+    },
+    "socialservice": {
+      "title": "Social service",
+      "description": "Engagement in disaster relief and clean-up drives in collaboration, as volunteers under the Mata Amritanandamayi Math NGO."
+    }
   }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import data from "@/content/clublife.json";
 import TaskForcesComponent from "@/components/clublife/taskForcesComponent";
+import ActivitiesComponent from "@/components/clublife/activitiesComponent";
 
 const page = () => {
   return (
@@ -27,6 +28,8 @@ const page = () => {
       </div>
       {/* taskforces */}
       <TaskForcesComponent />
+      {/* activities */}
+      <ActivitiesComponent />
     </>
   );
 };
