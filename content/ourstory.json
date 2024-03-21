@@ -1,0 +1,21 @@
+[
+    {
+        "Timestamp" : "2006: Foundation of the club",
+        "p1" : "In the summer of 2006, Abhilash T. G. approached Vipin Pavithran, seeking a mentor for his participation in the IBM Great Mind Challenge. This marked the inception of a team of dedicated individuals, sacrificing their typical college experiences for working day after day in the lab. Although they were initially unsure of their abilities, Vipin Pavithran harboured a steadfast belief in them, confident that they would ultimately emerge victorious.",
+        "p2" : "Months passed with the team fully immersed in rigorous preparations, sacrificing their typical college experiences and enduring the occasional taunts of their peers for doing so. Through moments of despair and contemplation of giving up, Vipin Pavithran's unwavering support propelled them forward.",
+        "p3" : "Ultimately, their dedication landed them into the ranks of the Top 5 teams in India. They were subsequently invited to Mumbai for a prestigious prize distribution ceremony, marking a significant milestone as the first national-level prize achieved by Amritapuri students."
+    },
+    {
+        "Timestamp" : "2008: Winning the Sun Code for Freedom",
+        "image" : "/story_1.png",
+        "p1" : "Fueled by the previous success, Vipin embarked on a quest to discover more national and international contests. His search led him to Sun Code For Freedom 2008, organised by Sun Microsystems, which focused on contributions to their open source projects. The competition had already been running for two months when Avinash Joshi, a third-year student, was tasked with contributing to Open Solaris, the open-source version of the Solaris operating system. Avinash, who had recently completed his Operating System course, was now expected to contribute to one with over 9 million lines of code.",
+        "p2" : "After two months of relentless effort, Avinash figured out the process of contribution and commenced his active involvement. He meticulously documented the entire process, enabling his peers to join in. Soon enough, a multitude of students began their contributions. Every day, students would extend their hours in the lab, tirelessly working on contributions to various open-source software projects under Sun Microsystems.",
+        "p3" : "When the contest concluded, Amrita Vishwa Vidyapeetham emerged as the champion university, amassing a remarkable total of 105 contributions. In stark contrast, the second-place team had managed only 10 contributions in total. The students were invited to Sun Tech Days 2008 in Hyderabad, where they were awarded. This accomplishment ignited a continued passion among students, who started making regular contributions to Sun Open Source products with the active support of Sun Microsystems."
+    },
+    {
+        "Timestamp" : "2010: Gaining Recognition through GSoC",
+        "p1" : "Vipin Pavithran chanced upon the Google Summer of Code in 2010, leading to three members getting selected for the first time. amFOSS has since maintained a 13-year long streak of its members getting accepted to the prestigious international program, earning glamorous stipends.",
+        "p2" : "Today, more than 17 years later, amFOSS remains a beacon of excellence in the technical field. Having started with a strength of 10 members, the club now has more than 70 active members, with several alumni actively mentoring the club. The community's unwavering commitment to open source, technical prowess, and skill development ensures it continues to thrive and contribute to the ever-evolving world of computer science"
+    }
+
+]

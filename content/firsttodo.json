@@ -1,0 +1,38 @@
+[
+    {
+        "Achievement": "Win a national level championship",
+        "Event" : "SUN CODE OF FREEDOM"
+    },
+    {
+        "Achievement"  : "Receive a fully funded invite to an international conference"  ,
+        "Event" : "Java One, California, US" 
+    },
+    {
+        "Achievement" : "Get accepted to masters programs in Europe",
+        "Event" : "Mälardalen, Sweden, and VU Amsterdam"
+    },
+    {
+        "Achievement" : "Go abroad for summer school",
+        "Event" : "Tel Aviv University, Israel"
+    },
+    {
+        "Achievement" : "Get accepted to a student exchange program",
+        "Event" : "Mälardalen, Sweden"
+    },
+    {
+        "Achievement" : "Compete in the ICPC World Finals",
+        "Event" : "Honourable mention at Morocco"
+    },
+    {
+        "Achievement" : "Receive a gold medal in web technologies",
+        "Event" : "India Skills South Regionals"
+    },
+    {
+        "Achievement" : "Work with Google",
+        "Event" : "Security engineer"
+    },
+    {
+        "Achievement" : "Work under the Ministry of Home Affairs",
+        "Event" : "I4C Department, Government of India"
+    }
+]

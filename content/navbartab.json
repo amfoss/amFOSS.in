@@ -1,0 +1,18 @@
+[
+    {
+        "title": "ABOUT",
+        "ref" : "/about"
+    },
+    {
+        "title": "ACHIEVEMENTS",
+        "ref" : "/achievements"
+    },
+    {
+        "title": "CLUB LIFE",
+        "ref" : "/clublife"
+    },
+    {
+        "title": "CONTACT",
+        "ref" : "/contact"
+    }
+]

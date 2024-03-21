@@ -1,0 +1,28 @@
+[
+    {
+        "image" : "/about_1.png",
+        "p1": "17  years  ago,  Vipin  Pavithran  founded  FOSS@Amrita  as  a  place  for  dedicated minds  to  learn,  work,  and  grow  together. From  its  humble  beginnings,  the  club, now  called  amFOSS,  would  go  on  to  build  a  reputation  of  one  of  the  best student  communities  in  the  country. "
+    },
+    {
+        "mission" : "To create a great engineer",
+        "p1" : "Train students in cultivating relevant software development skills, including code comprehension, debugging, and writing standard code.",
+        "p2" : "Equip students with problem-solving skills to collaboratively tackle real-life challenges, enhancing critical thinking, creativity, and communication abilities.",
+        "p3" : "Instill the art of self-directed learning, enabling students to become independent learners.",
+        "p4" : "Facilitate peer interaction and project development, leveraging technology to address societal issues.",
+        "p5" : "Encourage students to break free from conformity, and empower them to dream their own dreams."
+    },
+    {
+        "mission" : "To foster a good human being",
+        "p1" : "Inculcate empathy, compassion, and patience.",
+        "p2" : "Instill an awareness of nature to safeguard its resources.",
+        "p3" : "Embrace an attitude of servitude and discover the joy in giving.",
+        "p4" : "Imbibe a sense of responsibility towards fellow beings.",
+        "p5" : "Build emotional resilience to manage both success and failure.",
+        "p6" : "Promote mental, physical, and emotional health."
+    },
+    {
+        "image" : "/about_2.png",
+        "p1" : "Every member is assigned multiple mentors, from immediate seniors to experienced faculty and alumni, underscoring the foundational principle of mentor-mentee relationships.",
+        "p2" : "Task forces within the club, handling everything from administration and recruitment to event organisation, means that the self-contained nature of the community is sustained."
+    }
+]

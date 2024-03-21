@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * 
+  body {
+    background-color: #181818
+    ;
+    color: #D0A730;
+  }
+}
