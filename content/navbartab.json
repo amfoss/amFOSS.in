@@ -1,18 +1,18 @@
 [
-    {
-        "title": "ABOUT",
-        "ref" : "/about"
-    },
-    {
-        "title": "ACHIEVEMENTS",
-        "ref" : "/achievements"
-    },
-    {
-        "title": "CLUB LIFE",
-        "ref" : "/clublife"
-    },
-    {
-        "title": "CONTACT",
-        "ref" : "/contact"
-    }
+  {
+    "title": "ABOUT",
+    "ref": "/about"
+  },
+  {
+    "title": "ACHIEVEMENTS",
+    "ref": "/achievements"
+  },
+  {
+    "title": "CLUB LIFE",
+    "ref": "/clublife"
+  },
+  {
+    "title": "TEAM",
+    "ref": "/team"
+  }
 ]

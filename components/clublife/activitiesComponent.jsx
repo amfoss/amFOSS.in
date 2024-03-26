@@ -11,7 +11,7 @@ const activitiesComponent = () => {
         </div>
         <div className="md:px-40 px-5 grid md:grid-cols-2 grid-cols-1 gap-x-20">
           {/* fosstalks */}
-          <div className="text-white md:pt-10 md:pb-32 md:pr-40">
+          <div className="text-white md:pt-10 md:pb-32 md:pr-40 w-full">
             <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.fosstalks.title}
@@ -22,7 +22,7 @@ const activitiesComponent = () => {
           </div>
           <div className="row-span-2 h-[90%] bg-white ml-10 mr-20 md:block hidden"></div>
           {/* opentalks */}
-          <div className="text-white pt-10 md:pb-32 md:pr-40">
+          <div className="text-white pt-10 md:pb-32 md:pr-40 w-full">
             <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.opentalks.title}
@@ -32,7 +32,7 @@ const activitiesComponent = () => {
             </p>
           </div>
           {/* documentary */}
-          <div className="text-white pt-10 md:pb-32 md:pr-40">
+          <div className="text-white pt-10 md:pb-32 md:pr-40 w-full">
             <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.documentary.title}
@@ -42,7 +42,7 @@ const activitiesComponent = () => {
             </p>
           </div>
           {/* amfossplays */}
-          <div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20">
+          <div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20 w-full">
             <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.amfossplays.title}
@@ -53,7 +53,7 @@ const activitiesComponent = () => {
           </div>
           <div className="row-span-2 h-[90%] bg-white -ml-10 mr-40 md:block hidden"></div>
           {/* amfossbiosnight */}
-          <div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20">
+          <div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20 w-full">
             <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.amfossbiosnight.title}
@@ -63,7 +63,7 @@ const activitiesComponent = () => {
             </p>
           </div>
           {/* socialservice */}
-          <div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20">
+          <div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20 w-full">
             <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.socialservice.title}
