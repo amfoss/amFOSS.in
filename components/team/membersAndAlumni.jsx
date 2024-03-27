@@ -45,7 +45,7 @@ const MembersAndAlumni = ({ contentFor }) => {
       <div className="w-full md:px-40 px-5 mb-10">
         <Title title={contentFor === "members" ? "MEMBERS" : "ALUMNI"} />
       </div>
-      <div className="md:px-40 my-10 px-5 grid md:grid-cols-4 grid-cols-3 gap-x-20">
+      <div className="2xl:px-40 xl:px-10 px-5 my-10 grid md:grid-cols-4 grid-cols-3 lg:gap-x-20 md:gap-x-10 gap-x-3 lg:gap-y-10">
         {visibleMembers.map((member) => (
           <MemberCard
             key={member.name}
