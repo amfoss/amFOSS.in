@@ -1,0 +1,233 @@
+{
+  "hero": {
+    "title": "Vipin Pavithran",
+    "img": "/assets/images/vipinSir.png",
+    "subtitle": "Founder and Chief Mentor",
+    "description": [
+      "Vipin Pavithran joined Amrita University in 2006 after ten years of software industry experience in the United States. Quickly discovering a passion and talent for mentoring students, he founded two eminent sister clubs, amFOSS and bi0s. Today, he works under the Amrita Centre for Cybersecurity Systems and Networks as a professor and as the Director for Academia Industry Collaborations. In his most recent ventures, he leads the successful cybersecurity startup he founded, Traboda Cyberlabs.",
+      "His eagerness to support and nurture every student under his guidance laid the foundational principles of mentorship upon which the club is built. He firmly believes in the untapped potential within each student, which is realised through club projects. By offering a spectrum of activities, spanning from software engineering and cybersecurity to cooking and public speaking, Vipin ensures ample opportunities for every student to showcase their best abilities."
+    ],
+    "quote": "I know the value of the right guidance at the right time and how it can make a huge impact. This made me want to help anyone who needed guidance."
+  },
+  "members": [
+    {
+      "name": "John Doe",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/johndoe",
+      "twitterLink": "https://twitter.com/johndoe",
+      "linkedinLink": "https://www.linkedin.com/in/johndoe"
+    },
+    {
+      "name": "Jane Smith",
+      "title": "Data Scientist",
+      "githubLink": "https://github.com/janesmith",
+      "twitterLink": "https://twitter.com/janesmith",
+      "linkedinLink": "https://www.linkedin.com/in/janesmith"
+    },
+    {
+      "name": "Alex Johnson",
+      "title": "Web Developer",
+      "githubLink": "https://github.com/alexjohnson",
+      "twitterLink": "https://twitter.com/alexjohnson",
+      "linkedinLink": "https://www.linkedin.com/in/alexjohnson"
+    },
+    {
+      "name": "Emily Brown",
+      "title": "UX Designer",
+      "githubLink": "https://github.com/emilybrown",
+      "twitterLink": "https://twitter.com/emilybrown",
+      "linkedinLink": "https://www.linkedin.com/in/emilybrown"
+    },
+    {
+      "name": "Michael Wilson",
+      "title": "Product Manager",
+      "githubLink": "https://github.com/michaelwilson",
+      "twitterLink": "https://twitter.com/michaelwilson",
+      "linkedinLink": "https://www.linkedin.com/in/michaelwilson"
+    },
+    {
+      "name": "Sarah Taylor",
+      "title": "UI Designer",
+      "githubLink": "https://github.com/sarahtaylor",
+      "twitterLink": "https://twitter.com/sarahtaylor",
+      "linkedinLink": "https://www.linkedin.com/in/sarahtaylor"
+    },
+    {
+      "name": "David Martinez",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/davidmartinez",
+      "twitterLink": "https://twitter.com/davidmartinez",
+      "linkedinLink": "https://www.linkedin.com/in/davidmartinez"
+    },
+    {
+      "name": "Emma Anderson",
+      "title": "Data Analyst",
+      "githubLink": "https://github.com/emmaanderson",
+      "twitterLink": "https://twitter.com/emmaanderson",
+      "linkedinLink": "https://www.linkedin.com/in/emmaanderson"
+    },
+    {
+      "name": "Daniel Garcia",
+      "title": "Frontend Developer",
+      "githubLink": "https://github.com/danielgarcia",
+      "twitterLink": "https://twitter.com/danielgarcia",
+      "linkedinLink": "https://www.linkedin.com/in/danielgarcia"
+    },
+    {
+      "name": "Olivia Brown",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/oliviabrown",
+      "twitterLink": "https://twitter.com/oliviabrown",
+      "linkedinLink": "https://www.linkedin.com/in/oliviabrown"
+    },
+    {
+      "name": "James Lee",
+      "title": "Data Scientist",
+      "githubLink": "https://github.com/jameslee",
+      "twitterLink": "https://twitter.com/jameslee",
+      "linkedinLink": "https://www.linkedin.com/in/jameslee"
+    },
+    {
+      "name": "Sophia Rodriguez",
+      "title": "Web Developer",
+      "githubLink": "https://github.com/sophiarodriguez",
+      "twitterLink": "https://twitter.com/sophiarodriguez",
+      "linkedinLink": "https://www.linkedin.com/in/sophiarodriguez"
+    },
+    {
+      "name": "William Smith",
+      "title": "UX Designer",
+      "githubLink": "https://github.com/williamsmith",
+      "twitterLink": "https://twitter.com/williamsmith",
+      "linkedinLink": "https://www.linkedin.com/in/williamsmith"
+    },
+    {
+      "name": "Ava Johnson",
+      "title": "Product Manager",
+      "githubLink": "https://github.com/avajohnson",
+      "twitterLink": "https://twitter.com/avajohnson",
+      "linkedinLink": "https://www.linkedin.com/in/avajohnson"
+    },
+    {
+      "name": "Ethan Wilson",
+      "title": "UI Designer",
+      "githubLink": "https://github.com/ethanwilson",
+      "twitterLink": "https://twitter.com/ethanwilson",
+      "linkedinLink": "https://www.linkedin.com/in/ethanwilson"
+    },
+    {
+      "name": "Isabella Martinez",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/isabellamartinez",
+      "twitterLink": "https://twitter.com/isabellamartinez",
+      "linkedinLink": "https://www.linkedin.com/in/isabellamartinez"
+    },
+    {
+      "name": "Mason Anderson",
+      "title": "Data Analyst",
+      "githubLink": "https://github.com/masonanderson",
+      "twitterLink": "https://twitter.com/masonanderson",
+      "linkedinLink": "https://www.linkedin.com/in/masonanderson"
+    },
+    {
+      "name": "Amelia Garcia",
+      "title": "Frontend Developer",
+      "githubLink": "https://github.com/ameliagarcia",
+      "twitterLink": "https://twitter.com/ameliagarcia",
+      "linkedinLink": "https://www.linkedin.com/in/ameliagarcia"
+    },
+    {
+      "name": "Benjamin Brown",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/benjaminbrown",
+      "twitterLink": "https://twitter.com/benjaminbrown",
+      "linkedinLink": "https://www.linkedin.com/in/benjaminbrown"
+    },
+    {
+      "name": "Chloe Lee",
+      "title": "Data Scientist",
+      "githubLink": "https://github.com/chloele",
+      "twitterLink": "https://twitter.com/chloele",
+      "linkedinLink": "https://www.linkedin.com/in/chloele"
+    },
+    {
+      "name": "Jacob Rodriguez",
+      "title": "Web Developer",
+      "githubLink": "https://github.com/jacobrodriguez",
+      "twitterLink": "https://twitter.com/jacobrodriguez",
+      "linkedinLink": "https://www.linkedin.com/in/jacobrodriguez"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "John Doe",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/johndoe",
+      "twitterLink": "https://twitter.com/johndoe",
+      "linkedinLink": "https://www.linkedin.com/in/johndoe"
+    },
+    {
+      "name": "Jane Smith",
+      "title": "Data Scientist",
+      "githubLink": "https://github.com/janesmith",
+      "twitterLink": "https://twitter.com/janesmith",
+      "linkedinLink": "https://www.linkedin.com/in/janesmith"
+    },
+    {
+      "name": "Alex Johnson",
+      "title": "Web Developer",
+      "githubLink": "https://github.com/alexjohnson",
+      "twitterLink": "https://twitter.com/alexjohnson",
+      "linkedinLink": "https://www.linkedin.com/in/alexjohnson"
+    },
+    {
+      "name": "Emily Brown",
+      "title": "UX Designer",
+      "githubLink": "https://github.com/emilybrown",
+      "twitterLink": "https://twitter.com/emilybrown",
+      "linkedinLink": "https://www.linkedin.com/in/emilybrown"
+    },
+    {
+      "name": "Michael Wilson",
+      "title": "Product Manager",
+      "githubLink": "https://github.com/michaelwilson",
+      "twitterLink": "https://twitter.com/michaelwilson",
+      "linkedinLink": "https://www.linkedin.com/in/michaelwilson"
+    },
+    {
+      "name": "Sarah Taylor",
+      "title": "UI Designer",
+      "githubLink": "https://github.com/sarahtaylor",
+      "twitterLink": "https://twitter.com/sarahtaylor",
+      "linkedinLink": "https://www.linkedin.com/in/sarahtaylor"
+    },
+    {
+      "name": "David Martinez",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/davidmartinez",
+      "twitterLink": "https://twitter.com/davidmartinez",
+      "linkedinLink": "https://www.linkedin.com/in/davidmartinez"
+    },
+    {
+      "name": "Emma Anderson",
+      "title": "Data Analyst",
+      "githubLink": "https://github.com/emmaanderson",
+      "twitterLink": "https://twitter.com/emmaanderson",
+      "linkedinLink": "https://www.linkedin.com/in/emmaanderson"
+    },
+    {
+      "name": "Daniel Garcia",
+      "title": "Frontend Developer",
+      "githubLink": "https://github.com/danielgarcia",
+      "twitterLink": "https://twitter.com/danielgarcia",
+      "linkedinLink": "https://www.linkedin.com/in/danielgarcia"
+    },
+    {
+      "name": "Olivia Brown",
+      "title": "Software Engineer",
+      "githubLink": "https://github.com/oliviabrown",
+      "twitterLink": "https://twitter.com/oliviabrown",
+      "linkedinLink": "https://www.linkedin.com/in/oliviabrown"
+    }
+  ]
+}

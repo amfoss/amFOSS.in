@@ -1,0 +1,58 @@
+{
+  "fosslab": {
+    "title": "THE FOSSLAB",
+    "description": "Where members convene after class hours everyday, connect with each other, and conduct all club-related activities like talks, meetings, and debates. "
+  },
+  "taskForces": {
+    "title": "TASK FORCES",
+    "description": "Units within amFOSS that support its student-run structure, while offering members ongoing opportunities to show off a variety of non-technical skills.",
+    "content": [
+      {
+        "title": "Graphics Processing Unit",
+        "description": "A most phenomenal team of creatives who do all kinds of painstaking work, from creating posters for events to designing the best website ever."
+      },
+      {
+        "title": "Content Writing Team",
+        "description": "The wordsmiths who carefully word social media posts, blogs, and any other written content (except for this one!)"
+      },
+      {
+        "title": "News team",
+        "description": "In charge of keeping track of the latest community updates, and compiling the annual newsletter."
+      },
+      {
+        "title": "Media team",
+        "description": "The photographers, videographers, and editors who often capture the members at their finest moments."
+      },
+      {
+        "title": "Internal Events",
+        "description": "Handles scheduling and coordinating internal events like FOSSTalks, movie screenings, and amFOSS Play."
+      }
+    ]
+  },
+  "activities": {
+    "fosstalks": {
+      "title": "FOSSTalks",
+      "description": "A weekly stage where two chosen members deliver a presentation—on anything from the newest tech to pressing societal issues."
+    },
+    "amfossplays": {
+      "title": "Amfoss Play",
+      "description": "A biweekly event for sports activities featuring a range of activities like marathons, football, badminton, and cricket."
+    },
+    "documentary": {
+      "title": "Documentary",
+      "description": "A thought-provoking documentary is screened, post which members discuss their perspectives and comment on each others ideas."
+    },
+    "opentalks": {
+      "title": "OpenTalks",
+      "description": "A session where an external guest speaker gives a talk and shares their insights, expertise, or advice."
+    },
+    "amfossbiosnight": {
+      "title": "amFOSS-bi0s Night",
+      "description": "An annual cultural celebration hosted with our sister club, bi0s. Features good food, music, art, and games, all produced by members themselves."
+    },
+    "socialservice": {
+      "title": "Social service",
+      "description": "Engagement in disaster relief and clean-up drives in collaboration, as volunteers under the Mata Amritanandamayi Math NGO."
+    }
+  }
+}

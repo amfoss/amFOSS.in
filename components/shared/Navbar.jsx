@@ -42,7 +42,7 @@ const Navbar = () => {
             <li key={index} className="relative group">
               <Link
                 href={tab.ref}
-                className="p-2 transition duration-200 relative"
+                className="p-2 transition duration-200 relative text-xl"
               >
                 {tab.title}
                 <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-px bg-white transition-width duration-300 group-hover:w-full"></span>

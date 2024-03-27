@@ -4,8 +4,11 @@ import "./globals.css";
 const sen = Sen({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "amFOSS",
+  title: "amFOSS | INDIA'S FASTEST GROWING FOSS & COMPUTER SCIENCE CLUB",
   description: "amFoss Official Website",
+  icons: {
+    icon: "/assets/icons/amfoss_bulb_white.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
