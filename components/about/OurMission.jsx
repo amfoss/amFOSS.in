@@ -7,7 +7,7 @@ const OurMission = () => {
     <>
       <div className="bg-[#242424] mt-5 md:pt-40 min-h-fit text-white tracking-wide">
         <div className="grid md:grid-cols-3 grid-cols-1 md:px-40 px-5">
-          <div className="flex flex-col md:col-span-3 col-span-1 mb-10 mt-10">
+          <div className="flex flex-col md:col-span-3 col-span-1 mb-10 md:mt-0 mt-10">
             <Title title="OUR MISSION" />
           </div>
           {data.mission.map((cont, index) => (

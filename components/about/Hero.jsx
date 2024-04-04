@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         <div className="flex justify-center">
           <button
-            onClick={() => router.push("/ourstory")}
+            onClick={() => router.push("/story")}
             className="text-2xl bg-[#D0A730] font-medium rounded-xl text-black w-fit px-10 py-2 tracking-wide mt-8 hover:text-white hover:bg-[#242424] transition duration-200"
           >
             {data.hero.button}
