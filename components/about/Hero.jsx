@@ -1,19 +1,36 @@
+"use client"
 import React from "react";
 import data from "@/content/about.json";
 import { useRouter } from "next/navigation";
+import {motion} from 'framer-motion'
 
 const Hero = () => {
   const router = useRouter();
+  const aboutTitles={
+    initial:{ opacity: 0, y: 50 },
+    animate:{ opacity: 1, y: 0 }
+  }
 
   return (
     <>
       <div className="w-full flex flex-col justify-center md:px-40 px-5 mb-20">
         <div className="w-full my-10">
-          <img src={data.hero.image} className="w-full" />
+        <motion.img
+        src={data.hero.image}
+        className="w-full"
+        />
+
         </div>
-        <h1 className="text-justify text-white text-xl 2xl:text-3xl tracking-wide my-10">
+        <motion.h1 className="text-justify text-white text-xl 2xl:text-3xl tracking-wide my-10"
+        
+        variants={aboutTitles} 
+            transition={{ duration: 0.5, delay: 0.1 }}
+            initial="initial"
+            whileInView="animate"
+            viewport={{once:true}}
+        >
           {data.hero.description}
-        </h1>
+        </motion.h1>
         <div className="flex justify-center">
           <button
             onClick={() => router.push("/story")}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Title from "@/components/ui/title";
 import MemberCard from "@/components/team/memberCard";
 import data from "@/content/team.json";
+import { motion } from "framer-motion";
 
 const MembersAndAlumni = ({ contentFor }) => {
   const dataFinal = contentFor === "members" ? data.members : data.alumni;
@@ -46,7 +47,23 @@ const MembersAndAlumni = ({ contentFor }) => {
         <Title title={contentFor === "members" ? "MEMBERS" : "ALUMNI"} />
       </div>
       <div className="2xl:px-40 xl:px-10 px-5 my-10 grid md:grid-cols-4 grid-cols-3 lg:gap-x-20 md:gap-x-10 gap-x-3 lg:gap-y-10">
-        {visibleMembers.map((member) => (
+        {visibleMembers.map((member,i) => (
+          <motion.div
+          key={member.name}
+          initial={{opacity:0,
+            x:-50,
+            y:-50
+          }}
+          whileInView={{opacity:1,
+            x:0,
+            y:0
+          }}
+          viewport={{once:true}}
+          transition={{duration:0.3,
+            delay:0.01 * i }}
+
+
+          >
           <MemberCard
             key={member.name}
             name={member.name}
@@ -54,7 +71,7 @@ const MembersAndAlumni = ({ contentFor }) => {
             githubLink={member.githubLink}
             twitterLink={member.twitterLink}
             linkedinLink={member.linkedinLink}
-          />
+          /></motion.div>
         ))}
       </div>
       <button

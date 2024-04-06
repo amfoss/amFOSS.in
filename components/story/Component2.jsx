@@ -1,11 +1,23 @@
 import React from "react";
 import data from "@/content/ourstory.json";
 import Title from "../ui/title";
+import { motion } from "framer-motion";
 
 const Component2 = () => {
+  const storyVarients={
+    initial: { opacity: 0, x: -50 },
+    animate: { opacity: 1, x: 0 }
+  }
+
   return (
     <>
-      <div className="w-full md:px-40 px-5 bg-[#242424] py-10">
+      <motion.div className="w-full md:px-40 px-5 bg-[#242424] py-10"
+      variants={storyVarients} 
+      transition={{ duration: 0.5, delay: 0.1 }}
+      initial="initial"
+      whileInView="animate"
+      viewport={{once:true}}
+      >
         <Title title={data.second.title} />
         <img src={data.second.image} className="my-10" />
         <div className="text-white md:text-xl tracking-[0.3em] md:my-20">
@@ -15,7 +27,7 @@ const Component2 = () => {
             </p>
           ))}
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
