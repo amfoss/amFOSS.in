@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React,{useEffect,useRef} from "react";
 import Link from "next/link";
 import NavbarData from "@/content/navbartab.json";
 import Socials from "@/content/socials.json";
@@ -8,13 +8,30 @@ import {motion} from 'framer-motion';
 
 
 const MenuDrawer = ({ isOpen, onClose }) => {
+  const sideNavRef = useRef(null);
+  useEffect(() => {
+   
+    document.addEventListener('mousedown', handleClickOutside);
+
+    
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
+  function handleClickOutside(event) {
+    if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
+      onClose();
+    }
+  }
+
   return (
     <div 
       className={`fixed inset-0 bg-black bg-opacity-50 z-50 ${
         isOpen ? "visible" : "hidden"
       }`}
     >
-      <motion.div  
+      <motion.div ref={sideNavRef} 
         className={`fixed inset-y-0 right-0 max-w-full w-3/4 bg-[#0f0f0f] overflow-y-auto transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } duration-500`}
