@@ -1,18 +1,37 @@
 import React from "react";
 import data from "@/content/about.json";
 import Title from "../ui/title";
-
+import { motion } from 'framer-motion'
 const OurMission = () => {
+  const about1Varients = {
+    initial: { opacity: 0, x: 50 },
+    animate: { opacity: 1, x: 0 }
+  }
+  const about2Varients = {
+    initial: { opacity: 0, x: -50 },
+    animate: { opacity: 1, x: 0 }
+  }
   return (
     <>
       <div className="bg-[#242424] mt-5 md:pt-40 min-h-fit text-white tracking-wide">
         <div className="grid md:grid-cols-3 grid-cols-1 md:px-40 px-5">
-          <div className="flex flex-col md:col-span-3 col-span-1 mb-10 md:mt-0 mt-10">
+          <motion.div className="flex flex-col md:col-span-3 col-span-1 mb-10 md:mt-0 mt-10"
+            variants={about2Varients}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}>
             <Title title="OUR MISSION" />
-          </div>
+          </motion.div>
+
           {data.mission.map((cont, index) => (
             <>
-              <div className="text-xl 2xl:text-3xl">{cont.title}</div>
+              <motion.div key={index} className="text-xl 2xl:text-3xl" variants={about2Varients}
+                transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
+                initial="initial"
+                whileInView="animate"
+                viewport={{ once: true }}>{cont.title}</motion.div>
+
               <div className="md:col-span-2 col-span-1 md:my-0 my-10">
                 {cont.points.map((point, index) => (
                   <div
@@ -27,7 +46,13 @@ const OurMission = () => {
                         </div>
                       )}
                     </div>
-                    <p className="">{point}</p>
+                    <motion.p className=""
+                      variants={about1Varients}
+                      transition={{ duration: 0.5, delay: 0.1 * index }}
+                      initial="initial"
+                      whileInView="animate"
+                      viewport={{ once: true }}
+                    >{point}</motion.p>
                   </div>
                 ))}
               </div>
