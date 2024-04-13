@@ -3,10 +3,11 @@ import Title from "@/components/ui/title";
 import MemberCard from "@/components/team/memberCard";
 import data from "@/content/team.json";
 import members from "@/content/members.json";
+import alumni from "@/content/alumni.json";
 import { motion } from "framer-motion";
 
 const MembersAndAlumni = ({ contentFor }) => {
-  const dataFinal = contentFor === "members" ? members : members;
+  const dataFinal = contentFor === "members" ? members : alumni;
   const [visibleMembers, setVisibleMembers] = useState(dataFinal.slice(0, 6));
   const [showAllMembers, setShowAllMembers] = useState(false);
 
