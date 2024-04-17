@@ -2,7 +2,8 @@
   "hero": {
     "image": "/assets/images/about_1.png",
     "description": "17  years  ago,  Vipin  Pavithran  founded  FOSS@Amrita  as  a  place  for  dedicated minds  to  learn,  work,  and  grow  together. From  its  humble  beginnings,  the  club, now  called  amFOSS,  would  go  on  to  build  a  reputation  of  one  of  the  best student  communities  in  the  country. ",
-    "button": "Read our story"
+    "button1": "Read our story",
+    "button2": "Meet our team"
   },
   "mission": [
     {
@@ -36,13 +37,13 @@
         "description": "Every member is assigned multiple mentors, from immediate seniors to experienced faculty and alumni, underscoring the foundational principle of mentor-mentee relationships."
       },
       {
-        "title": "SELF-SUSTAINENCE",
+        "title": "SELF-SUSTENANCE",
         "description": "Task forces within the club, handling everything from administration and recruitment to event organisation, means that the self-contained nature of the community is sustained."
       }
     ]
   },
   "footer": {
     "title": "amFOSS is the collective effort of scores of passionate students, faculty, and advisors. ",
-    "button": "Meet our team"
+    "button1": "Meet our team"
   }
 }

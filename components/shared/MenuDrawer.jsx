@@ -4,7 +4,7 @@ import Link from "next/link";
 import NavbarData from "@/content/navbartab.json";
 import Socials from "@/content/socials.json";
 import dayjs from "dayjs";
-import {motion} from 'framer-motion';
+import {motion, AnimatePresence} from 'framer-motion';
 
 
 const MenuDrawer = ({ isOpen, onClose }) => {
@@ -26,10 +26,18 @@ const MenuDrawer = ({ isOpen, onClose }) => {
   }
 
   return (
-    <div 
-      className={`fixed inset-0 bg-black bg-opacity-50 z-50 ${
-        isOpen ? "visible" : "hidden"
-      }`}
+    <AnimatePresence>
+    {isOpen && (
+    <motion.div 
+      className={`fixed inset-0 bg-black bg-opacity-50 z-50`}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0,
+        transition: {
+          delay:0.2,
+          duration: 0.2,
+          ease: "easeOut",
+        },}}     
     >
       <motion.div ref={sideNavRef} 
         className={`fixed inset-y-0 right-0 max-w-full w-3/4 bg-[#0f0f0f] overflow-y-auto transform ${
@@ -37,8 +45,7 @@ const MenuDrawer = ({ isOpen, onClose }) => {
         } duration-500`}
         animate={ {
          
-          width:isOpen?'75%':0,
-         
+          width:isOpen?'50%':0,
           
         }}
         initial={{
@@ -52,8 +59,17 @@ const MenuDrawer = ({ isOpen, onClose }) => {
           bounce:0,
           duration:0.2
         }}
+        exit={{
+          width:0,
+          transition: {
+            delay:0.2,
+            duration: 0.2,
+            ease: "easeOut",
+          },
+        
+        }}
       >
-        <div className="p-4 flex justify-between">
+        <div className="p-4 mt-2 flex justify-between">
           <Image
             src="/assets/icons/amfoss_bulb_white.svg"
             width={25}
@@ -67,7 +83,7 @@ const MenuDrawer = ({ isOpen, onClose }) => {
               width={30}
               height={30}
               alt="Close menu"
-              className="cursor-pointer mr-2 mt-1 hover:animate-ping transition duration-200 "
+              className="cursor-pointer mr:5 md:mr-10 transition duration-200 "
             />
           </button>
         </div>
@@ -120,7 +136,9 @@ const MenuDrawer = ({ isOpen, onClose }) => {
           </div>
         </div>
       </motion.div>
-    </div>
+    </motion.div>
+    )}
+    </AnimatePresence>
   );
 };
 

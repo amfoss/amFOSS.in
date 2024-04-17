@@ -20,8 +20,8 @@ const teamHero = () => {
         whileInView="animate"
         viewport={{once:true}}>
           <img src={data.hero.img} alt="team" className="" />
-          <h1 className="md:text-4xl text-3xl mt-5">{data.hero.title}</h1>
-          <p className="md:text-3xl text-2xl text-center">
+          <h1 className="md:text-4xl text-center text-3xl mt-5">{data.hero.title}</h1>
+          <p className="mt-2 text-2xl text-center">
             {data.hero.subtitle}
           </p>
         </motion.div>

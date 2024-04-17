@@ -54,10 +54,10 @@ const OurStory = () => {
       <Component3 />
       <div className="w-full md:px-40 px-5 flex justify-center mb-10">
         <button
-          onClick={() => router.push("/team")}
+          onClick={() => router.push("/about")}
           className="text-2xl bg-[#D0A730] font-medium rounded-xl text-black w-fit px-10 py-2 tracking-wide mt-8 hover:text-white hover:bg-[#242424] transition duration-200"
         >
-          Return to Home
+          Return to About
         </button>
       </div>
     </>
