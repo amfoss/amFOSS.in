@@ -20,7 +20,7 @@ const Component2 = () => {
       >
         <Title title={data.second.title} />
         <img src={data.second.image} className="my-10" />
-        <div className="text-white md:text-xl tracking-[0.3em] md:my-20">
+        <div className="text-white md:text-xl tracking-wide md:my-20">
           {data.second.description.map((desc, index) => (
             <p key={index} className="my-10">
               {desc}

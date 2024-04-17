@@ -14,7 +14,7 @@ const activitiesComponent = () => {
   }
   return (
     <>
-      <div className="mt-5 md:pt-40 pb-10 min-h-fit">
+      <div className="md:bg-[#242424] mt-5 md:pt-40 pb-10 min-h-fit">
         <motion.div className="w-full md:px-40 px-5 mb-10"
         variants={imageVarients}
         transition={{ duration: 0.5, delay: 0.1 }}

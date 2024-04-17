@@ -53,20 +53,17 @@ const page = () => {
       </div>
       <div className="bg-[#1E1D1D] flex items-center md:min-h-screen relative">
         <div className="grid grid-cols-3 py-16 max-sm:py-16 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
-          <div className="flex items-center col-span-1 max-md-grid:col-span-3">
-            <motion.h1 className="text-3xl md-grid:text-7xl max-sm:text-xl text-center tracking-wide"
-            variants={clubLife2Varients} 
-            transition={{ duration: 0.5, delay: 0.05 }}
+          <div className="flex items-center col-span-2 max-md-grid:col-span-3">
+            <motion.div className="flex flex-col md:col-span-3 col-span-1 sm:mb-8 md:mt-0 mt-4"
+            variants={clubLife2Varients}
+            transition={{ duration: 0.5, delay: 0.1 }}
             initial="initial"
             whileInView="animate"
-            viewport={{once:true}}
-            >
-              {whoweare.title1}
-              <br className="max-md-grid:hidden" />
-              <span> {whoweare.title2}</span>
-            </motion.h1>
+            viewport={{ once: true }}>
+            <Title title="WHO WE ARE" />
+          </motion.div>
           </div>
-          <motion.div className="col-span-2 max-md-grid:col-span-3"
+          <motion.div className="col-span-2 max-md-grid:col-span-3 col-start-2"
           variants={clubLife1Varients} 
           transition={{ duration: 0.5, delay: 0.05 }}
           initial="initial"
@@ -119,7 +116,7 @@ const page = () => {
         whileInView="animate"
         viewport={{once:true}}
         ><Title title="WHAT WE DO" /></motion.div>
-        <div className="grid grid-cols-2 gap-1 py-8 sm:py-16">
+        <div className="grid grid-cols-2 gap-1 pt-8 sm:pt-16">
           {whatwedo.map((item, index) => (
             <motion.div    key={index}
             initial={{opacity:0}}
@@ -136,11 +133,11 @@ const page = () => {
           ))}
         </div>
       </div>
-      <div className="py-18 sm:py-12 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
-        <h1 className="text-xl md-custom:text-7xl sm:text-4xl text-center tracking-wide">
+      <div className="mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
+        <h1 className="text-3xl md-custom:text-7xl sm:text-4xl text-start tracking-wide">
           Members of amFOSS were the
           <br />
-          first in Amritapuri to:
+          first in Amritapuri to
         </h1>
         <div className="py-12 sm:py-32">
           {achievement.map((item, index) => (

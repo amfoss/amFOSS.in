@@ -13,9 +13,9 @@ const OurMission = () => {
   }
   return (
     <>
-      <div className="bg-[#242424] mt-5 md:pt-40 min-h-fit text-white tracking-wide">
+      <div className="bg-[#242424] pt-10 min-h-fit text-white tracking-wide">
         <div className="grid md:grid-cols-3 grid-cols-1 md:px-40 px-5">
-          <motion.div className="flex flex-col md:col-span-3 col-span-1 mb-10 md:mt-0 mt-10"
+          <motion.div className="flex flex-col md:col-span-3 col-span-1 mb-10 md:mt-15 mt-14"
             variants={about2Varients}
             transition={{ duration: 0.5, delay: 0.1 }}
             initial="initial"
@@ -26,13 +26,13 @@ const OurMission = () => {
 
           {data.mission.map((cont, index) => (
             <>
-              <motion.div key={index} className="text-xl 2xl:text-3xl" variants={about2Varients}
+              <motion.div key={index} className="text-xl 2xl:text-3xl sm:mr-5 md:px-5 sm:mt-6" variants={about2Varients}
                 transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}>{cont.title}</motion.div>
 
-              <div className="md:col-span-2 col-span-1 md:my-0 my-10">
+              <div className="md:col-span-2 col-span-1 my-10">
                 {cont.points.map((point, index) => (
                   <div
                     key={index}

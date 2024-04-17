@@ -14,7 +14,7 @@ const Modus = () => {
   }
   return (
     <>
-      <div className="w-full flex flex-col justify-center md:px-40 px-5 md:mt-10 md:mb-20 my-5 tracking-[0.2em]">
+      <div className="w-full flex flex-col justify-center md:px-40 px-5 md:mt-10 md:mb-20 my-5">
         <div className="w-full my-10">
           <motion.img src={data.modus.image} className="w-full" 
           whileHover={{ scale: 1.05 }} // Enlarge the image on hover
@@ -22,7 +22,7 @@ const Modus = () => {
           />
         </div>
         <div className="grid md:grid-cols-3 grid-cols-1 text-white">
-          <motion.div className="flex flex-col md:col-span-3 col-span-1 mb-10"
+          <motion.div className="flex flex-col md:col-span-3 col-span-1 sm:mt-10 mb-10"
           variants={about2Varients} 
           transition={{ duration: 0.5, delay: 0.1 }}
           initial="initial"
@@ -33,7 +33,7 @@ const Modus = () => {
           </motion.div>
           {data.modus.items.map((cont, index) => (
             <>
-              <motion.div key={index} className="text-xl 2xl:text-3xl md:my-20 w-full"
+              <motion.div key={index} className="text-xl 2xl:text-3xl md:my-20 w-full tracking-[0.2em]"
                variants={about2Varients} 
                 transition={{ duration: 0.5, delay: 0.1 * index }}
                 initial="initial"
