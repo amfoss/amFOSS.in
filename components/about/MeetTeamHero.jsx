@@ -12,7 +12,7 @@ const MeetTeamHero = () => {
             {data.footer.title}
           </h1>
           <button
-            onClick={() => router.push("/team")}
+            onClick={() => router.push("/contact")}
             className="text-2xl bg-[#D0A730] font-medium rounded-xl text-black w-fit px-10 py-2 tracking-wide mt-6 hover:text-[#D0A730] border border-solid border-2 border-[#D0A730] hover:bg-[#242424] transition duration-200"
           >
             {data.footer.button1}

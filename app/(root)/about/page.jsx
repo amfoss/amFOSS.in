@@ -4,6 +4,7 @@ import Hero from "@/components/about/Hero";
 import OurMission from "@/components/about/OurMission";
 import Modus from "@/components/about/Modus";
 import MeetTeamHero from "@/components/about/MeetTeamHero";
+import Contact from "../contact/page";
 import {motion} from 'framer-motion'
 
 const About = () => {
@@ -46,8 +47,8 @@ const About = () => {
       <OurMission />
       {/* Modus Operandi */}
       <Modus />
-      {/* Meet Team */}
-      <MeetTeamHero />
+      {/* Contact Us */}
+      <Contact />
     </div>
   );
 };

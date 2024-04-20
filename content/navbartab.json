@@ -14,5 +14,9 @@
   {
     "title": "TEAM",
     "ref": "/team"
+  },
+  {
+    "title": "GALLERY",
+    "ref": "/gallery"
   }
 ]

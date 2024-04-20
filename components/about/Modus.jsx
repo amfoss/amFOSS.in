@@ -22,7 +22,7 @@ const Modus = () => {
           />
         </div>
         <div className="grid md:grid-cols-3 grid-cols-1 text-white">
-          <motion.div className="flex flex-col md:col-span-3 col-span-1 sm:mt-10 mb-10"
+          <motion.div className="flex flex-col md:col-span-3 col-span-1 sm:mt-10 mb-6"
           variants={about2Varients} 
           transition={{ duration: 0.5, delay: 0.1 }}
           initial="initial"

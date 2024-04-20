@@ -3,6 +3,7 @@ import React from 'react'
 import herotext from '@/content/homehero.json'
 import whoweare from '@/content/whoweare.json'
 import Image from 'next/image'
+import Contact from '../contact/page';
 import Title from '@/components/ui/title'
 import Dynamicard from '@/components/ui/dynamicard'
 import whatwedo from '@/content/whatwedo.json'
@@ -51,10 +52,10 @@ const page = () => {
             ))}
         </h1>
       </div>
-      <div className="bg-[#1E1D1D] flex items-center md:min-h-screen relative">
+      <div className="bg-[#1E1D1D] flex items-center relative">
         <div className="grid grid-cols-3 py-16 max-sm:py-16 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
-          <div className="flex items-center col-span-2 max-md-grid:col-span-3">
-            <motion.div className="flex flex-col md:col-span-3 col-span-1 sm:mb-8 md:mt-0 mt-4"
+          <div className="flex items-start md:mt-8 col-span-2 md:col-span-1">
+            <motion.div className="flex flex-col col-span-1 sm:mb-8 md:mt-0 mt-4"
             variants={clubLife2Varients}
             transition={{ duration: 0.5, delay: 0.1 }}
             initial="initial"
@@ -139,7 +140,7 @@ const page = () => {
           <br />
           first in Amritapuri to
         </h1>
-        <div className="py-12 sm:py-32">
+        <div className="py-12 sm:py-25">
           {achievement.map((item, index) => (
             <div
               key={index}
@@ -156,6 +157,7 @@ const page = () => {
           ))}
         </div>
       </div>
+      <Contact />
     </div>
   )
 }

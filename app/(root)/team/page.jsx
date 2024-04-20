@@ -3,6 +3,7 @@ import React from "react";
 import TeamHero from "@/components/team/teamHero";
 import MembersAndAlumni from "@/components/team/membersAndAlumni";
 import {motion} from 'framer-motion'
+import Contact from "../contact/page";
 
 const page = () => {
   const baseText = "MEET THE TEAM";
@@ -40,11 +41,18 @@ const page = () => {
         </div>
       </div>
       <TeamHero />
-      <div className="w-full flex justify-center items-center my-10">
-        <div className="bg-[#D9D9D9] md:w-1/3 w-full mx-5 md:h-[40rem] h-80"></div>
-      </div>
+      
+      <div className="w-full flex justify-center items-center my-20">
+          <motion.img
+            src="/assets/images/team.jpg"
+            className="md:w-[50rem] sm:w-[35rem] w-[23rem] mx-5 md:h-[35rem] sm:h-95 h-[45]"
+          />
+
+        </div>
       <MembersAndAlumni contentFor="members" />
       <MembersAndAlumni contentFor="alumni" />
+      <div className="py-10"></div>
+      <Contact/>
     </>
   );
 };

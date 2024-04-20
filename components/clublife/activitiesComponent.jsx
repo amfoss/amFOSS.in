@@ -33,7 +33,7 @@ const activitiesComponent = () => {
           whileInView="animate"
           viewport={{once:true}}
           >
-            <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
+            <h1 className="md:text-4xl text-lg tracking-[0.2em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.fosstalks.title}
             </h1>
@@ -64,7 +64,7 @@ const activitiesComponent = () => {
           
           
           >
-            <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
+            <h1 className="md:text-4xl text-lg tracking-[0.2em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.opentalks.title}
             </h1>
@@ -80,7 +80,7 @@ const activitiesComponent = () => {
            whileInView="animate"
            viewport={{once:true}} 
           >
-            <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
+            <h1 className="md:text-4xl text-lg tracking-[0.2em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.documentary.title}
             </h1>
@@ -96,7 +96,7 @@ const activitiesComponent = () => {
           whileInView="animate"
           viewport={{once:true}} 
           >
-            <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
+            <h1 className="md:text-4xl text-lg tracking-[0.2em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.amfossplays.title}
             </h1>
@@ -123,7 +123,7 @@ const activitiesComponent = () => {
           
           
           >
-            <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
+            <h1 className="md:text-4xl text-lg tracking-[0.2em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.amfossbiosnight.title}
             </h1>
@@ -140,7 +140,7 @@ const activitiesComponent = () => {
           whileInView="animate"
           viewport={{once:true}} 
           >
-            <h1 className="md:text-4xl text-lg tracking-[0.3em] relative md:mb-10 mb-5">
+            <h1 className="md:text-4xl text-lg tracking-[0.2em] relative md:mb-10 mb-5">
               <p className="absolute text-7xl -top-9 -left-10">.</p>
               {data.activities.socialservice.title}
             </h1>
