@@ -34,10 +34,10 @@ const Navbar = () => {
           width={25}
           height={25}
           alt="Hamburger menu"
-          className="block cursor-pointer md-custom:hidden"
+          className="block cursor-pointer md-nav:hidden"
           onClick={openDrawer}
         />
-        <ul className="flex items-center text-l gap-x-1 max-md-custom:hidden md-custom:gap-x-8 max-lg:gap-x-10">
+        <ul className="flex items-center text-l gap-x-1 max-md-nav:hidden md-nav:gap-x-8 max-lg:gap-x-10">
           {NavbarData.map((tab, index) => (
             <li key={index} className="relative group">
               <Link
@@ -51,7 +51,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <ul className="flex items-center text-l max-md-custom:hidden md-custom:gap-x-6">
+        <ul className="flex items-center text-l max-md-nav:hidden md-nav:gap-x-6">
           {Socials.map((social, index) => (
             <li key={index}>
               <Link href={social.ref}>

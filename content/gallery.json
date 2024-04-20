@@ -1,0 +1,78 @@
+{
+    "first": {
+        "title": "EVENTS",
+        "imageURLS": [
+            {
+                "url": "/assets/images/about_1.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_1.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_2.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_3.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_4.png",
+                "description": "SAMPLE TEXT"
+            }
+        ]
+    },
+    "second": {
+        "title": "amFOSS PLAY",
+        "image": "/assets/images/story_1.png",
+        "imageURLS": [
+            {
+                "url": "/assets/images/about_1.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_1.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_2.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_3.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_4.png",
+                "description": "SAMPLE TEXT"
+            }
+        ]
+    },
+    "third": {
+        "title": "amFOSS-bi0s NIGHT",
+        "imageURLS": [
+            {
+                "url": "/assets/images/about_1.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_1.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_2.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_3.png",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/home_4.png",
+                "description": "SAMPLE TEXT"
+            }
+        ]
+    }
+}

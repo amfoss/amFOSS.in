@@ -21,7 +21,7 @@ const Hero = () => {
           />
 
         </div>
-        <motion.h1 className="text-center sm:text-start text-white text-xl 2xl:text-2xl tracking-wide my-10"
+        <motion.h1 className="text-center sm:text-start text-white text-xl 2xl:text-2xl tracking-wide my-8"
 
           variants={aboutTitles}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -32,7 +32,7 @@ const Hero = () => {
           {data.hero.description}
         </motion.h1>
         <div className="grid grid-cols-5 md:grid-cols-4 place-items-center md:place-items-start">
-          <div className="col-span-5 sm:col-span-2 md:col-span-2 lg:col-span-1 sm:mr-2 lg:ml-3">
+          <div className="col-span-5 sm:col-span-2 md:col-span-2 lg:col-span-1 sm:mr-2">
             <button
               onClick={() => router.push("/story")}
               className="text-2xl bg-[#D0A730] font-medium rounded-xl text-black w-fit px-8 py-2 tracking-wide mt-8 hover:text-[#D0A730] hover:bg-transparent border-solid border-2 border-[#D0A730] transition duration-200"

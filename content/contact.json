@@ -1,0 +1,50 @@
+{
+  "contact": {
+    "img": "/assets/icons/amfoss_bulb_white.svg",
+    "subtitle": "Founder and Chief Mentor",
+    "address1": [
+      "amritapurifoss@gmail.com",
+      "admin@amfoss.in",
+      "hello@amfoss.in",
+      "support@amfoss.in"
+    ],
+    "address2": [
+      "FOSS@Amrita,",
+      "Amrita Vishwa Vidyapeetham,",
+      "Amritapuri, Clappana P.O.,",
+      "Kollam, Kerala - 690525"
+    ],
+    "socials": [
+      {
+        "url": "/assets/icons/socials/instagram.svg",
+        "width": 33,
+        "height": 33,
+        "ref": "https://www.instagram.com/amfoss.in"
+      },
+      {
+        "url": "/assets/icons/socials/facebook.svg",
+        "width": 33,
+        "height": 33,
+        "ref": "https://www.facebook.com/amfoss.in"
+      },
+      {
+        "url": "/assets/icons/socials/Vector.svg",
+        "width": 33,
+        "height": 33,
+        "ref": "https://github.com/amfoss"
+      },
+      {
+        "url": "/assets/icons/socials/twitter-x.svg",
+        "width": 33,
+        "height": 33,
+        "ref": "https://twitter.com/amfoss_in"
+      },
+      {
+        "url": "/assets/icons/socials/linkedin.svg",
+        "width": 33,
+        "height": 33,
+        "ref": "https://www.linkedin.com/company/amfoss"
+      }
+    ]
+  }
+}

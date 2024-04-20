@@ -13,15 +13,15 @@ const teamHero = () => {
   return (
     <>
       <div className="grid md:grid-cols-4 grid-cols-1 md:px-10 px-5 text-white">
-        <motion.div className="w-full flex flex-col justify-center items-center"
+        <motion.div className="w-full flex flex-col justify-center items-center mt-6"
         variants={team2Varients} 
         transition={{ duration: 0.5, delay: 0.1 }}
         initial="initial"
         whileInView="animate"
         viewport={{once:true}}>
-          <img src={data.hero.img} alt="team" className="" />
+          <img src={data.hero.img} alt="team" />
           <h1 className="md:text-4xl text-center text-3xl mt-5">{data.hero.title}</h1>
-          <p className="mt-2 text-2xl text-center">
+          <p className="mt-3 text-[1.1rem] text-center">
             {data.hero.subtitle}
           </p>
         </motion.div>
