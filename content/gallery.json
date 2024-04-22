@@ -3,49 +3,116 @@
         "title": "EVENTS",
         "imageURLS": [
             {
-                "url": "/assets/images/about_1.png",
+                "url": "/assets/images/gallery/events/1.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_1.png",
+                "url": "/assets/images/gallery/events/2.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_2.png",
+                "url": "/assets/images/gallery/events/3.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_3.png",
+                "url": "/assets/images/gallery/events/4.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_4.png",
+                "url": "/assets/images/gallery/events/5.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/6.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/7.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/8.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/9.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/10.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/11.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/12.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/13.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/14.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/15.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/16.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/17.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/18.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/19.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/20.jpg",
                 "description": "SAMPLE TEXT"
             }
         ]
     },
     "second": {
         "title": "amFOSS PLAY",
-        "image": "/assets/images/story_1.png",
         "imageURLS": [
             {
-                "url": "/assets/images/about_1.png",
+                "url": "/assets/images/gallery/fossplay/foss-play-1.png",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_1.png",
+                "url": "/assets/images/gallery/fossplay/foss-play-2.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_2.png",
+                "url": "/assets/images/gallery/fossplay/foss-play-3.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_3.png",
+                "url": "/assets/images/gallery/fossplay/foss-play-4.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_4.png",
+                "url": "/assets/images/gallery/fossplay/foss-play-5.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fossplay/foss-play-6.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fossplay/foss-play-7.jpg",
                 "description": "SAMPLE TEXT"
             }
         ]
@@ -54,23 +121,51 @@
         "title": "amFOSS-bi0s NIGHT",
         "imageURLS": [
             {
-                "url": "/assets/images/about_1.png",
+                "url": "/assets/images/gallery/fbnights/foss-bios-1.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_1.png",
+                "url": "/assets/images/gallery/fbnights/foss-bios-2.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_2.png",
+                "url": "/assets/images/gallery/fbnights/foss-bios-3.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_3.png",
+                "url": "/assets/images/gallery/fbnights/foss-bios-4.jpg",
                 "description": "SAMPLE TEXT"
             },
             {
-                "url": "/assets/images/home_4.png",
+                "url": "/assets/images/gallery/fbnights/foss-bios-5.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fbnights/foss-bios-6.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fbnights/foss-bios-7.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fbnights/foss-bios-8.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fbnights/foss-bios-9.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fbnights/foss-bios-10.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fbnights/foss-bios-11.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/fbnights/foss-bios-12.jpg",
                 "description": "SAMPLE TEXT"
             }
         ]
