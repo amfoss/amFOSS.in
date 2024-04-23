@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow:{
+        'custom':'10px 10px 10px rgb(0,0,0)',
+      },        
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -76,6 +79,7 @@ module.exports = {
         "md-custom": "970px",
         "md-custom-2": "680px",
         "md-grid": "1170px",
+        "sm-custom": "1087px",
       },
     },
     letterSpacing: {
