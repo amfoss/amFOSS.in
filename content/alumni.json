@@ -54,5 +54,69 @@
     "twitterLink": "",
     "linkedinLink": "",
     "imgPath": "/assets/members/Alumni/Yash_Khare.jpeg"
+  },
+  {
+    "name": "Akhil KG",
+    "title": "(2018)",
+    "githubLink": "https://github.com/akhilam512",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/akhil-k-g",
+    "imgPath": "/assets/members/Alumni/Akhil_KG.png"
+  },
+  {
+    "name": "Vasanth Gopa",
+    "title": "(2017)",
+    "githubLink": "https://github.com/gopavasanth",
+    "twitterLink": "https://twitter.com/gopavasanth1999",
+    "linkedinLink": "https://in.linkedin.com/in/gopa-vasanth",
+    "imgPath": "/assets/members/Alumni/Vasanth_Gopa.png"
+  },
+  {
+    "name": "Sai Rajendra",
+    "title": "(2017)",
+    "githubLink": "https://github.com/immadisairaj",
+    "twitterLink": "https://www.twitter.com/immadisairaj",
+    "linkedinLink": " https://in.linkedin.com/in/immadisairaj",
+    "imgPath": "/assets/members/Alumni/Sai_Rajendra.png"
+  },
+  {
+    "name": "Bhanu Prakash",
+    "title": "(2017)",
+    "githubLink": "https://github.com/BhanuPrakashNani",
+    "twitterLink": "https://twitter.com/PBhanuPrakash99",
+    "linkedinLink": "https://www.linkedin.com/in/bhanu-prakash-poluparthi/",
+    "imgPath": "/assets/members/Alumni/Bhanu_Prakash.png"
+  },  
+  {
+    "name": "Abhishek BVS",
+    "title": "(2017)",
+    "githubLink": "https://github.com/abhishekbvs",
+    "twitterLink": "https://twitter.com/abhishekbvs",
+    "linkedinLink": "https://www.linkedin.com/in/abhishek-bvs/",
+    "imgPath": "/assets/members/Alumni/Abhishek_BVS.png"
+  },
+  {
+    "name": "Anirudh C",
+    "title": "(2017)",
+    "githubLink": "https://github.com/C-Anirudh",
+    "twitterLink": "https://twitter.com/c_anirudh16",
+    "linkedinLink": "https://www.linkedin.com/in/c-anirudh",
+    "imgPath": "/assets/members/Alumni/Anirudh_C.png"
+  },
+  {
+    "name": "Girija Manoj",
+    "title": "(2017)",
+    "githubLink": "https://github.com/girijamanoj",
+    "twitterLink": "https://twitter.com/ManojGirija",
+    "linkedinLink": "https://www.linkedin.com/in/girijamanoj/",
+    "imgPath": "/assets/members/Alumni/Girija_Manoj.png"
+  },
+  {
+    "name": "Manikishan Ghantasala",
+    "title": "(2017)",
+    "githubLink": "https://github.com/sh4nnu",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/manikishang/",
+    "imgPath": "/assets/members/Alumni/Manikishan_Ghantasala.png"
   }
 ]

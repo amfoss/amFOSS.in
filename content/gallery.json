@@ -81,6 +81,14 @@
             {
                 "url": "/assets/images/gallery/events/20.jpg",
                 "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/21.jpg",
+                "description": "SAMPLE TEXT"
+            },
+            {
+                "url": "/assets/images/gallery/events/22.jpg",
+                "description": "SAMPLE TEXT"
             }
         ]
     },
