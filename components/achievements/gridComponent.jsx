@@ -57,7 +57,7 @@ const gridComponent = () => {
           </p>
         </div>
       </div>
-      <div className={`${companyScroller ? "block" : "block"}`}>
+      <div className={`overflow-hidden transition-opacity transition-height duration-1000 ${companyScroller ? "opacity-100 h-auto" : "opacity-0 h-0"}`}>
         {" "}
         {/*change the second block to hidden after testing */}
         <Slider duration={100}>
