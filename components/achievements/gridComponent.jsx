@@ -10,7 +10,15 @@ const gridComponent = () => {
   const [companyToggle, setCompanyToggle] = useState(false);
   const [summerSchoolScroller, setSummerShcoolScroller] = useState(false);
   const [summerSchoolToggle, setSummerSchoolToggle] = useState(false);
+  const [gsocScrolller, setGsocScrolller] = useState(false);
+  const [gsocToggle, setGsocToggle] = useState(false);
 
+
+  const showGSOC = ()=>{
+    setGsocScrolller(!gsocScrolller);
+    setGsocToggle(!gsocToggle);
+  }
+  
   const showCompanies = () => {
     setCompanyScroller(!companyScroller);
     setCompanyToggle(!companyToggle);
@@ -30,10 +38,10 @@ const gridComponent = () => {
           </p>
         </div>
           <div className="md:h-[30rem] h-[15rem] bg-[#D0A730] md:w-[90%] md:ml-[10%] md:order-2 order-1 text-black md:p-10 flex flex-col items-center justify-center">
-            <p className="uppercase md:text-6xl text-3xl text-center tracking-wider pt-20">
+            <p className="uppercase md:text-6xl text-3xl text-center tracking-wider pt-12 md:pt-20">
               {data.gsoc.title}
             </p>
-            <SeeMore />
+            <SeeMore showContent={showGSOC} toggle={gsocToggle}/>
           </div>
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1">
