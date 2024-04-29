@@ -1,0 +1,54 @@
+[
+  {
+    "alt": "amazon",
+    "img_path": "/assets/icons/companies/amazon 1.svg"
+  },
+  {
+    "alt": "cern",
+    "img_path": "/assets/icons/companies/cern 1.svg"
+  },
+  {
+    "alt": "cisco",
+    "img_path": "/assets/icons/companies/cisco 1.svg"
+  },
+  {
+    "alt": "erricson",
+    "img_path": "/assets/icons/companies/erricsson 1.svg"
+  },
+  {
+    "alt": "google",
+    "img_path": "/assets/icons/companies/google 1.svg"
+  },
+  {
+    "alt": "hp",
+    "img_path": "/assets/icons/companies/hp 1.svg"
+  },
+  {
+    "alt": "ibm",
+    "img_path": "/assets/icons/companies/ibm 1.svg"
+  },
+  {
+    "alt": "intel",
+    "img_path": "/assets/icons/companies/intel 1.svg"
+  },
+  {
+    "alt": "microsoft",
+    "img_path": "/assets/icons/companies/microsoft 1.svg"
+  },
+  {
+    "alt": "qualcomm",
+    "img_path": "/assets/icons/companies/qualcomm 1.svg"
+  },
+  {
+    "alt": "redHat",
+    "img_path": "/assets/icons/companies/redHat 1.svg"
+  },
+  {
+    "alt": "salesforce",
+    "img_path": "/assets/icons/companies/salesforce 1.svg"
+  },
+  {
+    "alt": "vmware",
+    "img_path": "/assets/icons/companies/vmWare 1.svg"
+  }
+]
