@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import data from "@/content/achievements.json";
 import SeeMore from "@/components/achievements/seeMore";
-import Slider from "react-infinite-logo-slider";
 import companies_data from "@/content/companies";
 import InfiniteSlider from "./infiniteSlider";
 
@@ -59,8 +58,6 @@ const gridComponent = () => {
         </div>
       </div>
       <div className={`overflow-hidden transition-opacity transition-height duration-1000 ${companyScroller ? "opacity-100 h-auto" : "opacity-0 h-0"}`}>
-        {" "}
-        {/*change the second block to hidden after testing */}
         <InfiniteSlider data={companies_data} />
       </div>
 

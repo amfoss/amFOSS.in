@@ -1,54 +1,146 @@
 [
   {
-    "alt": "amazon",
-    "img_path": "/assets/icons/companies/amazon 1.svg"
+    "alt": "heckerRank 1",
+    "img_path": "/assets/icons/companies/heckerRank 1.svg"
   },
   {
-    "alt": "cern",
-    "img_path": "/assets/icons/companies/cern 1.svg"
-  },
-  {
-    "alt": "cisco",
-    "img_path": "/assets/icons/companies/cisco 1.svg"
-  },
-  {
-    "alt": "erricson",
-    "img_path": "/assets/icons/companies/erricsson 1.svg"
-  },
-  {
-    "alt": "google",
-    "img_path": "/assets/icons/companies/google 1.svg"
-  },
-  {
-    "alt": "hp",
-    "img_path": "/assets/icons/companies/hp 1.svg"
-  },
-  {
-    "alt": "ibm",
-    "img_path": "/assets/icons/companies/ibm 1.svg"
-  },
-  {
-    "alt": "intel",
+    "alt": "intel 1",
     "img_path": "/assets/icons/companies/intel 1.svg"
   },
   {
-    "alt": "microsoft",
+    "alt": "samasung",
+    "img_path": "/assets/icons/companies/samasung.svg"
+  },
+  {
+    "alt": "goldmanSachs 1",
+    "img_path": "/assets/icons/companies/goldmanSachs 1.svg"
+  },
+  {
+    "alt": "intuit 1",
+    "img_path": "/assets/icons/companies/intuit 1.svg"
+  },
+  {
+    "alt": "ola 2",
+    "img_path": "/assets/icons/companies/ola 2.svg"
+  },
+  {
+    "alt": "vmWare 1",
+    "img_path": "/assets/icons/companies/vmWare 1.svg"
+  },
+  {
+    "alt": "cern 1",
+    "img_path": "/assets/icons/companies/cern 1.svg"
+  },
+  {
+    "alt": "microsoft 1",
     "img_path": "/assets/icons/companies/microsoft 1.svg"
   },
   {
-    "alt": "qualcomm",
+    "alt": "sap 1 (1)",
+    "img_path": "/assets/icons/companies/sap 1 (1).svg"
+  },
+  {
+    "alt": "dell 1",
+    "img_path": "/assets/icons/companies/dell 1.svg"
+  },
+  {
+    "alt": "verisign 1",
+    "img_path": "/assets/icons/companies/verisign 1.svg"
+  },
+  {
+    "alt": "hp 1",
+    "img_path": "/assets/icons/companies/hp 1.svg"
+  },
+  {
+    "alt": "amazon 1",
+    "img_path": "/assets/icons/companies/amazon 1.svg"
+  },
+  {
+    "alt": "sap 1",
+    "img_path": "/assets/icons/companies/sap 1.svg"
+  },
+  {
+    "alt": "qualcomm 1",
     "img_path": "/assets/icons/companies/qualcomm 1.svg"
   },
   {
-    "alt": "redHat",
-    "img_path": "/assets/icons/companies/redHat 1.svg"
+    "alt": "walmart 1",
+    "img_path": "/assets/icons/companies/walmart 1.svg"
   },
   {
-    "alt": "salesforce",
+    "alt": "surface1 (1)",
+    "img_path": "/assets/icons/companies/surface1 (1).svg"
+  },
+  {
+    "alt": "reuters 1",
+    "img_path": "/assets/icons/companies/reuters 1.svg"
+  },
+  {
+    "alt": "surface1",
+    "img_path": "/assets/icons/companies/surface1.svg"
+  },
+  {
+    "alt": "providence 1",
+    "img_path": "/assets/icons/companies/providence 1.svg"
+  },
+  {
+    "alt": "oracle 1",
+    "img_path": "/assets/icons/companies/oracle 1.svg"
+  },
+  {
+    "alt": "bitergia 1",
+    "img_path": "/assets/icons/companies/bitergia 1.svg"
+  },
+  {
+    "alt": "isro 1",
+    "img_path": "/assets/icons/companies/isro 1.svg"
+  },
+  {
+    "alt": "flipkart",
+    "img_path": "/assets/icons/companies/flipkart.svg"
+  },
+  {
+    "alt": "ibm 1",
+    "img_path": "/assets/icons/companies/ibm 1.svg"
+  },
+  {
+    "alt": "AppViewX",
+    "img_path": "/assets/icons/companies/AppViewX.svg"
+  },
+  {
+    "alt": "erricsson 1",
+    "img_path": "/assets/icons/companies/erricsson 1.svg"
+  },
+  {
+    "alt": "buddiAi 1",
+    "img_path": "/assets/icons/companies/buddiAi 1.svg"
+  },
+  {
+    "alt": "okta 2",
+    "img_path": "/assets/icons/companies/okta 2.svg"
+  },
+  {
+    "alt": "salesforce 1",
     "img_path": "/assets/icons/companies/salesforce 1.svg"
   },
   {
-    "alt": "vmware",
-    "img_path": "/assets/icons/companies/vmWare 1.svg"
+    "alt": "motorola 1",
+    "img_path": "/assets/icons/companies/motorola 1.svg"
+  },
+  {
+    "alt": "daily 2",
+    "img_path": "/assets/icons/companies/daily 2.svg"
+  },
+  {
+    "alt": "cisco 1",
+    "img_path": "/assets/icons/companies/cisco 1.svg"
+  },
+  {
+    "alt": "redHat 1",
+    "img_path": "/assets/icons/companies/redHat 1.svg"
+  },
+  {
+    "alt": "google 1",
+    "img_path": "/assets/icons/companies/google 1.svg"
   }
 ]
