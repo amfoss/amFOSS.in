@@ -58,7 +58,7 @@ const gridComponent = () => {
         </div>
       </div>
       <div className={`overflow-hidden transition-opacity transition-height duration-1000 ${companyScroller ? "opacity-100 h-auto" : "opacity-0 h-0"}`}>
-        <InfiniteSlider data={companies_data} />
+        {/* <InfiniteSlider data={companies_data} /> */}
       </div>
 
       <div className="grid md:grid-cols-2 grid-cols-1">
