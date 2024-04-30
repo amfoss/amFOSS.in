@@ -4,6 +4,7 @@ import data from "@/content/achievements.json";
 import SeeMore from "@/components/achievements/seeMore";
 import Slider from "react-infinite-logo-slider";
 import companies_data from "@/content/companies";
+import InfiniteSlider from "./infiniteSlider";
 
 const gridComponent = () => {
   const [companyScroller, setCompanyScroller] = useState(false);
@@ -60,19 +61,7 @@ const gridComponent = () => {
       <div className={`overflow-hidden transition-opacity transition-height duration-1000 ${companyScroller ? "opacity-100 h-auto" : "opacity-0 h-0"}`}>
         {" "}
         {/*change the second block to hidden after testing */}
-        <Slider duration={100}>
-          {companies_data.map((company, index) => (
-            <div className="flex justify-center items-center">
-              <Slider.Slide key={index} className="">
-                <img
-                  src={company.img_path}
-                  alt={company.alt}
-                  className="py-2 px-6"
-                />
-              </Slider.Slide>
-            </div>
-          ))}
-        </Slider>
+        <InfiniteSlider data={companies_data} />
       </div>
 
       <div className="grid md:grid-cols-2 grid-cols-1">
