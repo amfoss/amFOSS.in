@@ -4,6 +4,7 @@ import data from "@/content/achievements.json";
 import SeeMore from "@/components/achievements/seeMore";
 import companies_data from "@/content/companies";
 import InfiniteSlider from "./infiniteSlider";
+import { convertTypeAcquisitionFromJson } from "typescript";
 
 const gridComponent = () => {
   const [companyScroller, setCompanyScroller] = useState(false);
@@ -57,8 +58,11 @@ const gridComponent = () => {
           </p>
         </div>
       </div>
-      <div className={`overflow-hidden transition-opacity transition-height duration-1000 ${companyScroller ? "opacity-100 h-auto" : "opacity-0 h-0"}`}>
-        {/* <InfiniteSlider data={companies_data} /> */}
+      <div className={`overflow-hidden transition-opacity transition-height duration-1000 ${companyScroller ? "opacity-100 h-auto" : "opacity-100 h-auto"}`}>
+        <InfiniteSlider data={companies_data.slice(0,10)}  toRight={false}/>
+        <InfiniteSlider data={companies_data.slice(11,21)} toRight={true}/>
+        <InfiniteSlider data={companies_data.slice(22,34)} toRight={false}/>
+        {/* <InfiniteSlider data={companies_data.slice(34,)} /> */}
       </div>
 
       <div className="grid md:grid-cols-2 grid-cols-1">

@@ -1,8 +1,5 @@
 [
-  {
-    "alt": "heckerRank 1",
-    "img_path": "/assets/icons/companies/heckerRank 1.svg"
-  },
+
   {
     "alt": "intel 1",
     "img_path": "/assets/icons/companies/intel 1.svg"
@@ -34,10 +31,6 @@
   {
     "alt": "microsoft 1",
     "img_path": "/assets/icons/companies/microsoft 1.svg"
-  },
-  {
-    "alt": "sap 1 (1)",
-    "img_path": "/assets/icons/companies/sap 1 (1).svg"
   },
   {
     "alt": "dell 1",
@@ -142,5 +135,9 @@
   {
     "alt": "google 1",
     "img_path": "/assets/icons/companies/google 1.svg"
+  },
+  {
+    "alt": "hackerRank 1",
+    "img_path": "/assets/icons/companies/heckerRank 1.svg"
   }
 ]
