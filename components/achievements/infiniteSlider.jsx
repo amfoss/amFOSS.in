@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from 'react-infinite-logo-slider'
 
-const InfiniteSlider = ({data, toRight}) => {
+const InfiniteSlider = ({data, direction}) => {
   return (
-      <Slider duration={20} toRight={false} blurBorders={true} blurBoderColor={'black'}>
+      <Slider duration={40} toRight={direction} blurBoderColor={'black'}>
         {data.map((company, index) => (
           <div className="flex justify-center items-center">
             <Slider.Slide key={index} className="">
