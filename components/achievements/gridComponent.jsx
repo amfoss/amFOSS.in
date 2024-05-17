@@ -3,6 +3,7 @@ import { useState } from "react";
 import data from "@/content/achievements.json";
 import SeeMore from "@/components/achievements/seeMore";
 import companies_data from "@/content/companies";
+import summerschools_data from '@/content/summerschools';
 import InfiniteSlider from "./infiniteSlider";
 
 const gridComponent = () => {
@@ -33,6 +34,7 @@ const gridComponent = () => {
     { data: companies_data.slice(11, 21), direction: true },
     { data: companies_data.slice(22, 35), direction: false },
   ];
+  console.log((summerschools_data))
   return (
     <div className="block">
       <div className="grid md:grid-cols-2 grid-cols-1">
