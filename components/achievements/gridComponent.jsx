@@ -3,7 +3,7 @@ import { useState } from "react";
 import data from "@/content/achievements.json";
 import SeeMore from "@/components/achievements/seeMore";
 import companies_data from "@/content/companies";
-import summerschools_data from '@/content/summerschools';
+import summerschools_data from "@/content/summerschools";
 import InfiniteSlider from "./infiniteSlider";
 
 const gridComponent = () => {
@@ -34,7 +34,12 @@ const gridComponent = () => {
     { data: companies_data.slice(11, 21), direction: true },
     { data: companies_data.slice(22, 35), direction: false },
   ];
-  console.log((summerschools_data))
+
+  const summerschool_slices = [
+    { data: summerschools_data.slice(0, 10), direction: false },
+    { data: summerschools_data.slice(11, 14), direction: false },
+  ];
+  console.log(summerschools_data);
   return (
     <div className="block">
       <div className="grid md:grid-cols-2 grid-cols-1">
@@ -95,7 +100,22 @@ const gridComponent = () => {
           />
         </div>
       </div>
-    </div>
+      <div
+        className={`overflow-hidden transition-opacity transition-height duration-1000 ease-in-out ${
+          summerSchoolScroller ? "opacity-100 h-auto" : "opacity-0 h-0"
+        }`}
+      >
+          {summerschool_slices.map((slice, index) => (
+            <div className="px-12 py-12">
+              <InfiniteSlider
+                key={index}
+                data={slice.data}
+                direction={slice.direction}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
   );
 };
 
