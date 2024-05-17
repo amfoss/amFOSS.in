@@ -10,7 +10,7 @@ const InfiniteSlider = ({data, direction}) => {
               <img
                 src={company.img_path}
                 alt={company.alt}
-                className="py-2 px-6"
+                className="md:w-44 md:h-44 px-2"
               />
             </Slider.Slide>
           </div>

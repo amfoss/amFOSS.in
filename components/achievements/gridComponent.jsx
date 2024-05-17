@@ -36,10 +36,11 @@ const gridComponent = () => {
   ];
 
   const summerschool_slices = [
-    { data: summerschools_data.slice(0, 10), direction: false },
-    { data: summerschools_data.slice(11, 14), direction: false },
+    { data: summerschools_data.slice(0, 4), direction: false },
+    { data: summerschools_data.slice(5, 9), direction: false },
+    { data: summerschools_data.slice(10, 14), direction: false },
   ];
-  console.log(summerschools_data);
+  
   return (
     <div className="block">
       <div className="grid md:grid-cols-2 grid-cols-1">
