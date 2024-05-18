@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import GridComponent from "@/components/achievements/gridComponent";
 import Contact from "../contact/page";
 
@@ -13,7 +13,6 @@ const page = () => {
           <h1 className="text-7xl max-md-custom:text-5xl max-sm:text-3xl tracking-wide leading-[110px]">
             {baseText.split("").map((word, index) => (
               <motion.span
-
                 key={index}
                 variants={{
                   initial: {
@@ -27,7 +26,7 @@ const page = () => {
                 }}
                 initial="initial"
                 whileInView="animate"
-                viewport={{ once: true, }}
+                viewport={{ once: true }}
                 transition={{
                   duration: 0.5,
                   delay: index * 0.02,
@@ -39,9 +38,11 @@ const page = () => {
           </h1>
         </div>
       </div>
-      <GridComponent />
-      <div className="py-12"></div>
-      <Contact/>
+      {/* <div className="mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16"> */}
+        <GridComponent />
+      {/* </div> */}
+      <div className="py-12 px-16"></div>
+      <Contact />
     </div>
   );
 };

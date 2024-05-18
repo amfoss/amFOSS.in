@@ -1,0 +1,62 @@
+[
+    {
+        "img_path": "/assets/icons/colleges/kth.svg",
+        "alt": "kth.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/owl.svg",
+        "alt": "owl.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/torento uni.svg",
+        "alt": "torento uni.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/trinity.svg",
+        "alt": "trinity.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/politechnico milano.svg",
+        "alt": "politechnico milano.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/arizona uni.svg",
+        "alt": "arizona uni.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/imdea.svg",
+        "alt": "imdea.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/uc santa cruz.svg",
+        "alt": "uc santa cruz.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/tum.svg",
+        "alt": "tum.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/uni california.svg",
+        "alt": "uni california.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/cincinatti.svg",
+        "alt": "cincinatti.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/stony brook uni.svg",
+        "alt": "stony brook uni.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/georgia tech.svg",
+        "alt": "georgia tech.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/eindhoven.svg",
+        "alt": "eindhoven.svg"
+    },
+    {
+        "img_path": "/assets/icons/colleges/singapore un.svg",
+        "alt": "singapore un.svg"
+    }
+]
