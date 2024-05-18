@@ -21,7 +21,7 @@ const Hero = () => {
           />
 
         </div>
-        <motion.h1 className="text-center sm:text-start text-white text-xl 2xl:text-2xl tracking-wide my-8"
+        <motion.h1 className="text-center sm:text-start text-white text-2xl 2xl:text-2xl tracking-wide my-8"
 
           variants={aboutTitles}
           transition={{ duration: 0.5, delay: 0.1 }}

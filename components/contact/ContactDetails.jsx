@@ -2,7 +2,6 @@ import React from "react";
 import data from "@/content/contact.json";
 import Image from "next/image";
 import Link from "next/link";
-import dayjs from "dayjs";
 import { motion } from 'framer-motion'
 const ContactDetails = () => {
     const contact1Varients = {
@@ -15,8 +14,8 @@ const ContactDetails = () => {
     }
     return (
         <>
-            <div className="grid sm:grid-cols-4 md:grid-cols-5 grid-cols-1 md:px-10 px-5 py-10 pb-20 text-white">
-                <motion.div className="px-5 text-left sm:col-span-2"
+            <div className="grid sm:grid-cols-4 md-custom:grid-cols-5 grid-cols-1 md:px-20 md-custom:px-40 px-5 py-10 sm:pb-20 sm:pt-0 text-white">
+                <motion.div className="text-left sm:col-span-2 self-end"
                     variants={contact1Varients}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     initial="initial"
@@ -37,17 +36,17 @@ const ContactDetails = () => {
                         );
                     })}
                 </motion.div>
-                <motion.div className="hidden md:block m-auto"
+                <motion.div className="hidden md-custom:block m-auto"
                     variants={contact2Varients}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     initial="initial"
                     whileInView="animate"
                     viewport={{ once: true }}>
-                    <img src={data.contact.img} className="mt-10 sm:mt-0" width={155}
+                    <img src={data.contact.img} width={155}
                         height={155}
                         alt="white bulb" />
                 </motion.div>
-                <motion.div className="px-5 py-10 sm:py-0 text-left sm:text-right sm:col-span-2"
+                <motion.div className="py-10 sm:py-0 text-left sm:text-right sm:col-span-2 self-end"
                     variants={contact1Varients}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     initial="initial"
@@ -68,8 +67,8 @@ const ContactDetails = () => {
                         );
                     })}
                 </motion.div>
-                <div className="sm:col-span-2 sm:col-start-2 md:col-span-3 md:col-start-2 ml-2 sm:pt-8 sm:m-auto">
-                    <ul className="flex items-center bottom-16 text-l gap-x-6 md:gap-x-10 p-4">
+                <div className="sm:col-span-2 sm:col-start-2 md-custom:col-span-3 md-custom:col-start-2 ml-1 md:pt-2 pb-5 sm:m-auto">
+                    <ul className="flex items-center bottom-16 text-l gap-x-6 md:gap-x-10 pt-5 sm:pt-10 md-custom:p-3">
                         {data.contact.socials.map((social, index) => (
                             <motion.li key={index}
                                 initial={{ opacity: 0, x: -20 }}
@@ -79,7 +78,7 @@ const ContactDetails = () => {
                                     delay: 0.1 * (index + 1),
                                     ease: "easeOut"
                                 }}
-                                viewport={{ once: false }}
+                                viewport={{ once: true }}
                             >
                                 <Link href={social.ref}>
                                     <Image
@@ -95,8 +94,8 @@ const ContactDetails = () => {
                     </ul>
                 </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 py-2 sm:py-4 md:px-8 bg-[#2e2e2e]">
-                <div className="mt-7 md:mt-5 place-self-center sm:place-self-start ml-8">
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 py-2 sm:py-4 md:px-8 bg-[#2e2e2e]">
+                <div className="mt-7 lg:mt-4 place-self-center sm:place-self-start sm:ml-8">
                     <Image
                         src="/assets/icons/amrita-white.png"
                         width={180}
@@ -110,7 +109,7 @@ const ContactDetails = () => {
                     © Team amFOSS 2007-{dayjs().year()}. All Rights Reserved.
                 </div>
 
-            </div>
+            </div> */}
         </>
     );
 };

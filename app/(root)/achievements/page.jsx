@@ -38,11 +38,8 @@ const page = () => {
           </h1>
         </div>
       </div>
-      {/* <div className="mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16"> */}
-        <GridComponent />
-      {/* </div> */}
-      <div className="py-12 px-16"></div>
-      <Contact />
+      <GridComponent />
+      <Contact/>
     </div>
   );
 };

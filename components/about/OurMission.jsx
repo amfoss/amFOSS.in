@@ -26,7 +26,7 @@ const OurMission = () => {
 
           {data.mission.map((cont, index) => (
             <>
-              <motion.div key={index} className="text-xl 2xl:text-3xl sm:mr-5 md:px-5 sm:mt-9" variants={about2Varients}
+              <motion.div key={index} className="text-3xl 2xl:text-3xl sm:mr-5 md:px-5 sm:mt-9" variants={about2Varients}
                 transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
                 initial="initial"
                 whileInView="animate"
@@ -36,7 +36,7 @@ const OurMission = () => {
                 {cont.points.map((point, index) => (
                   <div
                     key={index}
-                    className="relative min-h-20 md:text-xl md:ml-0 ml-5"
+                    className="relative min-h-20 md:text-2xl md:ml-0 ml-5"
                   >
                     <div className="absolute -left-5 top-2 h-full">
                       <div className="w-2 h-2 bg-[#D9D9D9] rounded-full " />

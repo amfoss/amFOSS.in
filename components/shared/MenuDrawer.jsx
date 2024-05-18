@@ -45,7 +45,7 @@ const MenuDrawer = ({ isOpen, onClose }) => {
         } duration-500`}
         animate={ {
          
-          width:isOpen?'50%':0,
+          width:isOpen?'60%':0,
           
         }}
         initial={{
