@@ -44,7 +44,7 @@ const gridComponent = () => {
     <div className="block">
       <div className="grid md:grid-cols-2 grid-cols-1">
         <div className="md:h-[30rem] h-[20rem] md:order-1 order-2 p-10 flex items-center">
-          <p className="text-white lg:text-3xl md:text-2xl sm:text-xl md:text-left text-center">
+          <p className="text-white md:text-2xl sm:text-xl md:text-left text-center">
             {data.gsoc.compressedContent}
           </p>
         </div>
@@ -63,7 +63,7 @@ const gridComponent = () => {
           <SeeMore showContent={showCompanies} toggle={companyToggle} />
         </div>
         <div className="md:h-[30rem] h-[20rem] bg-[#1E1D1D] md:ml-[-10%] md:order-2 order-2 p-10 flex items-center">
-          <p className="text-white lg:text-3xl md:text-2xl sm:text-xl md:text-right text-center">
+          <p className="text-white md:text-2xl sm:text-xl md:text-right text-center">
             {data.internships.compressedContent}
           </p>
         </div>
@@ -86,7 +86,7 @@ const gridComponent = () => {
 
       <div className="grid md:grid-cols-2 grid-cols-1">
         <div className="md:h-[30rem] h-[20rem] md:order-1 order-2 p-10 flex items-center">
-          <p className="text-white lg:text-3xl md:text-2xl sm:text-xl  md:text-left text-center">
+          <p className="text-white md:text-2xl sm:text-xl  md:text-left text-center">
             {data.summerSchools.compressedContent}
           </p>
         </div>

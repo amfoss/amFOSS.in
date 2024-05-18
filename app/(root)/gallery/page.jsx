@@ -9,7 +9,7 @@ import Contact from "../contact/page";
 import { motion } from "framer-motion";
 
 const Gallery = () => {
-  const baseText = "Gallery";
+  const baseText = "GALLERY";
   const router = useRouter();
 
   return (

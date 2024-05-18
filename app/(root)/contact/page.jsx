@@ -6,9 +6,9 @@ import { motion } from 'framer-motion'
 const Contact = () => {
   const baseText = "CONTACT US";
   return (
-    <div className="overflow-hidden mt-5">
-      <div className="flex-col flex-center justify-center items-center">
-        <div className="sm:pb-20 text-left max-w-screen-2xl px-9 xs:px-8 sm:px-16">
+    <div className="overflow-hidden mt-5 sm:mt-20">
+      <div className="flex-col flex-center justify-center items-center px-5 md:mt-3 md:px-20 md-custom:px-40 ">
+        <div className="sm:pb-10 md:pb-20 text-left max-w-screen-2xl">
           <h1 className="text-7xl max-md-custom:text-5xl max-sm:text-3xl tracking-wide leading-[110px]">
             {baseText.split("").map((word, index) => (
               <motion.span

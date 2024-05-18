@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #000;
-}
-
 .slider {
   margin: 0 20px;
   overflow: hidden;

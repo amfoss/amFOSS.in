@@ -75,7 +75,7 @@ const page = () => {
       <TaskForcesComponent />
       {/* activities */}
       <ActivitiesComponent />
-      <div className="py-10"></div>
+      <div className="py-12"></div>
       {/* Contact Us */ }
       <Contact/>
     </>
