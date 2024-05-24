@@ -64,22 +64,13 @@
     "imgPath": "/assets/members/Thirdyears/anshuman.jpg"
   },
   {
-    "name": "Saikrishna Devendiran",
+    "name": "Pranav Krishnan",
     "title": "Third year",
-    "githubLink": "https://github.com/saike148",
-    "twitterLink": "https://twitter.com/saike148",
-    "linkedinLink": "https://www.linkedin.com/in/saikrishna-devendiran",
-    "imgPath": "/assets/members/Thirdyears/Saikrishna_Devendiran.jpg"
+    "githubLink": "",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Thirdyears/Pranav_Krishnan.jpeg"
   },
-  {
-    "name": "David Veliath",
-    "title": "Third year",
-    "githubLink": "https://github.com/PunkSamurai",
-    "twitterLink": "https://twitter.com/_initial_dave_",
-    "linkedinLink": "https://www.linkedin.com/in/david-tony-veliath/",
-    "imgPath": "/assets/members/Thirdyears/David_Veliath.jpeg"
-  },
-
   {
     "name": "Rishav Kumar",
     "title": "Third year",
@@ -89,20 +80,20 @@
     "imgPath": "/assets/members/Thirdyears/Rishav.jpg"
   },
   {
+    "name": "David Veliath",
+    "title": "Third year",
+    "githubLink": "https://github.com/PunkSamurai",
+    "twitterLink": "https://twitter.com/_initial_dave_",
+    "linkedinLink": "https://www.linkedin.com/in/david-tony-veliath/",
+    "imgPath": "/assets/members/Thirdyears/David_Veliath.jpeg"
+  },
+  {
     "name": "Vyshnav Unnikrishnan",
     "title": "Third year",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/vyshnav-unnikrishnan-0a301a263",
     "githubLink": "https://github.com/Vyshnav371",
     "imgPath": "/assets/members/Thirdyears/vyshnav.jpg"
-  },
-  {
-    "name": "Pranav Krishnan",
-    "title": "Third year",
-    "githubLink": "",
-    "twitterLink": "",
-    "linkedinLink": "",
-    "imgPath": "/assets/members/Thirdyears/Pranav_Krishnan.jpeg"
   },
   {
     "name": "Harigovind C B",

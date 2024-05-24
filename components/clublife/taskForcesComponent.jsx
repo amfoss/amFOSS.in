@@ -38,7 +38,7 @@ const taskForcesComponent = () => {
             </motion.div>
           </div>
           {data.taskForces.content.map((cont) => (
-            <motion.div key={cont.title} className="bg-[#242424] mx-5 shadow-custom max-md:p-6 max-sm-custom:p-12 mb-8  sm-custom:p-10 sm-custom:mb-20 rounded-xl"
+            <motion.div key={cont.title} className="bg-[#242424] mx-5 shadow-custom max-md:p-6 max-sm-custom:p-12 mb-8 sm-custom:p-10 sm-custom:mb-20 rounded-xl"
               variants={taskForceTitles}
               transition={{ duration: 0.5, delay: 0.1 }}
               initial="initial"
