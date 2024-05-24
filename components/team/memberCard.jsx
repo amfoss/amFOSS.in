@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const memberCard = ({
   name,
@@ -10,10 +11,12 @@ const memberCard = ({
 }) => {
   return (
     <>
-      <div className="bg-[#252524] w-full lg:h-80 md:h-72 h-32 relative rounded-3xl md:mt-32 mt-20 flex justify-center items-center">
-        <div className="absolute left-1/2 md:top-0 md:mt-0 -mt-10 bg-[#D9D9D9] md:w-3/4 md:h-3/4 w-[80%] h-24 md:rounded-3xl rounded-[2rem] -translate-x-1/2 -translate-y-1/2">
-          <img
+      <div className="bg-[#252524] w-full xl:w-3/4 lg:h-80 md:h-72 h-44 relative rounded-3xl md:mt-32 mt-20 flex justify-center items-center">
+        <div className="absolute left-1/2 md:top-0 md:mt-0 -mt-10 bg-[#D9D9D9] md:w-3/4 md:h-3/4 w-[80%] h-32 md:rounded-3xl rounded-[2rem] -translate-x-1/2 -translate-y-1/2">
+          <Image
             src={imgPath}
+            width={250}
+            height ={250}
             className="h-full w-full md:rounded-3xl rounded-[2rem]"
           />
         </div>

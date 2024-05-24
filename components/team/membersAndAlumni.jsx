@@ -14,7 +14,7 @@ const MembersAndAlumni = ({ contentFor }) => {
   const updateVisibleMembers = () => {
     const screenSize = window.innerWidth;
     if (screenSize >= 768) {
-      setVisibleMembers(dataFinal.slice(0, 8));
+      setVisibleMembers(dataFinal.slice(0, 9));
     } else {
       setVisibleMembers(dataFinal.slice(0, 6));
     }
@@ -48,7 +48,7 @@ const MembersAndAlumni = ({ contentFor }) => {
       <div className="w-full md:px-40 px-5 mb-10">
         <Title title={contentFor === "members" ? "MEMBERS" : "ALUMNI"} />
       </div>
-      <div className="2xl:px-40 xl:px-10 px-5 my-10 grid md:grid-cols-4 grid-cols-3 lg:gap-x-20 md:gap-x-10 gap-x-3 lg:gap-y-10">
+      <div className="2xl:px-40 xl:px-10 px-5 my-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 col lg:gap-x-20 md:gap-x-10 gap-x-3 lg:gap-y-10">
         {visibleMembers.map((member, i) => (
           <motion.div
             key={member.name}
@@ -56,6 +56,7 @@ const MembersAndAlumni = ({ contentFor }) => {
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.3, delay: 0.01 * i }}
+            className="w-full flex justify-center items-center"
           >
             <MemberCard
               key={member.name}
