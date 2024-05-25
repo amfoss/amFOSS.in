@@ -1,13 +1,15 @@
 import React from "react";
-
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
+import SmoothScrolling from "@/components/shared/SmoothScroll";
 
 const layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      {children}
+      <SmoothScrolling>
+        {children}
+      </SmoothScrolling>
       <Footer />
     </>
   );

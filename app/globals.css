@@ -6,10 +6,44 @@
   * body {
     background-color: #181818;
     color: #d0a730;
+    scroll-behavior: smooth;
   }
 
   ::selection {
     background-color: #d0a730;
     color: white;
   }
+
+  /* For Webkit-based browsers (Chrome, Safari and Opera) */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* For IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #181818;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#d0a730, #e4d145);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(208, 167, 48, 0.7); /* Improved glow effect */
+    border: 2px solid #d0a730; /* Add border for depth effect */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d0a730;
+    box-shadow: 0 0 15px 3px rgba(208, 167, 48, 0.9); /* Increase glow on hover */
+  }  
 }

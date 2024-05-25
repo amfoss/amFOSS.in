@@ -1,21 +1,17 @@
 "use client";
 import React from "react";
-import ourstory from "@/content/ourstory.json";
-import Image from "next/image";
+import { useRef } from "react";
 import { useRouter } from "next/navigation";
 import Component1 from "@/components/story/Component1";
 import Component2 from "@/components/story/Component2";
 import Component3 from "@/components/story/Component3";
 import { motion } from "framer-motion";
+import ScrollDownButton from "@/components/shared/ScrollDown";
 
 const OurStory = () => {
   const baseText = "OUR STORY";
   const router = useRouter();
-
-  const storyVarients={
-    initial: { opacity: 0, x: -50 },
-    animate: { opacity: 1, x: 0 }
-  }
+  const scrollRef = useRef(null);
 
   return (
     <>
@@ -47,8 +43,10 @@ const OurStory = () => {
               </motion.span>
             ))}
           </h1>
+          <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
+      <div ref={scrollRef} />
       <Component1 />
       <Component2 />
       <Component3 />

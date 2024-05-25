@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
+import { Blur } from 'transitions-kit'
 
 const responsive = {
     desktop: {
@@ -37,7 +38,7 @@ const Slider = ({ sliderImageUrl }) => {
                 {sliderImageUrl.map((imageUrl, index) => {
                     return (
                         <div className="slider group" key={index}>
-                            <img src={imageUrl.url} />
+                            <img src={imageUrl.url} Transition={Blur} />
                             <div className="absolute rounded-b-[0.6rem] inset-x-0 bottom-8 bg-black bg-opacity-80 py-2 px-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p className="text-center">{imageUrl.description}</p>
                             </div>

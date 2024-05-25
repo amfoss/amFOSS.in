@@ -1,14 +1,16 @@
 "use client";
 import React from "react";
+import { useRef } from "react";
 import data from "@/content/clublife.json";
 import Title from "../../(root)/../../components/ui/title";
 import TaskForcesComponent from "@/components/clublife/taskForcesComponent";
 import ActivitiesComponent from "@/components/clublife/activitiesComponent";
 import Contact from "../contact/page";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import ScrollDownButton from "@/components/shared/ScrollDown";
 
 const page = () => {
+  const scrollRef = useRef(null);
   const baseText = "LIFE IN THE CLUB";
   const clubLife1Varients = {
     initial: { opacity: 0, y: 50 },
@@ -49,9 +51,11 @@ const page = () => {
               </motion.span>
             ))}
           </h1>
+          <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
       {/* foss lab */}
+      <div ref={scrollRef} >
       <div className="md:bg-[#242424] grid items-center justify-center md:grid-cols-3 grid-cols-1 min-h-fit sm:mx-0 md:place-items-center">
         <motion.div
           className="flex flex-col col-span-1 pt-5 mx-5 mb-5 md:mb-10"
@@ -80,6 +84,7 @@ const page = () => {
         <img src="/assets/misc/thelab.png"  className="w-full h-auto p-5" />
         <img src="/assets/misc/thelab2.png" className="w-full h-auto p-5" />
       </div>
+      </div>
       {/* taskforces */}
       <TaskForcesComponent />
       {/* activities */}
@@ -87,6 +92,7 @@ const page = () => {
       <div className="py-12"></div>
       {/* Contact Us */ }
       <Contact/>
+      
     </>
   );
 };

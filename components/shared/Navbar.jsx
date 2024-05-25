@@ -5,10 +5,12 @@ import NavbarData from "@/content/navbartab.json";
 import Socials from "@/content/socials.json";
 import { useState } from "react";
 import MenuDrawer from "./MenuDrawer";
+import { useScroll, motion, useMotionValueEvent } from "framer-motion";
 
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
+  const [hidden, setHidden] = useState(false);
+  const { scrollY } = useScroll();
   const openDrawer = () => {
     setIsDrawerOpen(true);
   };
@@ -16,8 +18,23 @@ const Navbar = () => {
   const closeDrawer = () => {
     setIsDrawerOpen(false);
   };
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const previous = scrollY.getPrevious();
+    if (latest > previous && latest > 150) {
+      setHidden(true);
+    } else {
+      setHidden(false);
+    }
+  });
   return (
-    <nav className="flex top-0 z-50 w-full justify-around py-6 text-white">
+    <motion.nav
+      variants={{
+        visible: { y: 0 },
+        hidden: { y: "-100%" },
+      }}
+      animate={hidden ? "hidden" : "visible"}
+      transition={{ duration: 0.35, ease: "easeInOut" }}
+      className="sticky bg-navbar flex top-0 z-50 w-full justify-around py-6 text-white">
       <div className="flex justify-between item-center w-full max-w-screen px-6 xs:px-8 sm:px-16">
         <Link href="/">
           <Image
@@ -68,7 +85,7 @@ const Navbar = () => {
         </ul>
       </div>
       <MenuDrawer isOpen={isDrawerOpen} onClose={closeDrawer} />
-    </nav>
+    </motion.nav>
   );
 };
 

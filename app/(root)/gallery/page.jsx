@@ -1,16 +1,18 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import { useRef } from "react";
 import { useRouter } from "next/navigation";
 import Component1 from "@/components/gallery/Component1";
 import Component2 from "@/components/gallery/Component2";
 import Component3 from "@/components/gallery/Component3";
 import Contact from "../contact/page";
 import { motion } from "framer-motion";
+import ScrollDownButton from "@/components/shared/ScrollDown";
 
 const Gallery = () => {
   const baseText = "GALLERY";
   const router = useRouter();
+  const scrollRef = useRef(null);
 
   return (
     <>
@@ -42,8 +44,10 @@ const Gallery = () => {
               </motion.span>
             ))}
           </h1>
+          <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
+      <div ref={scrollRef} />
       <Component1 />
       <Component2 />
       <Component3 />
