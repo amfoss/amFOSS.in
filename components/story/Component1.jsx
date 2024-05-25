@@ -10,7 +10,7 @@ const Component1 = () => {
 
   return (
     <>
-      <motion.div className="w-full md:px-40 px-5 py-3"
+      <motion.div className="w-full md:px-40 px-5 py-10"
       variants={storyVarients} 
       transition={{ duration: 0.5, delay: 0.1 }}
       initial="initial"

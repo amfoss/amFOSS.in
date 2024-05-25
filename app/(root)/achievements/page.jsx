@@ -1,11 +1,15 @@
 "use client";
 import React from "react";
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import GridComponent from "@/components/achievements/gridComponent";
 import Contact from "../contact/page";
+import ScrollDownButton from "@/components/shared/ScrollDown";
 
 const page = () => {
   const baseText = "ACHIEVEMENTS";
+  const scrollRef = useRef(null);
+
   return (
     <div className="overflow-hidden">
       <div className="flex-col flex-center justify-center items-center">
@@ -36,10 +40,13 @@ const page = () => {
               </motion.span>
             ))}
           </h1>
+          <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
+      <div ref={scrollRef}>
       <GridComponent />
       <Contact/>
+    </div>
     </div>
   );
 };

@@ -21,6 +21,7 @@ module.exports = {
         'custom':'10px 10px 10px rgb(0,0,0)',
       },        
       colors: {
+        navbar: "#181818",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
