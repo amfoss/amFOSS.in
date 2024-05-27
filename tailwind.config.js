@@ -76,7 +76,7 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       screens: {
-        "md-nav": "1095px",
+        "md-nav": "1370px",
         "md-custom": "970px",
         "md-custom-2": "680px",
         "md-grid": "1170px",
