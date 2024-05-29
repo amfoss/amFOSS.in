@@ -77,7 +77,7 @@ module.exports = {
       },
       screens: {
         "md-nav": "1370px",
-        "md-custom": "970px",
+        "md-custom": "800px",
         "md-custom-2": "680px",
         "md-grid": "1170px",
         "sm-custom": "1087px",
