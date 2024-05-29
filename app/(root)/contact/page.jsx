@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const Contact = () => {
   const baseText = "CONTACT US";
   return (
-    <div className="mx-[5vw]">
+    <div className="mx-[4vw]">
       <div className="overflow-hidden mt-5 sm:mt-20">
         <div className="flex-col flex-center justify-center items-center px-5 md:mt-3 md:px-20 md-custom:px-40 ">
           <div className="sm:pb-10 md:pb-20 text-left max-w-screen-2xl">
