@@ -12,8 +12,8 @@ const teamHero = () => {
   }
   return (
     <>
-      <div className="grid md:grid-cols-4 grid-cols-1 md:px-10 px-5 text-white">
-        <motion.div className="w-full flex flex-col justify-center items-center mt-6"
+      <div className="grid md:grid-cols-4 grid-cols-1 text-white">
+        <motion.div className="w-full flex flex-col mt-6 "
         variants={team2Varients} 
         transition={{ duration: 0.5, delay: 0.1 }}
         initial="initial"
