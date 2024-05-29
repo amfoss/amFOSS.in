@@ -14,7 +14,7 @@ const OurMission = () => {
   return (
     <>
       <div className="bg-[#242424] pt-10 min-h-fit text-white tracking-wide">
-        <div className="grid md:grid-cols-3 grid-cols-1 px-5">
+        <div className="grid md:grid-cols-3 grid-cols-1 md:px-40 px-5">
           <motion.div className="flex flex-col md:col-span-3 col-span-1 mb-10 md:ml-4 md:mt-15 mt-14"
             variants={about2Varients}
             transition={{ duration: 0.5, delay: 0.1 }}

@@ -12,7 +12,7 @@ const Component2 = () => {
 
   return (
     <>
-      <motion.div
+      <motion.div className="w-full md:px-40 px-5 bg-[#242424] py-10"
         variants={galleryVariants}
         transition={{ duration: 0.5, delay: 0.1 }}
         initial="initial"
