@@ -45,10 +45,10 @@ const MembersAndAlumni = ({ contentFor }) => {
 
   return (
     <>
-      <div className="w-full md:px-40 px-5 mb-10">
+      <div className="w-full py-5 mb-10">
         <Title title={contentFor === "members" ? "MEMBERS" : "ALUMNI"} />
       </div>
-      <div className="2xl:px-40 xl:px-10 px-5 my-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 col lg:gap-x-20 md:gap-x-10 gap-x-3 lg:gap-y-10">
+      <div className="my-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 col lg:gap-x-20 md:gap-x-50 gap-x-3 lg:gap-y-10">
         {visibleMembers.map((member, i) => (
           <motion.div
             key={member.name}

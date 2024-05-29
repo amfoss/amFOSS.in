@@ -35,7 +35,7 @@ const Navbar = () => {
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className="sticky bg-navbar flex top-0 z-50 w-full justify-around py-6 text-white">
-      <div className="flex justify-between item-center w-full max-w-screen px-6 xs:px-8 sm:px-16">
+      <div className="flex justify-between item-center w-full max-w-screen px-6 xs:px-8 mx-[5vw] lg:mx-[10vw] xl-[9vw] md:mx-[7vw]">
         <Link href="/">
           <Image
             src="/assets/icons/logo_white.svg"

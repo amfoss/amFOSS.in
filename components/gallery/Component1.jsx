@@ -12,7 +12,7 @@ const Component1 = () => {
 
   return (
     <>
-      <motion.div className="w-full pt-10 md:px-40 px-5 pb-5"
+      <motion.div
       variants={galleryVariants} 
       transition={{ duration: 0.5, delay: 0.1 }}
       initial="initial"

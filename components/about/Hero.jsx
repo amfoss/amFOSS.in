@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="w-full flex flex-col justify-center md:px-40 px-5 mb-20">
+      <div className="w-full flex flex-col justify-center mb-20">
         <div className="w-full my-10">
           <motion.img
             src={data.hero.image}

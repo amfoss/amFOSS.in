@@ -36,7 +36,7 @@ const ContactDetails = () => {
                         );
                     })}
                 </motion.div>
-                <motion.div className="hidden md-custom:block m-auto"
+                <motion.div className="hidden xl:block m-auto"
                     variants={contact2Varients}
                     transition={{ duration: 0.5, delay: 0.1 }}
                     initial="initial"
