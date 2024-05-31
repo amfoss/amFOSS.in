@@ -3,14 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import NavbarData from "@/content/navbartab.json";
 import Socials from "@/content/socials.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MenuDrawer from "./MenuDrawer";
-import { useScroll, motion, useMotionValueEvent } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [hidden, setHidden] = useState(false);
   const { scrollY } = useScroll();
+
   const openDrawer = () => {
     setIsDrawerOpen(true);
   };
@@ -18,14 +19,27 @@ const Navbar = () => {
   const closeDrawer = () => {
     setIsDrawerOpen(false);
   };
-  useMotionValueEvent(scrollY, "change", (latest) => {
-    const previous = scrollY.getPrevious();
-    if (latest > previous && latest > 150) {
-      setHidden(true);
-    } else {
-      setHidden(false);
-    }
-  });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const latest = window.scrollY;
+      const previous = scrollY.getPrevious();
+      if (latest > previous && latest > 150) {
+        setHidden(true);
+      } else {
+        setHidden(false);
+      }
+      if (isDrawerOpen) {
+        closeDrawer();
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isDrawerOpen, scrollY]);
+
   return (
     <motion.nav
       variants={{
@@ -34,7 +48,8 @@ const Navbar = () => {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="sticky bg-navbar flex top-0 z-50 w-full justify-around py-6 text-white">
+      className="sticky bg-navbar flex top-0 z-50 w-full justify-around py-6 text-white"
+    >
       <div className="flex justify-between item-center w-full max-w-screen px-6 xs:px-8 sm:px-16">
         <Link href="/">
           <Image
