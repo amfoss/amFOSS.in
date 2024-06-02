@@ -46,8 +46,7 @@ const page = () => {
           <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
-      <div className="p-12" ref={scrollRef}>
-      <div className="max-sm:min-h-[10vh]"></div>
+      <div className="p-[5vw] max-sm:mt-[10vw]" ref={scrollRef}>
         <GridderComponent1/>
         <GridderComponent2/>
         <GridderComponent3/>

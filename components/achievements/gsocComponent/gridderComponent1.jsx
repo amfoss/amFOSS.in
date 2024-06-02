@@ -47,6 +47,8 @@ export default function GridderComponent() {
         } else {
           setScrollY((window.scrollY - offs.current) * 0.8);
         }
+      }else{
+        window.removeEventListener('scroll', handleScroll)
       }
     };
 
@@ -55,6 +57,7 @@ export default function GridderComponent() {
     if (isVisible) {
       window.addEventListener('scroll', handleScroll);
     } else {
+      setScrollY(0)
       window.removeEventListener('scroll', handleScroll);
     }
 
@@ -88,25 +91,27 @@ export default function GridderComponent() {
         <div className="absolute -z-10 flex h-full w-full">
           <div id="controls"></div>
           <div className="flex-1 text-center transform" style={{ transform: `translateY(${scrollY}px)` }}>
-            <p className="sm-custom:text-[200px] md:text-[134px] text-7xl">GSOC</p>
+            {/* <p className="sm-custom:text-[200px] md:text-[134px] text-7xl">GSOC</p> */}
+            <p className="text-[13vw]">GSOC</p>
+
           </div>
         </div>
         <div>
-          <div className="md:min-h-[60vh] min-h-[30vh]"></div>
+          <div className="md:min-h-[60vh] min-h-[30vw]"></div>
           <div ref={ref1} id="victim">
             {data.map((yearData, index) => {
               const year = Object.keys(yearData)[0];
               const people = yearData[year];
               return <Gsoc key={index} year={year} people={people} number={index} />;
             })}
-            <div className={`${(data.length + 1) % 2 === 0 ? 'justify-end' : 'justify-start'} text-xl md:text-4xl mt-[-6vh] flex w-full`}>
+            <div className={`${(data.length + 1) % 2 === 0 ? 'md:justify-end' : 'md:justify-start'} justify-center sm:text-2xl md-custom-2:text-[3vw] md-grid:text-4xl mt-[-7vw] md:mt-[-5vh] flex w-full`}>
               and many more
               <Image className="ml-1" src="/assets/icons/down-arrow.svg" width={30} height={30} />
             </div>
           </div>
         </div>
       </div>
-      <div className="md:min-h-[50vh] min-h-[30vh]"></div>
+      <div className="md:min-h-[50vh] min-h-[50vw]"></div>
     </>
   );
 }

@@ -52,13 +52,17 @@ export default function gridderComponent(){
                 }else{
                     setScrollY(window.scrollY-offs);
                 }
-            }
+            }else{
+                setScrollY(0);
+                window.removeEventListener('scroll', handleScroll)
+              }
         }
         const offs=window.scrollY;
         if (isVisible){
             window.addEventListener('scroll', handleScroll);
         }
         return()=>{
+            setScrollY(0)
             window.removeEventListener('scroll', handleScroll);
         }
     },[isVisible]);
@@ -89,12 +93,13 @@ export default function gridderComponent(){
         <div className="relative">
             <div className="absolute -z-10 flex h-full w-full" >
                 <div id="controls"></div>
-                <div className="flex-1 text-center" style={{ transform:`translateY(${(scrollY*(0.8))}px)`}}>
-                    <p className="md-grid:text-[134px] sm-custom:text-[110px] md:text-8xl text-7xl tracking-wide">HACKATHONS</p>
+                <div className="flex-1 text-center" style={{ transform:`translateY(${(scrollY*(0.83))}px)`}}>
+                    {/* <p className="md-grid:text-[134px] sm-custom:text-[110px] md:text-8xl text-4xl sm:text-7xl tracking-wide">HACKATHONS</p> */}
+                    <p className="text-[10vw] tracking-wide">HACKATHONS</p>
                 </div>
             </div>
             <div>
-            <div className="md:min-h-[60vh] min-h-[30vh]"></div>
+            <div className="md:min-h-[60vh] min-h-[50vw]"></div>
             <div ref={ref} id="victim">
                 
                     {Object.keys(data)
@@ -105,7 +110,7 @@ export default function gridderComponent(){
             </div>
             </div>
         </div>
-        <div className="md:min-h-[50vh] min-h-[10vh]"></div>
+        <div className="md:min-h-[50vh] min-h-[10vw]"></div>
         </>
     )
 }
