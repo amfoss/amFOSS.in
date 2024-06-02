@@ -35,6 +35,7 @@
       "description": "A weekly stage where two chosen members deliver a presentation—on anything from the newest tech to pressing societal issues."
     },
     "amfossplays": {
+      "image": "/assets/images/clublife_1.jpg",
       "title": "Amfoss Play",
       "description": "A biweekly event for sports activities featuring a range of activities like marathons, football, badminton, and cricket."
     },
@@ -51,6 +52,7 @@
       "description": "An annual cultural celebration hosted with our sister club, bi0s. Features good food, music, art, and games, all produced by members themselves."
     },
     "socialservice": {
+      "image": "/assets/images/clublife_2.jpg",
       "title": "Social service",
       "description": "Engagement in disaster relief and clean-up drives in collaboration, as volunteers under the Mata Amritanandamayi Math NGO."
     }

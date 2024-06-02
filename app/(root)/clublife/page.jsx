@@ -56,34 +56,36 @@ const page = () => {
       </div>
       {/* foss lab */}
       <div ref={scrollRef} >
-      <div className="md:bg-[#242424] grid items-center justify-center md:grid-cols-3 grid-cols-1 min-h-fit sm:mx-0 md:place-items-center">
-        <motion.div
-          className="flex flex-col col-span-1 pt-5 mx-5 mb-5 md:mb-10"
-          variants={clubLife1Varients}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-        >
-          <Title title={data.fosslab.title} />
-        </motion.div>
+      <div className="md:bg-[#242424]">
+        <div className="w-full justify-center sm:py-12 mx-auto max-w-screen-2xl xs:px-8 sm:px-11  grid items-center justify-center md:grid-cols-3 grid-cols-1 min-h-fit">
+          <motion.div
+            className="flex flex-col col-span-1 md:pb-5 mx-5 pt-10 md:mb-5 md:mb-10"
+            variants={clubLife1Varients}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+          >
+            <Title title={data.fosslab.title} />
+          </motion.div>
 
-        <motion.div
-          className="md:col-span-2 col-span-1 md:py-10 lg:px-32 md:px-5"
-          variants={clubLife2Varients}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-        >
-          <p className="h-full flex justify-center items-center text-white md:text-2xl p-5">
-            {data.fosslab.description}
-          </p>
-        </motion.div>
-        <img src="/assets/misc/thelab3.png" className="w-full h-auto p-5" />
-        <img src="/assets/misc/thelab.png"  className="w-full h-auto p-5" />
-        <img src="/assets/misc/thelab2.png" className="w-full h-auto p-5" />
-      </div>
+          <motion.div
+            className="md:col-span-2 col-span-1 md:py-10 lg:px-32 md:px-5"
+            variants={clubLife2Varients}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+          >
+            <p className="h-full flex justify-center items-center text-white md:text-2xl p-5">
+              {data.fosslab.description}
+            </p>
+          </motion.div>
+          <img src="/assets/misc/thelab3.png" className="w-full h-auto p-5" />
+          <img src="/assets/misc/thelab.png"  className="w-full h-auto p-5" />
+          <img src="/assets/misc/thelab2.png" className="w-full h-auto p-5" />
+        </div>
+      </div>  
       </div>
       {/* taskforces */}
       <TaskForcesComponent />

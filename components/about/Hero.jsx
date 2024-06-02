@@ -13,11 +13,13 @@ const Hero = () => {
 
   return (
     <>
-      <div className="w-full flex flex-col justify-center md:px-40 px-5 mb-20">
+      <div className="w-full flex flex-col justify-center sm:py-24 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 mb-20">
         <div className="w-full my-10">
           <motion.img
             src={data.hero.image}
             className="w-full"
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.3 }}
           />
 
         </div>

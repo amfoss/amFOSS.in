@@ -14,7 +14,7 @@ const Modus = () => {
   }
   return (
     <>
-      <div className="w-full flex flex-col justify-center md:px-40 px-5 md:mt-10 md:mb-20 my-5">
+      <div className="w-full flex flex-col justify-center mx-auto max-w-screen-2xl px-6 pt-12 sm:pt-48 xs:px-8 sm:px-16">
         <div className="w-full my-10">
           <motion.img src={data.modus.image} className="w-full" 
           whileHover={{ scale: 1.05 }}
@@ -43,7 +43,7 @@ const Modus = () => {
                 {cont.title}
               </motion.div>
 
-              <motion.div key={index} className="md:col-span-2 col-span-1 md:text-xl lg:text-2xl md:my-20 my-5 2xl:px-40"
+              <motion.div key={index} className="md:col-span-2 col-span-1 md:text-xl lg:text-2xl md:my-20 my-5 "
                 variants={about2Varients} 
                 transition={{ duration: 0.5, delay: 0.1 * index}}
                 initial="initial"

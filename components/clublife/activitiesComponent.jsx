@@ -13,9 +13,9 @@ const activitiesComponent = () => {
     animate: { opacity: 1, x: 0 }
   }
   return (
-    <>
-      <div className="md:bg-[#242424] mt-5 md:pt-40 pb-10 min-h-fit">
-        <motion.div className="w-full md:px-40 px-5 mb-10"
+    <div className="md:bg-[#242424]">
+      <div className="mt-5 md:pt-20 md:mt-20 pb-10 min-h-fit">
+        <motion.div className="max-w-screen-2xl mx-auto w-full px-5 mb-10 sm:px-16 sm:pt-10"
         variants={imageVarients}
         transition={{ duration: 0.5, delay: 0.1 }}
         initial="initial"
@@ -24,7 +24,8 @@ const activitiesComponent = () => {
         >
           <Title title="ACTIVITIES" />
         </motion.div>
-        <div className="md:px-40 px-5 grid md:grid-cols-2 grid-cols-1 gap-x-20">
+        <div className="grid max-w-screen-2xl px-5 2xl:grid-cols-2 grid-cols-1 gap-x-20 mx-auto sm:px-16">
+
           {/* fosstalks */}
           <motion.div className="text-white md:pt-10 md:pb-32 md:pr-40 w-full"
           variants={activityVarients}
@@ -41,19 +42,19 @@ const activitiesComponent = () => {
               {data.activities.fosstalks.description}
             </p>
           </motion.div>
-          <motion.div className="row-span-2 h-[90%] bg-white ml-10 mr-20 md:block hidden"
+          <motion.img 
+          src= {data.activities.amfossplays.image}
+          alt="foss_play"
+          className="row-span-2 h-[90%] bg-white mr-20 2xl:block hidden"
           variants={imageVarients}
-          transition={{ duration: 0.5, delay: 0.3 }}
           initial="initial"
           whileInView="animate"
           viewport={{once:true}} 
-          
-          
-          
-          ></motion.div>
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}>
+          </motion.img>
+
           {/* opentalks */}
-
-
           <motion.div className="text-white pt-10 md:pb-32 md:pr-40 w-full"
           variants={activityVarients}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -89,7 +90,7 @@ const activitiesComponent = () => {
             </p>
           </motion.div>
           {/* amfossplays */}
-          <motion.div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20 w-full"
+          <motion.div className="text-white pt-10 md:pb-32 md:pr-40 w-full"
           variants={activityVarients}
           transition={{ duration: 0.5, delay: 0.3 }}
           initial="initial"
@@ -104,17 +105,19 @@ const activitiesComponent = () => {
               {data.activities.amfossplays.description}
             </p>
           </motion.div>
-          <motion.div className="row-span-2 h-[90%] bg-white -ml-10 mr-40 md:block hidden"
+          <motion.img 
+          src= {data.activities.socialservice.image}
+          alt="social_service"
+           className="row-span-2 h-[90%] bg-white mr-20 2xl:block hidden"
            variants={imageVarients}
-           transition={{ duration: 0.5, delay: 0.3 }}
            initial="initial"
            whileInView="animate"
            viewport={{once:true}} 
-          
-          
-          ></motion.div>
+           whileHover={{ scale: 1.05 }}
+           transition={{ duration: 0.3 }}>
+           </motion.img>
           {/* amfossbiosnight */}
-          <motion.div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20 w-full"
+          <motion.div className="text-white pt-10 md:pb-32 md:pr-40 w-full"
            variants={activityVarients}
            transition={{ duration: 0.5, delay: 0.4 }}
            initial="initial"
@@ -132,7 +135,7 @@ const activitiesComponent = () => {
             </p>
           </motion.div>
           {/* socialservice */}
-          <motion.div className="text-white pt-10 md:pb-32 md:pr-40 md:ml-20 w-full"
+          <motion.div className="text-white pt-10 md:pb-32 md:pr-40 w-full"
           
           variants={activityVarients}
           transition={{ duration: 0.5, delay: 0.4 }}
@@ -150,7 +153,7 @@ const activitiesComponent = () => {
           </motion.div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

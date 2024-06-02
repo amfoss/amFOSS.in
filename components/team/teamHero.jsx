@@ -12,8 +12,8 @@ const teamHero = () => {
   }
   return (
     <>
-      <div className="grid md:grid-cols-4 grid-cols-1 md:px-10 px-5 text-white">
-        <motion.div className="w-full flex flex-col justify-center items-center mt-6"
+      <div className="grid md:grid-cols-4 grid-cols-1 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 text-white">
+        <motion.div className="w-full flex flex-col mt-6"
         variants={team2Varients} 
         transition={{ duration: 0.5, delay: 0.1 }}
         initial="initial"
@@ -25,7 +25,7 @@ const teamHero = () => {
             {data.hero.subtitle}
           </p>
         </motion.div>
-        <motion.div className="md:col-span-3 col-span-1 px-5 text-justify"
+        <motion.div className="md:col-span-3 col-span-1 px-20 text-justify"
         variants={team1Varients} 
         transition={{ duration: 0.5, delay: 0.1 }}
         initial="initial"
