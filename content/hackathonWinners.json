@@ -1,0 +1,93 @@
+{
+   "Hackverse 4.0 2023":{
+        "imgPath":"/assets/images/achievements/hackthons/hackverse4.0.png",
+        "link":"https://hackverse.nitk.ac.in/",
+        "Winners":[
+            {
+                "name": "Aashraya Katiyar",
+                "title": "Third year",
+                "githubLink": "https://github.com/Aashray446",
+                "twitterLink": "https://twitter.com/aashray_katiyar",
+                "linkedinLink": "https://linkedin.com/in/aashray446",
+                "imgPath": "/assets/members/Thirdyears/Aashray.jpeg"
+            },
+            {
+                "name": "Abhinav Pandey",
+                "title": "Third year",
+                "githubLink": "https://github.com/Abhinavxox",
+                "twitterLink": "https://twitter.com/MeroNaamAbhinav",
+                "linkedinLink": "https://www.linkedin.com/in/itsmeabhinavpandey/",
+                "imgPath": "/assets/members/Thirdyears/abhinav_pandey.jpg"
+            },
+            {
+                "name": "Gautham Krishnan",
+                "title": "Third year",
+                "githubLink": "https://github.com/gauthamk02",
+                "twitterLink": "https://twitter.com/gauthamk02",
+                "linkedinLink": "https://www.linkedin.com/in/gautham-krishnan-p/",
+                "imgPath": "/assets/members/Thirdyears/gautham_krishnan.jpg"
+            }
+        ]
+    },
+    "Cython 2024":{
+        "imgPath":"/assets/images/achievements/hackthons/cython.jpeg",
+        "link":"https://fitt-iitd.in/Cython/",
+        "Winners":[
+            {
+                "name": "Hemanth KrishnaKumar",
+                "title": "Second year",
+                "githubLink": "https://github.com/Wreck-X",
+                "twitterLink": "",
+                "linkedinLink": "",
+                "imgPath": "/assets/members/Secondyears/Hemanth_Krishnakumar.jpg"
+            },
+            {
+                "name": "Siddharth Menon",
+                "title": "Second year",
+                "githubLink": "https://github.com/BiscuitBobby",
+                "twitterLink": "",
+                "linkedinLink": "https://www.linkedin.com/in/biscuitbobby",
+                "imgPath": "/assets/members/Secondyears/Siddharth_Menon.jpeg"
+            },
+            {
+                "name": "Ivin J Abraham",
+                "title": "Second year",
+                "githubLink": "https://github.com/2205u",
+                "twitterLink": "",
+                "linkedinLink": "https://www.linkedin.com/in/ivinjabraham/",
+                "imgPath": "/assets/members/Secondyears/ivin.jpeg"
+            }
+        ]
+    },
+    "Code with consequences, Vidyut, 2023":{
+        "imgPath":"/assets/images/achievements/hackthons/CodeWithConsequences.png",
+        "Winners":[
+            {
+                "name": "Anshuman Swain",
+                "title": "Third year",
+                "githubLink": "https://github.com/anshuman-8",
+                "twitterLink": "https://twitter.com/an8human",
+                "linkedinLink": "",
+                "imgPath": "/assets/members/Thirdyears/anshuman.jpg"
+            },
+            {
+                "name": "Pranav Krishnan",
+                "title": "Third year",
+                "githubLink": "",
+                "twitterLink": "",
+                "linkedinLink": "",
+                "imgPath": "/assets/members/Thirdyears/Pranav_Krishnan.jpeg"
+            }
+        ],
+        "Runner up":[
+            {
+                "name": "Aniketh Vijesh",
+                "title": "Second year",
+                "githubLink": "https://github.com/TheHuntsman4",
+                "twitterLink": "https://twitter.com/achi1135__464",
+                "linkedinLink": "https://www.linkedin.com/in/aniketh-vijesh-7a9466277/",
+                "imgPath": "/assets/members/Secondyears/aniketh_vijesh.jpeg"
+            }
+        ]
+    }
+}

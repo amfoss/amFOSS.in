@@ -1,0 +1,21 @@
+[
+    {
+        "name":["Gautham Krishnan"],
+        "event":"FOSSUnited'24",
+        "description":"Gave a talk on the Transformer architecture in the monthly FOSSUnited meetup on January 2024.",
+        "imgPath":"/assets/images/achievements/talks/FOSSUnited'24.jpg"
+    },
+    {
+        "name":["Abhiijt Ramesh"],
+        "event":"APACHECON'21",
+        "description":"AI for all: Enhancing Digital Financial Services using Data Science",
+        "imgPath":"/assets/images/achievements/talks/talk3.png",
+        "link":"https://www.youtube.com/watch?v=0andmJFkjzQ&list=PLU2OcwpQkYCxhPVnFTcoPr_6h4A82Q7om&index=18"
+    },
+    {
+        "name":"Vibhooti",
+        "event":"FOSSMeet'18",
+        "description":"Introduction to User Experience(UX)",
+        "imgPath":"/assets/images/achievements/talks/FOSSMeet'18.jpg"
+    }
+]

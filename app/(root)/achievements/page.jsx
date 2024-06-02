@@ -2,7 +2,10 @@
 import React from "react";
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import GridComponent from "@/components/achievements/gridComponent";
+import GridderComponent1 from "@/components/achievements/gsocComponent/gridderComponent1";
+import GridderComponent2 from "@/components/achievements/hackathonComponent/gridderComponent2";
+import GridderComponent3 from "@/components/achievements/talks/gridderComponent3"
+// import GridderComponent from "@/components/achievements/test/gird";
 import Contact from "../contact/page";
 import ScrollDownButton from "@/components/shared/ScrollDown";
 
@@ -43,10 +46,13 @@ const page = () => {
           <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
-      <div ref={scrollRef}>
-      <GridComponent />
-      <Contact/>
-    </div>
+      <div className="p-12" ref={scrollRef}>
+      <div className="max-sm:min-h-[10vh]"></div>
+        <GridderComponent1/>
+        <GridderComponent2/>
+        <GridderComponent3/>
+      </div>
+    <Contact/>
     </div>
   );
 };
