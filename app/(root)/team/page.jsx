@@ -53,12 +53,13 @@ const page = () => {
       <div className="w-full flex justify-center items-center my-20">
         <motion.img
           variants={imgVariants}
-          transition={{ duration: 0.5, delay: 0.1 }}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
           src="/assets/images/team.jpg"
-          className="md:w-[50rem] sm:w-[35rem] w-[23rem] mx-5 md:h-[35rem] sm:h-95 h-[45]"
+          className="md:w-[50rem] sm:w-[35rem] w-[23rem] mx-5 md:h-[35rem] sm:h-95 h-[45] md:px-3"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
         />
 
       </div>

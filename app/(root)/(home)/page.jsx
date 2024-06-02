@@ -38,10 +38,15 @@ const page = () => {
     { data: summerschools_data.slice(7, 14), direction: false },
   ];
 
+  const imageVarients={
+    initial: { opacity: 0, x: -50 },
+    animate: { opacity: 1, x: 0 }
+  }
+
   return (
     <div className="flex-col flex-center justify-center overflow-hidden items-center">
       <div className="max-sm:py-8 text-center py-72 md:min-h-screen mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
-        <h1 className="text-7xl max-md-custom:text-5xl max-sm:text-3xl tracking-wide leading-[110px]">
+        <h1 className="text-7xl max-md-custom:text-5xl max-sm:text-3xl tracking-wide leading-[110px] md:text-left">
           {baseText.split(" ").map((word, index) => (
             <motion.span
               key={index}
@@ -97,6 +102,12 @@ const page = () => {
           </motion.div>
         </div>
       </div>
+      <motion.img 
+          src={whoweare.image} 
+          className="w-full max-w-screen-2xl mx-auto md:pt-20 md:mt-20 px-6 xs:px-8 sm:px-16"          
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
+          />    
       {/* <div className="flex-col flex-center mx-auto sm:py-48 ">
         <div className="flex gap-2">
           <Image
@@ -226,7 +237,7 @@ const page = () => {
               key={index}
               className={`w-1/2 md-custom:w-1/3 max-sm:w-full mb-8 ${index % 3 === 0
                   ? "mr-auto"
-                  : index % 3 === 1
+                  : index % 3 === 1 
                     ? "ml-auto"
                     : "mx-auto"
                 }`}

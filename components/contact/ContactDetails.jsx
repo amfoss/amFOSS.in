@@ -14,7 +14,7 @@ const ContactDetails = () => {
     }
     return (
         <>
-            <div className="grid sm:grid-cols-4 md-custom:grid-cols-5 grid-cols-1 md:px-20 md-custom:px-40 px-5 py-10 sm:pb-20 sm:pt-0 text-white">
+            <div className="grid sm:grid-cols-4 md-custom:grid-cols-5 grid-cols-1 md:mx-10 px-6 py-10 sm:pb-20 sm:pt-0 text-white">
                 <motion.div className="text-left sm:col-span-2 self-end"
                     variants={contact1Varients}
                     transition={{ duration: 0.5, delay: 0.1 }}

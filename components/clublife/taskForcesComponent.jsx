@@ -15,10 +15,10 @@ const taskForcesComponent = () => {
   }
   return (
     <>
-      <div className="mt-5 md:pt-40 min-h-fit">
-        <div className="grid sm-custom:grid-cols-3">
+      <div className="mt-5 md:pt-20 min-h-fit">
+        <div className="w-full max-w-screen-2xl grid sm-custom:grid-cols-3 mx-auto sm:px-11">
           <div className="flex flex-col row-span-1 ">
-            <motion.div className="flex flex-col col-span-1 mx-5 md:mx-14 mb-5 md:mb-10"
+            <motion.div className="flex flex-col col-span-1 mx-5 mb-5 md:mb-10"
               variants={taskForceTitles}
               transition={{ duration: 0.5, delay: 0.1 }}
               initial="initial"
@@ -26,13 +26,13 @@ const taskForcesComponent = () => {
               viewport={{ once: true }}>
               <Title title={data.taskForces.title} />
             </motion.div>
-            <motion.div className="md:col-span-2 col-span-1 md:px-10"
+            <motion.div className="md:col-span-2 col-span-1"
               variants={taskForceTitles}
               transition={{ duration: 0.5, delay: 0.1 }}
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}>
-              <p className="h-full flex justify-center items-center text-white md:text-2xl p-5">
+              <p className="h-full flex justify-center items-center text-white md:text-2xl p-5 pb-10">
                 {data.taskForces.description}
               </p>
             </motion.div>
