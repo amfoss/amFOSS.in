@@ -52,13 +52,17 @@ export default function gridderComponent(){
                 }else{
                     setScrollY(window.scrollY-offs);
                 }
-            }
+            }else{
+                setScrollY(0);
+                window.removeEventListener('scroll', handleScroll)
+              }
         }
         const offs=window.scrollY;
         if (isVisible){
             window.addEventListener('scroll', handleScroll);
         }
         return()=>{
+            setScrollY(0)
             window.removeEventListener('scroll', handleScroll);
         }
     },[isVisible]);
@@ -90,11 +94,12 @@ export default function gridderComponent(){
             <div className="absolute -z-10 flex h-full w-full" >
                 <div id="controls"></div>
                 <div className="flex-1 text-center" style={{ transform:`translateY(${(scrollY*(0.8))}px)`}}>
-                    <p className="md:text-[200px] text-7xl tracking-wide">TALKS</p>
+                    {/* <p className="md:text-[200px] text-7xl tracking-wide">TALKS</p> */}
+                    <p className="text-[13vw] tracking-wide">TALKS</p>
                 </div>
             </div>
             <div>
-            <div className="md:min-h-[60vh] min-h-[30vh]"></div>
+            <div className="md:min-h-[60vh] min-h-[50vw]"></div>
             <div ref={ref} id="victim">
                 {Object.keys(data)
                     .map((key, value)=>(
