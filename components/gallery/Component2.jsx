@@ -13,7 +13,7 @@ const Component2 = () => {
   return (
     <>
       <div className="bg-[#242424]">
-        <motion.div className="w-full flex flex-col justify-center md:py-12 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16"
+        <motion.div className="w-full flex flex-col justify-center sm:py-12 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16"
           variants={galleryVariants}
           transition={{ duration: 0.5, delay: 0.1 }}
           initial="initial"

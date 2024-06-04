@@ -25,7 +25,7 @@ const teamHero = () => {
             {data.hero.subtitle}
           </p>
         </motion.div>
-        <motion.div className="md:col-span-3 col-span-1 px-20 text-justify"
+        <motion.div className="md:col-span-3 col-span-1 md:px-20 text-justify"
         variants={team1Varients} 
         transition={{ duration: 0.5, delay: 0.1 }}
         initial="initial"

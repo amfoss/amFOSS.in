@@ -94,7 +94,7 @@ const page = () => {
             whileInView="animate"
             viewport={{ once: true }}>
             <br />
-            <p className="text-xl md-grid:text-2xl max-sm:text-sm text-white text-justify tracking-wide">
+            <p className="text-xl md-grid:text-2xl md:mt-8 max-sm:text-sm text-white text-justify tracking-wide">
               {whoweare.desc1}
               <br /> <br />
               {whoweare.desc2}
@@ -102,12 +102,14 @@ const page = () => {
           </motion.div>
         </div>
       </div>
-      <motion.img 
-          src={whoweare.image} 
-          className="w-full max-w-screen-2xl mx-auto md:pt-20 md:mt-20 px-6 xs:px-8 sm:px-16"          
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.3 }}
-          />    
+      <div className='bg-[#1E1D1D]'>
+        <motion.img 
+            src={whoweare.image} 
+            className="w-full max-w-screen-2xl mx-auto md:py-10 pb-10 md:pb-20 xl:mb-10 px-6 xs:px-8 sm:px-16"          
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.3 }}
+            />    
+        </div>  
       {/* <div className="flex-col flex-center mx-auto sm:py-48 ">
         <div className="flex gap-2">
           <Image

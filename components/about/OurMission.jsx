@@ -46,7 +46,7 @@ const OurMission = () => {
                         </div>
                       )}
                     </div>
-                    <motion.p className=""
+                    <motion.p className="md:pl-10"
                       variants={about1Varients}
                       transition={{ duration: 0.5, delay: 0.1 * index }}
                       initial="initial"
