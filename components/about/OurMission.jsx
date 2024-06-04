@@ -36,7 +36,7 @@ const OurMission = () => {
                 {cont.points.map((point, index) => (
                   <div
                     key={index}
-                    className="relative min-h-20 md:text-2xl md:ml-0 ml-5"
+                    className="relative min-h-[6vw] md:text-2xl md:ml-0 ml-5"
                   >
                     <div className="absolute -left-5 top-2 h-full">
                       <div className="w-2 h-2 bg-[#D9D9D9] rounded-full " />
@@ -46,7 +46,7 @@ const OurMission = () => {
                         </div>
                       )}
                     </div>
-                    <motion.p className="md:pl-10"
+                    <motion.p className="md:pl-10 text-justify"
                       variants={about1Varients}
                       transition={{ duration: 0.5, delay: 0.1 * index }}
                       initial="initial"

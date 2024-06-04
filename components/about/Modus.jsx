@@ -14,7 +14,7 @@ const Modus = () => {
   }
   return (
     <>
-      <div className="w-full flex flex-col justify-center mx-auto max-w-screen-2xl px-6 pt-12 sm:pt-48 xs:px-8 sm:px-16">
+      <div className="w-full flex flex-col justify-center mx-auto max-w-screen-2xl px-6 pt-12 sm:pt-48 xs:px-8 sm:px-16 text-justify">
         <div className="w-full my-10">
           <motion.img src={data.modus.image} className="w-full" 
           whileHover={{ scale: 1.05 }}
