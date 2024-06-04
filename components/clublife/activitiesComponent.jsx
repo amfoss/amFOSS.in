@@ -24,7 +24,7 @@ const activitiesComponent = () => {
         >
           <Title title="ACTIVITIES" />
         </motion.div>
-        <div className="grid max-w-screen-2xl px-5 2xl:grid-cols-2 grid-cols-1 gap-x-20 mx-auto sm:px-16">
+        <div className="grid max-w-screen-2xl px-5 2xl:grid-cols-2 grid-cols-1 gap-x-20 mx-auto sm:px-16 text-justify">
 
           {/* fosstalks */}
           <motion.div className="md:pt-10 2xl:pb-32 md:pl-10 md:pr-30 w-full"
