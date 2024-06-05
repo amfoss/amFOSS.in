@@ -140,7 +140,7 @@ const page = () => {
           />
         </div>
       </div> */}
-      <div className="py-12 sm:py-48 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
+      <div className="py-12 sm:py-16 sm:mb-10 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <motion.div
           variants={clubLife2Varients}
           transition={{ duration: 0.5, delay: 0.1 }}
