@@ -6,7 +6,7 @@ export default function Gsoc({ year, people, number }) {
             {!(number % 2) ? <div className="flex"></div> : <></>}
             <div className={`bg-[#242424] bg-opacity-90 backdrop-blur-md rounded-3xl ${number % 2 ? 'md:mr-10' : 'md:ml-10'}`}>
                 <div className="flex flex-col p-[10vw]  md:p-[6vw] md-custom:p-16">
-                    <div className="text-4xl sm:text-5xl mb-7">{year}</div>
+                    <div className="text-2xl sm:text-4xl mb-7">{year}</div>
                     {people.map((person, index) => (
                         <div key={index}>
                             <div className="flex flex-1">

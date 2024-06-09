@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import data from "@/content/gsoc.json";
 import Gsoc from "./gsoc";
 import Image from "next/image";
+import Title from "@/components/ui/title";
 
 export default function GridderComponent() {
   const [isVisible, setIsVisible] = useState(false);
@@ -87,17 +88,18 @@ export default function GridderComponent() {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative md:mb-[50vh] mb-[50vw] max-md:mb-24">
         <div className="absolute -z-10 flex h-full w-full">
           <div id="controls"></div>
           <div className="flex-1 text-center transform" style={{ transform: `translateY(${scrollY}px)` }}>
-            {/* <p className="sm-custom:text-[200px] md:text-[134px] text-7xl">GSOC</p> */}
-            <p className="text-[13vw]">GSOC</p>
-
+            <p className="text-[13vw] max-md:hidden tracking-wide">GSOC</p>
+            <div className="md:hidden">
+              <Title title="GSOC"/>
+            </div>
           </div>
         </div>
         <div>
-          <div className="md:min-h-[60vh] min-h-[30vw]"></div>
+          <div className="md:min-h-[60vh] min-h-[30vw] max-sm:min-h-14 max-md:min-h-20"></div>
           <div ref={ref1} id="victim">
             {data.map((yearData, index) => {
               const year = Object.keys(yearData)[0];
@@ -111,7 +113,6 @@ export default function GridderComponent() {
           </div>
         </div>
       </div>
-      <div className="md:min-h-[50vh] min-h-[50vw]"></div>
     </>
   );
 }

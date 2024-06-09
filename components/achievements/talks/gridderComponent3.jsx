@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState, useRef } from "react";
 import data from "@/content/talks.json";
 import Talks from "./talks.jsx"
+import Title from "@/components/ui/title.jsx";
 
 export default function gridderComponent(){
     const [isVisible, setIsVisible] = useState(false);
@@ -90,16 +91,18 @@ export default function gridderComponent(){
 
     return(
         <>
-        <div className="relative">
+        <div className="relative md:mb-[30vh] mb-[20vh]">
             <div className="absolute -z-10 flex h-full w-full" >
                 <div id="controls"></div>
                 <div className="flex-1 text-center" style={{ transform:`translateY(${(scrollY*(0.8))}px)`}}>
-                    {/* <p className="md:text-[200px] text-7xl tracking-wide">TALKS</p> */}
-                    <p className="text-[13vw] tracking-wide">TALKS</p>
+                    <p className="text-[13vw] max-md:hidden tracking-wide">TALKS</p>
+                    <div className="md:hidden">
+                        <Title title="TALKS"/>
+                    </div>
                 </div>
             </div>
             <div>
-            <div className="md:min-h-[60vh] min-h-[50vw]"></div>
+            <div className="md:min-h-[60vh] min-h-[50vw] max-sm:min-h-14 max-md:min-h-20"></div>
             <div ref={ref} id="victim">
                 {Object.keys(data)
                     .map((key, value)=>(
@@ -107,7 +110,6 @@ export default function gridderComponent(){
                     ))}
             </div>
             </div>
-            <div className="md:min-h-[30vh] min-h-[10vh]"></div>
         </div>
         </>
     )
