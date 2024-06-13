@@ -44,7 +44,7 @@ const page = () => {
   }
 
   return (
-    <div className="flex-col flex-center justify-center overflow-hidden items-center">
+    <div className="flex-col flex-center justify-center overflow-clip items-center">
       <div className="max-sm:py-8 text-center py-72 md:min-h-screen mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <h1 className="text-7xl max-md-custom:text-5xl max-sm:text-3xl tracking-wide leading-[110px] md:text-left">
           {baseText.split(" ").map((word, index) => (
@@ -227,30 +227,27 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-screen-2xl px-6 pt-12 sm:pt-48 xs:px-8 sm:px-16">
-        <h1 className="text-3xl md-custom:text-7xl sm:text-4xl text-start tracking-wide">
-          Members of amFOSS were the
-          <br />
-          first in Amritapuri to
-        </h1>
-        <div className="py-12 sm:py-25">
-          {achievement.map((item, index) => (
-            <div
-              key={index}
-              className={`w-1/2 md-custom:w-1/3 max-sm:w-full mb-8 ${index % 3 === 0
-                  ? "mr-auto"
-                  : index % 3 === 1 
-                    ? "ml-auto"
-                    : "mx-auto"
-                }`}
-            >
-              <Achievement achievement={item.Achievement} event={item.Event} />
+        <div className="mx-auto max-w-screen-2xl px-6 pt-12 sm:pt-48 xs:px-8 sm:px-16">
+          <div className="flex flex-wrap">
+            <div className="w-full md-custom:w-1/2 lg:w-1/3 px-4 md-custom:mb-24 lg:mb-8">
+              <h1 className="sticky top-36 text-4xl text-start tracking-wide">
+                Members of amFOSS were the first in Amritapuri to
+              </h1>
             </div>
-          ))}
+            <div className="w-full md-custom:w-1/2 lg:w-2/3 flex flex-wrap">
+              {achievement.map((item, index) => (
+                <div key={index} className="w-1/2 px-4 mb-8">
+                  <Achievement
+                    achievement={item.Achievement}
+                    event={item.Event}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
+        <Contact />
       </div>
-      <Contact />
-    </div>
     </div>
   )
 }
