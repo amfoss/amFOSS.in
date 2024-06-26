@@ -14,6 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" />
+      </head>
       <body
         suppressHydrationWarning={true}
         className={`${sen.className} min-h-screen`}
@@ -21,5 +24,5 @@ export default function RootLayout({ children }) {
         {children}
       </body>
     </html>
-  );
+  )
 }

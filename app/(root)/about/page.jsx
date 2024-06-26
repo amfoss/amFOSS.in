@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Hero from "@/components/about/Hero";
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 import OurMission from "@/components/about/OurMission";
 import Modus from "@/components/about/Modus";
 import Contact from "../contact/page";
