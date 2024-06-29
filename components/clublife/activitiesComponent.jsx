@@ -50,7 +50,7 @@ const activitiesComponent = () => {
           initial="initial"
           whileInView="animate"
           viewport={{once:true}} 
-          whileHover={{ scale: 1.05 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}>
           </motion.img>
 
@@ -113,7 +113,7 @@ const activitiesComponent = () => {
            initial="initial"
            whileInView="animate"
            viewport={{once:true}} 
-           whileHover={{ scale: 1.05 }}
+           whileHover={{ scale: 1.02 }}
            transition={{ duration: 0.3 }}>
            </motion.img>
           {/* amfossbiosnight */}
