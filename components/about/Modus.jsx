@@ -33,7 +33,7 @@ const Modus = () => {
           </motion.div>
           {data.modus.items.map((cont, index) => (
             <>
-              <motion.div key={index} className="text-2xl lg:text-3xl 2xl:text-3xl md:my-20 w-full tracking-[0.2em]"
+              <motion.div key={index} className="text-2xl lg:text-3xl 2xl:text-3xl md:my-20 w-full tracking-[0.2em] text-yellow-400"
                variants={about2Varients} 
                 transition={{ duration: 0.5, delay: 0.1 * index }}
                 initial="initial"
