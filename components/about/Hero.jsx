@@ -13,17 +13,17 @@ const Hero = () => {
 
   return (
     <>
-      <div className="w-full flex flex-col justify-center sm:py-24 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 mb-20">
+      <div className="w-full flex flex-col justify-center sm:pb-24 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 mb-16">
         <div className="w-full my-10">
           <motion.img
             src={data.hero.image}
             className="w-full"
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           />
 
         </div>
-        <motion.h1 className="text-center sm:text-start text-white text-2xl 2xl:text-2xl text-justify my-8"
+        <motion.h1 className="text-center sm:text-start text-white text-2xl 2xl:text-2xl my-8"
 
           variants={aboutTitles}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -33,7 +33,7 @@ const Hero = () => {
         >
           {data.hero.description}
         </motion.h1>
-        <div className="grid grid-cols-5 md:grid-cols-4 place-items-center md:place-items-start">
+        <div className="grid lg:grid-cols-5 md:grid-cols-4 place-items-center md:place-items-start">
           <div className="col-span-5 sm:col-span-2 md:col-span-2 lg:col-span-1 sm:mr-2">
             <button
               onClick={() => router.push("/story")}

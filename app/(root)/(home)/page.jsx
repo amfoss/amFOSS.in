@@ -106,9 +106,10 @@ const page = () => {
         <motion.img 
             src={whoweare.image} 
             className="w-full max-w-screen-2xl mx-auto md:py-10 pb-10 md:pb-20 xl:mb-10 px-6 xs:px-8 sm:px-16"          
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
-            />    
+            loading='lazy'
+            />
         </div>  
       {/* <div className="flex-col flex-center mx-auto sm:py-48 ">
         <div className="flex gap-2">
@@ -160,7 +161,6 @@ const page = () => {
               }}
               viewport={{ once: true }}
             ><Dynamicard
-
                 title={item.title}
                 description={item.desc}
               /></motion.div>

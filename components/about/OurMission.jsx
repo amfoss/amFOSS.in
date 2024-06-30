@@ -36,7 +36,7 @@ const OurMission = () => {
                 {cont.points.map((point, index) => (
                   <div
                     key={index}
-                    className="relative min-h-[6vw] md:text-2xl md:ml-0 ml-5"
+                    className="relative min-h-[6vh] my-2 md:text-2xl md:ml-0 ml-5"
                   >
                     <div className="absolute -left-5 top-2 h-full">
                       <div className="w-2 h-2 bg-[#D9D9D9] rounded-full " />

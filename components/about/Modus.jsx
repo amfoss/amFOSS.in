@@ -14,10 +14,10 @@ const Modus = () => {
   }
   return (
     <>
-      <div className="w-full flex flex-col justify-center mx-auto max-w-screen-2xl px-6 pt-12 sm:pt-48 xs:px-8 sm:px-16 text-justify">
-        <div className="w-full my-10">
+      <div className="w-full flex flex-col justify-center mx-auto max-w-screen-2xl px-6 lg:py-24 sm:pt-48 xs:px-8 sm:px-16 text-justify space-y-12">
+        <div>
           <motion.img src={data.modus.image} className="w-full" 
-          whileHover={{ scale: 1.05 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}
           />
         </div>
@@ -43,7 +43,7 @@ const Modus = () => {
                 {cont.title}
               </motion.div>
 
-              <motion.div key={index} className="md:col-span-2 col-span-1 md:text-xl lg:text-2xl md:my-20 my-5 "
+              <motion.div key={index} className="md:col-span-2 col-span-1 md:text-xl lg:text-2xl md:my-20 my-5"
                 variants={about2Varients} 
                 transition={{ duration: 0.5, delay: 0.1 * index}}
                 initial="initial"

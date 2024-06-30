@@ -58,7 +58,7 @@ const page = () => {
           viewport={{ once: true }}
           src="/assets/images/team.jpg"
           className="md:w-[50rem] sm:w-[35rem] w-[23rem] mx-5 md:h-[35rem] sm:h-95 h-[45] md:px-3"
-          whileHover={{ scale: 1.05 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}
         />
 
