@@ -84,19 +84,19 @@ const page = () => {
           <motion.img
             src="/assets/misc/thelab3.png"
             className="w-full h-auto p-5"
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           />
           <motion.img
             src="/assets/misc/thelab.png"
             className="w-full h-auto p-5"
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           />
           <motion.img
             src="/assets/misc/thelab2.png"
             className="w-full h-auto p-5"
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           />
         </div>
