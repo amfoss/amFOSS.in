@@ -29,13 +29,11 @@ const page = () => {
   }
 
   const companies_slices = [
-    { data: companies_data.slice(0, 18), direction: false },
-    { data: companies_data.slice(19, 35), direction: false },
+    { data: companies_data, direction: true },
   ];
 
   const summerschool_slices = [
-    { data: summerschools_data.slice(0, 6), direction: false },
-    { data: summerschools_data.slice(7, 14), direction: false },
+    { data: summerschools_data, direction: false },
   ];
 
   const imageVarients={
@@ -105,42 +103,12 @@ const page = () => {
       <div className='bg-[#1E1D1D]'>
         <motion.img 
             src={whoweare.image} 
-            className="w-full max-w-screen-2xl mx-auto md:py-10 pb-10 md:pb-20 xl:mb-10 px-6 xs:px-8 sm:px-16"          
-            whileHover={{ scale: 1.02 }}
+            className="w-full max-w-[70rem] max-h-[42rem] object-cover max-w-screen-2xl mx-auto md:py-10 pb-10 md:pb-20 xl:mb-10 px-6 xs:px-8 sm:px-16"          
+            whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
             loading='lazy'
             />
         </div>  
-      {/* <div className="flex-col flex-center mx-auto sm:py-48 ">
-        <div className="flex gap-2">
-          <Image
-            src="/home_1.png"
-            width={985}
-            height={175}
-            alt="image 1"
-          />
-          <Image
-            src="/home_2.png"
-            width={423}
-            height={175}
-            alt="image 2"
-          />
-        </div>
-        <div className="flex gap-2 py-2">
-          <Image
-            src="/home_3.png"
-            width={844}
-            height={175}
-            alt="image 3"
-          />
-          <Image
-            src="/home_4.png"
-            width={564}
-            height={175}
-            alt="image 4"
-          />
-        </div>
-      </div> */}
       <div className="py-12 sm:py-48 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <motion.div
           variants={clubLife2Varients}
@@ -193,7 +161,7 @@ const page = () => {
             {companies_slices.map((slice, index) => (
               <div className="py-12 pr-1">
                 <InfiniteSlider
-                  key={index}
+                  // key={index}
                   data={slice.data}
                   direction={slice.direction}
                 />
@@ -217,7 +185,7 @@ const page = () => {
             {summerschool_slices.map((slice, index) => (
               <div className="py-12 pr-1">
                 <InfiniteSlider
-                  key={index}
+                  // key={index}
                   data={slice.data}
                   direction={slice.direction}
                 />
@@ -236,7 +204,7 @@ const page = () => {
             </div>
             <div className="w-full md-custom:w-1/2 lg:w-2/3 flex flex-wrap">
               {achievement.map((item, index) => (
-                <div key={index} className="w-1/2 px-4 mb-8">
+                <div key={index} className="w-1/2 px-6 mb-8 mt-3">
                   <Achievement
                     achievement={item.Achievement}
                     event={item.Event}
@@ -246,7 +214,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <Contact />
+        <div className='pt-40'><Contact /></div>
       </div>
     </div>
   )
