@@ -15,7 +15,7 @@ const taskForcesComponent = () => {
   }
   return (
     <>
-      <div className="mt-5 md:pt-20 min-h-fit text-justify">
+      <div className="mt-5 md:pt-20 min-h-fit">
         <div className="w-full max-w-screen-2xl grid sm-custom:grid-cols-3 mx-auto sm:px-11">
           <div className="flex flex-col row-span-1 ">
             <motion.div className="flex flex-col col-span-1 mx-5 mb-5 md:mb-10"

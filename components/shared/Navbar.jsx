@@ -10,6 +10,7 @@ import { motion, useScroll } from "framer-motion";
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const [navColor, setNavColor] = useState(false)
   const { scrollY } = useScroll();
 
   const openDrawer = () => {
@@ -20,6 +21,17 @@ const Navbar = () => {
     setIsDrawerOpen(false);
   };
 
+  function handleNavColor(latest) {
+    setNavColor((prevNavColor) => {
+      if (latest+93 <= window.innerHeight && prevNavColor === true) {
+        return false;
+      } else if (latest+93 > window.innerHeight && prevNavColor === false) {
+        return true;
+      }
+      return prevNavColor;
+    });
+  }
+  
   useEffect(() => {
     const handleScroll = () => {
       const latest = window.scrollY;
@@ -29,18 +41,20 @@ const Navbar = () => {
       } else {
         setHidden(false);
       }
-      if (isDrawerOpen) {
+      if (isDrawerOpen && window.innerHeight>424) {
         closeDrawer();
       }
+      handleNavColor(latest);
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [isDrawerOpen, scrollY]);
-
+  
   return (
+    <>
     <motion.nav
       variants={{
         visible: { y: 0 },
@@ -48,7 +62,7 @@ const Navbar = () => {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="sticky bg-navbar flex top-0 z-50 w-full justify-around py-6 text-white">
+      className={`sticky ${navColor==true?'bg-navbar':'bg-gradient-to-b from-navbar'} flex top-0 z-50 w-full justify-around py-6 text-white`}>
       <div className="flex justify-between item-center w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <Link href="/">
           <Image
@@ -98,8 +112,9 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
-      <MenuDrawer isOpen={isDrawerOpen} onClose={closeDrawer} />
     </motion.nav>
+    <MenuDrawer isOpen={isDrawerOpen} onClose={closeDrawer} />
+    </>
   );
 };
 

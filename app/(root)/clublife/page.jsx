@@ -24,7 +24,7 @@ const page = () => {
   return (
     <>
       <div className="flex-col flex-center justify-center items-center">
-        <div className="max-sm:py-8 md:text-left text-center py-72 md:min-h-[95vh] mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16">
+        <div className="max-sm:py-8 md:text-left text-center max-md:justify-center md:py-32 py-72 md:h-screen mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 flex items-center">
           <h1 className="text-7xl max-md-custom:text-5xl max-sm:text-3xl tracking-wide leading-[110px]">
             {baseText.split(" ").map((word, index) => (
               <motion.span
@@ -57,7 +57,7 @@ const page = () => {
       {/* foss lab */}
       <div ref={scrollRef} >
       <div className="md:bg-[#242424]">
-        <div className="w-full justify-center sm:py-12 mx-auto max-w-screen-2xl xs:px-8 sm:px-11  grid items-center justify-center md:grid-cols-3 grid-cols-1 min-h-fit">
+        <div className="w-full sm:py-12 mx-auto max-w-screen-2xl xs:px-8 sm:px-11  grid items-center justify-center md:grid-cols-3 grid-cols-1 min-h-fit">
           <motion.div
             className="flex flex-col col-span-1 md:pb-20 mx-5 md:mb-7"
             variants={clubLife1Varients}
