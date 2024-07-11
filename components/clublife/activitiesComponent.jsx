@@ -27,7 +27,7 @@ const activitiesComponent = () => {
         <div className="grid max-w-screen-2xl px-5 2xl:grid-cols-2 grid-cols-1 gap-x-20 mx-auto sm:px-16 text-justify">
 
           {/* fosstalks */}
-          <motion.div className="md:pt-10 2xl:pb-32 md:pl-10 md:pr-30 w-full"
+          <motion.div className="md:pt-10 2xl:pb-32  md:pr-30 w-full"
           variants={activityVarients}
           transition={{ duration: 0.5, delay: 0.1 }}
           initial="initial"
@@ -54,7 +54,7 @@ const activitiesComponent = () => {
           </motion.img>
 
           {/* opentalks */}
-          <motion.div className="pt-10 2xl:pb-32 md:pl-10 md:pr-30 w-full"
+          <motion.div className="pt-10 2xl:pb-32  md:pr-30 w-full"
           variants={activityVarients}
           transition={{ duration: 0.5, delay: 0.1 }}
           initial="initial"
@@ -72,7 +72,7 @@ const activitiesComponent = () => {
             </p>
           </motion.div>
           {/* documentary */}
-          <motion.div className="pt-10 2xl:pb-32 md:pl-10 md:pr-30 w-full"
+          <motion.div className="pt-10 2xl:pb-32  md:pr-30 w-full"
            variants={activityVarients}
            transition={{ duration: 0.5, delay: 0.3 }}
            initial="initial"
@@ -87,7 +87,7 @@ const activitiesComponent = () => {
             </p>
           </motion.div>
           {/* amfossplays */}
-          <motion.div className="pt-10 2xl:pb-32 md:pl-10 md:pr-30 w-full"
+          <motion.div className="pt-10 2xl:pb-32  md:pr-30 w-full"
           variants={activityVarients}
           transition={{ duration: 0.5, delay: 0.3 }}
           initial="initial"
@@ -113,7 +113,7 @@ const activitiesComponent = () => {
            transition={{ duration: 0.3 }}>
            </motion.img>
           {/* amfossbiosnight */}
-          <motion.div className="pt-10 2xl:pb-32 md:pl-10 md:pr-30 w-full"
+          <motion.div className="pt-10 2xl:pb-32  md:pr-30 w-full"
            variants={activityVarients}
            transition={{ duration: 0.5, delay: 0.4 }}
            initial="initial"
@@ -130,7 +130,7 @@ const activitiesComponent = () => {
             </p>
           </motion.div>
           {/* socialservice */}
-          <motion.div className="pt-10 md:pb-20 md:pl-10 md:pr-30 w-full"
+          <motion.div className="pt-10 md:pb-20  md:pr-30 w-full"
           
           variants={activityVarients}
           transition={{ duration: 0.5, delay: 0.4 }}
