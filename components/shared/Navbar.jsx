@@ -21,11 +21,11 @@ const Navbar = () => {
     setIsDrawerOpen(false);
   };
 
-  function handleNavColor() {
+  function handleNavColor(latest) {
     setNavColor((prevNavColor) => {
-      if (window.scrollY+93 <= window.innerHeight && prevNavColor === true) {
+      if (latest+93 <= window.innerHeight && prevNavColor === true) {
         return false;
-      } else if (window.scrollY+93 > window.innerHeight && prevNavColor === false) {
+      } else if (latest+93 > window.innerHeight && prevNavColor === false) {
         return true;
       }
       return prevNavColor;
@@ -41,10 +41,10 @@ const Navbar = () => {
       } else {
         setHidden(false);
       }
-      if (isDrawerOpen) {
+      if (isDrawerOpen && window.innerHeight>424) {
         closeDrawer();
       }
-      handleNavColor();
+      handleNavColor(latest);
     };
   
     window.addEventListener("scroll", handleScroll);

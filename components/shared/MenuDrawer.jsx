@@ -27,9 +27,9 @@ const MenuDrawer = ({ isOpen, onClose }) => {
   }
 
   function handleScroll() {
-    if (isOpen) {
-      handleClose();
-    }
+      if (isOpen && window.innerHeight>424) {
+        handleClose();
+      }
   }
 
   function handleClose() {
@@ -58,7 +58,7 @@ const MenuDrawer = ({ isOpen, onClose }) => {
         >
           <motion.div
             ref={sideNavRef}
-            className={`fixed inset-y-0 right-0 max-w-full w-3/4 bg-[#0f0f0f] overflow-y-auto transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+            className={`flex flex-col fixed inset-y-0 right-0 max-w-full h-screen w-3/4 bg-[#0f0f0f] overflow-y-auto transform ${isOpen ? "translate-x-0" : "-translate-x-full"
               } duration-500`}
             animate={{
               width: isOpen && !isClosing ? '60%' : 0,
@@ -99,8 +99,8 @@ const MenuDrawer = ({ isOpen, onClose }) => {
                 />
               </button>
             </div>
-            <div className="mt-16">
-              <ul className="flex flex-col items-start max-sm:text-lg text-2xl gap-y-4 p-4">
+            <div className="flex flex-grow overflow-hidden">
+              <ul className={`flex flex-col w-full items-start max-sm:text-lg text-2xl gap-y-4 p-4 max-h- overflow-y-auto mt-[5vh]`}>
                 {NavbarData.map((tab, index) => (
                   <motion.li
                     key={index}
@@ -128,7 +128,9 @@ const MenuDrawer = ({ isOpen, onClose }) => {
                   </motion.li>
                 ))}
               </ul>
-              <ul className="absolute flex items-center bottom-16 text-l gap-x-6 p-4">
+            </div>
+            <div>
+              <ul className="flex items-center bottom-16 text-l gap-x-6 px-4 pt-1">
                 {Socials.map((social, index) => (
                   <motion.li
                     key={index}
@@ -159,7 +161,7 @@ const MenuDrawer = ({ isOpen, onClose }) => {
                   </motion.li>
                 ))}
               </ul>
-              <div className="absolute bottom-0 p-4 text-gray-500 text-lg max-sm:text-sm">
+              <div className=" p-4 text-gray-500 text-lg max-sm:text-sm">
                 © Team amFOSS 2007-{dayjs().year()}. All Rights Reserved.
               </div>
             </div>
