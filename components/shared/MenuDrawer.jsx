@@ -44,7 +44,7 @@ const MenuDrawer = ({ isOpen, onClose }) => {
     <AnimatePresence>
       {isOpen && !isClosing && (
         <motion.div
-          className={`fixed inset-0 bg-black bg-opacity-50 z-50`}
+          className={`fixed inset-0 bg-black bg-opacity-50 z-50 text-white`}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{

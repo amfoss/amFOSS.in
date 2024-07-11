@@ -54,6 +54,7 @@ const Navbar = () => {
   }, [isDrawerOpen, scrollY]);
   
   return (
+    <>
     <motion.nav
       variants={{
         visible: { y: 0 },
@@ -111,8 +112,9 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
-      <MenuDrawer isOpen={isDrawerOpen} onClose={closeDrawer} />
     </motion.nav>
+    <MenuDrawer isOpen={isDrawerOpen} onClose={closeDrawer} />
+    </>
   );
 };
 
