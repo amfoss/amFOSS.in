@@ -10,6 +10,7 @@ import { motion, useScroll } from "framer-motion";
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const [navColor, setNavColor] = useState(false)
   const { scrollY } = useScroll();
 
   const openDrawer = () => {
@@ -20,6 +21,17 @@ const Navbar = () => {
     setIsDrawerOpen(false);
   };
 
+  function handleNavColor() {
+    setNavColor((prevNavColor) => {
+      if (window.scrollY+93 <= window.innerHeight && prevNavColor === true) {
+        return false;
+      } else if (window.scrollY+93 > window.innerHeight && prevNavColor === false) {
+        return true;
+      }
+      return prevNavColor;
+    });
+  }
+  
   useEffect(() => {
     const handleScroll = () => {
       const latest = window.scrollY;
@@ -32,14 +44,15 @@ const Navbar = () => {
       if (isDrawerOpen) {
         closeDrawer();
       }
+      handleNavColor();
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [isDrawerOpen, scrollY]);
-
+  
   return (
     <motion.nav
       variants={{
@@ -48,7 +61,7 @@ const Navbar = () => {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="sticky bg-navbar flex top-0 z-50 w-full justify-around py-6 text-white">
+      className={`sticky ${navColor==true?'bg-navbar':'bg-gradient-to-b from-navbar'} flex top-0 z-50 w-full justify-around py-6 text-white`}>
       <div className="flex justify-between item-center w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <Link href="/">
           <Image

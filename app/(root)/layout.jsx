@@ -12,7 +12,7 @@ const layout = ({ children }) => {
         <div className="md:-mt-[93px]">
           {children}
         </div>
-      </SmoothScrolling>
+      </SmoothScrolling>  
       <Footer />
     </>
   );
