@@ -10,14 +10,14 @@ const Component3 = () => {
   }
   return (
     <>
-      <motion.div className="w-full md:px-40 px-5 py-10 mt-3"
+      <motion.div className="text-justify w-full flex flex-col justify-center sm:pb-24 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16"
       variants={storyVarients} 
       transition={{ duration: 0.5, delay: 0.1 }}
       initial="initial"
       whileInView="animate"
       viewport={{once:true}}>
         <Title title={data.third.title} />
-        <div className="text-white md:text-xl tracking-wide md:mt-20">
+        <div className="text-white md:text-xl tracking-wide">
           {data.third.description.map((desc, index) => (
             <p key={index} className="my-10">
               {desc}

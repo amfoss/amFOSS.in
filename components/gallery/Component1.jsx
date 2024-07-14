@@ -20,7 +20,7 @@ const Component1 = () => {
       viewport={{once:true}}
       >
         <Title title={data.first.title} />
-        <Slider sliderImageUrl={data.first.imageURLS}/>
+        <Slider sliderImageUrl={data.first.imageURLS} showDescription={true}/>
       </motion.div>
     </>
   );

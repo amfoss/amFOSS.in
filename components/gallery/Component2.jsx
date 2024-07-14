@@ -22,7 +22,7 @@ const Component2 = () => {
         >
           <div className="mt-10">
             <Title title={data.second.title} />
-            <Slider sliderImageUrl={data.second.imageURLS} />
+            <Slider sliderImageUrl={data.second.imageURLS} showDescription={false}/>
           </div>
         </motion.div>
       </div>

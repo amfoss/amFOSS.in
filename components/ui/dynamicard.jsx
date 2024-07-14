@@ -3,12 +3,19 @@ import React, { useState } from "react"
 
 const Dynamicard = ({ title, description }) => {
   const [isHovered, setIsHovered] = useState(false)
+  const [hoverTimeout, setHoverTimeout] = useState(false)
 
   const handleMouseEnter = () => {
-    setIsHovered(true)
+    const timeout = setTimeout(() => {
+      setIsHovered(true)
+    }, 300)
+    setHoverTimeout(timeout)
   }
 
   const handleMouseLeave = () => {
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout)
+    }
     setIsHovered(false)
   }
 

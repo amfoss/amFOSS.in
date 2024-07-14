@@ -10,7 +10,7 @@ const Component1 = () => {
 
   return (
     <>
-      <motion.div className="w-full md:px-40 px-5 py-10"
+      <motion.div className="text-justify w-full flex flex-col justify-center sm:pb-20 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 md:pt-32"
       variants={storyVarients} 
       transition={{ duration: 0.5, delay: 0.1 }}
       initial="initial"
@@ -18,7 +18,7 @@ const Component1 = () => {
       viewport={{once:true}}
       >
         <Title title={data.first.title} />
-        <div className="text-white md:text-xl tracking-wide md:my-20">
+        <div className="text-white md:text-xl tracking-wide md:mb-20">
           {data.first.description.map((desc, index) => (
             <p key={index} className="my-10">
               {desc}
