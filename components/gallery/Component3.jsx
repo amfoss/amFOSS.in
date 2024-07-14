@@ -18,7 +18,7 @@ const Component3 = () => {
       whileInView="animate"
       viewport={{once:true}}>
         <Title title={data.third.title} />
-        <Slider sliderImageUrl={data.third.imageURLS}/>
+        <Slider sliderImageUrl={data.third.imageURLS} showDescription={false}/>
       </motion.div>
     </>
   );
