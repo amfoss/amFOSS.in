@@ -106,8 +106,8 @@ const page = () => {
       <TaskForcesComponent />
       {/* activities */}
       <ActivitiesComponent />
-      <div className="pt-60"><Contact/></div>
-      {/* Contact Us */ }      
+      {/* Contact Us */ } 
+      <div className='pt-5 md:pt-40'><Contact /></div>     
     </>
   );
 };

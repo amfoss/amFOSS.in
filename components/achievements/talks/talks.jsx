@@ -4,7 +4,7 @@ import UnderlineEffect from "../underlineEffect"
 export default function talks({props, name, number}){
     return(
         <>
-        <div className="mb-20 grid md:grid-cols-2 grid-cols-1">
+        <div className="sm:mb-20 mb-10 grid md:grid-cols-2 grid-cols-1">
             { !(number%2)?
                 <div className="flex md:flex-[8]"></div>:<></>}
                 <div className={`backdrop-blur-md rounded-[20px] p-[1vw] flex flex-[7] flex-col ${number%2? 'md:mr-10': 'md:ml-10'}`}>

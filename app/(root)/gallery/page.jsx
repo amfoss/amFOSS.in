@@ -51,8 +51,7 @@ const Gallery = () => {
       <Component1 />
       <Component2 />
       <Component3 />
-      <div className="py-5"></div>
-      <Contact />
+      <div className='md:pt-38'><Contact /></div>
     </>
   );
 };

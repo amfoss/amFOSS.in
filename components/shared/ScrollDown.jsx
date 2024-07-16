@@ -28,7 +28,7 @@ const ScrollDownButton = ({ targetRef }) => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: isVisible ? 1 : 0, x: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="absolute bottom-14 right-14 flex items-center cursor-pointer hidden md:flex"
+            className="absolute bottom-14 right-14 cursor-pointer hidden md:flex"
             onClick={handleClick}
         >
             <div className="md:text-xl text-[#D0A730] mr-2">

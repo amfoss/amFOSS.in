@@ -214,7 +214,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className='pt-40'><Contact /></div>
+        <div className='pt-5 md:pt-40'><Contact /></div>
       </div>
     </div>
   )

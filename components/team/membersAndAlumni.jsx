@@ -71,7 +71,7 @@ const MembersAndAlumni = ({ contentFor }) => {
         ))}
       </div>
       <button
-        className="w-full flex justify-center text-white font-bold text-xl"
+        className="w-full flex justify-center text-white font-bold text-xl pb-5 md:pb-40"
         onClick={toggleMembersVisibility}
       >
         <div className="flex justify-center flex-col items-center">

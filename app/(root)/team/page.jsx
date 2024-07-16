@@ -65,7 +65,6 @@ const page = () => {
       </div>
       <MembersAndAlumni contentFor="members" />
       <MembersAndAlumni contentFor="alumni" />
-      <div className="py-10"></div>
       <Contact />
     </>
   );
