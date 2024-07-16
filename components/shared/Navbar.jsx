@@ -74,46 +74,60 @@ const Navbar = () => {
           />
         </Link>
 
-        <Image
-          src="/assets/icons/hamburger-menu.svg"
-          width={25}
-          height={25}
-          alt="Hamburger menu"
-          className="block cursor-pointer md-nav:hidden"
-          onClick={openDrawer}
-        />
-        <ul className="flex items-center text-l gap-x-1 max-md-nav:hidden md-nav:gap-x-8 max-lg:gap-x-10">
-          {NavbarData.map((tab, index) => (
-            <li key={index} className="relative group">
-              <Link
-                href={tab.ref}
-                className="p-2 transition duration-200 relative text-xl"
-              >
-                {tab.title}
-                <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-px bg-white transition-width duration-300 group-hover:w-full"></span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+          <Image
+            src="/assets/icons/hamburger-menu.svg"
+            width={25}
+            height={25}
+            alt="Hamburger menu"
+            className="block cursor-pointer md-nav:hidden"
+            onClick={openDrawer}
+          />
+          <ul className="flex items-center text-l gap-x-1 max-md-nav:hidden md-nav:gap-x-3 xl:gap-8 max-lg:gap-x-10">
+            {NavbarData.map((tab, index) => (
+              <li key={index} className="relative group">
+                <Link
+                  href={tab.ref}
+                  className="p-2 transition duration-200 relative text-xl"
+                >
+                  {tab.title}
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-px bg-white transition-width duration-300 group-hover:w-full"></span>
+                </Link>
+              </li>
+            ))}
+          </ul>
 
-        <ul className="flex items-center text-l max-md-nav:hidden md-nav:gap-x-6">
-          {Socials.map((social, index) => (
-            <li key={index}>
-              <Link href={social.ref}>
-                <Image
-                  src={social.image}
-                  width={22}
-                  height={22}
-                  alt={social.title}
-                  className="hover:animate-pulse cursor-pointer transition duration-200"
-                />
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </motion.nav>
-    <MenuDrawer isOpen={isDrawerOpen} onClose={closeDrawer} />
+          <ul className="flex items-center text-l max-md-nav:hidden md-nav:gap-x-3 xl:gap-6">
+            {Socials.map((social, index) => (
+              <li key={index}>
+                <Link href={social.ref}>
+                  <Image
+                    src={social.image}
+                    width={22}
+                    height={22}
+                    alt={social.title}
+                    className="hover:animate-pulse cursor-pointer transition duration-200"
+                  />
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <ul className="flex items-center text-l max-md-nav:hidden ">
+            <Link href={"https://join.amfoss.in/"} target={"_blank"}>
+              <button className="group relative inline-flex items-center overflow-hidden rounded-[5px] border-2 border-[#D0A730] xl:px-4 xl:py-2  md-nav:px-2 md-nav:py-1 md-nav:ml-2 text-lg font-medium hover:bg-gray-50 hover:text-white">
+                <span className="duration-400 ease absolute left-0 top-1/2 block h-0 w-full bg-[#D0A730] opacity-100 transition-all group-hover:top-0 group-hover:h-full"></span>
+                <span className="ease absolute right-0 flex h-10 w-10 translate-x-full transform items-center justify-start duration-500 group-hover:-translate-x-1/2">
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span className="relative transform duration-300 group-hover:-translate-x-28">JOIN US</span>
+              </button>
+            </Link>
+          </ul>
+
+
+
+        </div>
+      </motion.nav>
+      <MenuDrawer isOpen={isDrawerOpen} onClose={closeDrawer} />
     </>
   );
 };
