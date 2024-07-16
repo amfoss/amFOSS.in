@@ -127,6 +127,29 @@ const MenuDrawer = ({ isOpen, onClose }) => {
                     </Link>
                   </motion.li>
                 ))}
+                <motion.li
+                    className="relative group"
+                    initial={{ opacity: 0, y: -20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                      staggerChildren: 0.1,
+                      delay: 0.1 * (NavbarData.length + 1),
+                      ease: "easeOut",
+                    }}
+                    viewport={{ once: false }}
+                >
+                  <Link
+                      href={"https://join.amfoss.in/"}
+                      className="p-2 transition duration-200 relative"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleClose();
+                      }}
+                  >
+                   JOIN US
+                    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-px bg-white transition-width duration-300 group-hover:w-full"></span>
+                  </Link>
+                </motion.li>
               </ul>
             </div>
             <div>
