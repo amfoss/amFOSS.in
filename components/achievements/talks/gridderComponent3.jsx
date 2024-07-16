@@ -91,7 +91,7 @@ export default function gridderComponent(){
 
     return(
         <>
-        <div className="relative md:mb-[30vh] mb-[20vh]">
+        <div className="relative pb-5 md:pb-20">
             <div className="absolute -z-10 flex h-full w-full" >
                 <div id="controls"></div>
                 <div className="flex-1 text-center" style={{ transform:`translateY(${(scrollY*(0.8))}px)`}}>

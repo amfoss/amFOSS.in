@@ -52,7 +52,9 @@ const About = () => {
         {/* Modus Operandi */}
         <Modus />
         {/* Contact Us */}
-        <Contact />
+        <div className="max-md:mt-10">
+          <Contact />
+        </div>
       </div>
     </div>
   );

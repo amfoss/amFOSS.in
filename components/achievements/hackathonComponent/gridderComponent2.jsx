@@ -104,12 +104,10 @@ export default function gridderComponent(){
             <div>
             <div className="md:min-h-[60vh] min-h-[50vw] max-sm:min-h-14 max-md:min-h-20"></div>
             <div ref={ref} id="victim">
-                
-                    {Object.keys(data)
-                        .map((key, value)=>(
-                            <Hackathons props={data[key]} name={key} number={value}/>
-                        ))}
-              
+                {Object.keys(data)
+                    .map((key, value)=>(
+                        <Hackathons props={data[key]} name={key} number={value}/>
+                    ))}
             </div>
             </div>
         </div>

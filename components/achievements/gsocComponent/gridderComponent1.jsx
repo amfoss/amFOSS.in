@@ -106,9 +106,8 @@ export default function GridderComponent() {
               const people = yearData[year];
               return <Gsoc key={index} year={year} people={people} number={index} />;
             })}
-            <div className={`${(data.length + 1) % 2 === 0 ? 'md:justify-end' : 'md:justify-start'} justify-center sm:text-2xl md-custom-2:text-[3vw] md-grid:text-4xl mt-[-7vw] md:mt-[-5vh] flex w-full`}>
-              and many more
-              <Image className="ml-1" src="/assets/icons/down-arrow.svg" width={30} height={30} />
+            <div className={`${(data.length + 1) % 2 === 0 ? '' : 'md:justify-start'} justify-end sm:text-2xl md-custom-2:text-[3vw] md-grid:text-4xl mt-[-7vw] md:mt-[-5vh] flex w-full`}>
+              and many more...
             </div>
           </div>
         </div>
