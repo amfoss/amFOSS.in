@@ -2,9 +2,9 @@
 import React from "react";
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import GridderComponent1 from "@/components/achievements/gsocComponent/gridderComponent1";
-import GridderComponent2 from "@/components/achievements/hackathonComponent/gridderComponent2";
-import GridderComponent3 from "@/components/achievements/talks/gridderComponent3"
+import GSOCComponent from "@/components/achievements/gsocComponent/gsocComponent";
+import HackathonsComponent from "@/components/achievements/hackathonsComponent/hackathonsComponent";
+import TalksComponent from "@/components/achievements/talks/talksComponent"
 // import GridderComponent from "@/components/achievements/test/gird";
 import Contact from "../contact/page";
 import ScrollDownButton from "@/components/shared/ScrollDown";
@@ -47,9 +47,9 @@ const page = () => {
         </div>
       </div>
       <div className="p-[5vw] pb-0 max-sm:mt-[10vw]" ref={scrollRef}>
-        <GridderComponent1/>
-        <GridderComponent2/>
-        <GridderComponent3/>
+        <GSOCComponent/>
+        <HackathonsComponent/>
+        <TalksComponent/>
       </div>
     <Contact/>
     </div>
