@@ -1,21 +1,20 @@
-# The Docker image that will be used to build your app
 image: node:lts
 
-# Cache the node_modules folder to speed up subsequent builds
-cache:
-  paths:
-    - node_modules/
-
-# Functions that should be executed before the build script is run
 before_script:
   - npm install
 
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .next/cache/
+
 pages:
   script:
-    - npm run build  # Build the Next.js project
-    - npm run export  # Export the project as static HTML
+    - npm run-script build && npm run-script export
+    - mv out public
   artifacts:
     paths:
-      - out  # The folder that contains the files to be exposed at the Page URL
-  rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+      - public
+  only:
+    - main
