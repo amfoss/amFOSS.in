@@ -1,18 +1,31 @@
-image: node:lts
-
-before_script:
-  - npm install
+image: node:16
 
 cache:
-  key: ${CI_COMMIT_REF_SLUG}
   paths:
     - node_modules/
-    - .next/cache/
 
-pages:
+stages:
+  - install
+  - build
+  - deploy
+
+install:
+  stage: install
   script:
-    - npm run-script build && npm run-script export
-    - mv out public
+    - npm install
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - .next
+
+deploy:
+  stage: deploy
+  script:
+    - mv .next public
   artifacts:
     paths:
       - public
