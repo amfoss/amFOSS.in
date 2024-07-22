@@ -16,6 +16,7 @@ const Hero = () => {
       <div className="w-full flex flex-col justify-center sm:pb-24 mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 mb-16">
         <div className="w-full my-10">
           <motion.img
+            alt="Group photo with founder Vipin Pavithran at FOSS-bi0S Night event"
             src={data.hero.image}
             className="w-full"
             whileHover={{ scale: 1.02 }}

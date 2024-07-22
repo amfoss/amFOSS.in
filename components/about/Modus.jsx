@@ -17,6 +17,7 @@ const Modus = () => {
       <div className="w-full flex flex-col justify-center mx-auto max-w-screen-2xl px-6 lg:py-24 sm:pt-48 xs:px-8 sm:px-16 text-justify space-y-12">
         <div>
           <motion.img src={data.modus.image} className="w-full" 
+          alt="amFOSS lab"
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}
           />
