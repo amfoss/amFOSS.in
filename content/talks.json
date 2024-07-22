@@ -3,7 +3,8 @@
         "name":["Gautham Krishnan"],
         "event":"FOSSUnited'24",
         "description":"Gave a talk on the Transformer architecture in the monthly FOSSUnited meetup on January 2024.",
-        "imgPath":"/assets/images/achievements/talks/FOSSUnited'24.jpg"
+        "imgPath":"/assets/images/achievements/talks/FOSSUnited'24.jpg",
+        "link": "https://www.youtube.com/watch?v=mzJJ4u7JuQM"
     },
     {
         "name":["Abhiijt Ramesh"],
@@ -16,6 +17,7 @@
         "name":"Vibhooti",
         "event":"FOSSMeet'18",
         "description":"Introduction to User Experience(UX)",
-        "imgPath":"/assets/images/achievements/talks/FOSSMeet'18.jpg"
+        "imgPath":"/assets/images/achievements/talks/FOSSMeet'18.jpg",
+        "link": "https://hasgeek.com/fossmeet_nitc/2018/sub/improving-ux-with-custom-roms-XLtAY5oo1hMvJWSk1qQCN6"
     }
 ]
