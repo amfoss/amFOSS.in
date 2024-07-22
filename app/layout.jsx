@@ -4,8 +4,8 @@ import "./globals.css";
 const sen = Sen({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "amFOSS | INDIA'S FASTEST GROWING FOSS & COMPUTER SCIENCE CLUB",
-  description: "amFoss Official Website",
+  title: "amFOSS | INDIA'S LEADING FOSS & COMPUTER SCIENCE CLUB",
+  description: "amFOSS is a vibrant club at Amrita Vishwa Vidyapeetham, Amritapuri campus, driving advancements in open-source development, cybersecurity, and technological innovation",
   icons: {
     icon: "/assets/icons/amfoss_bulb_white.svg",
   },
