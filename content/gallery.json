@@ -4,91 +4,113 @@
         "imageURLS": [
             {
                 "url": "/assets/images/gallery/events/1.jpg",
-                "description": "Induction 2018"
+                "description": "Induction 2018",
+                "alt": "Induction 2018"
             },
             {
                 "url": "/assets/images/gallery/events/2.jpg",
-                "description": "reConnect Alumni meetup"
+                "description": "reConnect Alumni meetup",
+                "alt": "reConnect Alumni meetup"
             },
             {
                 "url": "/assets/images/gallery/events/3.jpg",
-                "description": "OpenTalk"
+                "description": "OpenTalk",
+                "alt": "OpenTalk"
             },
             {
                 "url": "/assets/images/gallery/events/4.jpg",
-                "description": "reConnect Alumni meetup"
+                "description": "reConnect Alumni meetup",
+                "alt":"reConnect Alumni meetup"
             },
             {
                 "url": "/assets/images/gallery/events/5.jpg",
-                "description": "FOSSUnited 4.0 Kochi"
+                "description": "FOSSUnited 4.0 Kochi",
+                "alt":"FOSSUnited 4.0 Kochi"
             },
             {
                 "url": "/assets/images/gallery/events/6.jpg",
-                "description": "Hacktoberfest 2023"
+                "description": "Hacktoberfest 2023",
+                "alt":"Hacktoberfest 2023"
             },
             {
                 "url": "/assets/images/gallery/events/7.jpg",
-                "description": "Hacktoberfest 2023"
+                "description": "Hacktoberfest 2023",
+                "alt":"Hacktoberfest 2023"
             },
             {
                 "url": "/assets/images/gallery/events/8.jpg",
-                "description": "Cleanup drive"
+                "description": "Cleanup drive",
+                "alt": "Cleanup drive"
             },
             {
                 "url": "/assets/images/gallery/events/9.jpg",
-                "description": "Hacktoberfest 2023"
+                "description": "Hacktoberfest 2023",
+                "alt":"Hacktoberfest 2023"
             },
             {
                 "url": "/assets/images/gallery/events/10.jpg",
-                "description": "reConnect Alumni meetup"
+                "description": "reConnect Alumni meetup",
+                "alt":"reConnect Alumni meetup"
             },
             {
                 "url": "/assets/images/gallery/events/11.jpg",
-                "description": "FOSS-bi0s Night"
+                "description": "FOSS-bi0s Night",
+                "alt": "FOSS-bi0s Night"
             },
             {
                 "url": "/assets/images/gallery/events/12.jpg",
-                "description": "FOSS-bi0s Night"
+                "description": "FOSS-bi0s Night",
+                "alt": "FOSS-bi0s Night"
             },
             {
                 "url": "/assets/images/gallery/events/13.jpg",
-                "description": "FOSS-bi0s Night"
+                "description": "FOSS-bi0s Night",
+                "alt": "FOSS-bi0s Night"
             },
             {
                 "url": "/assets/images/gallery/events/14.jpg",
-                "description": "FOSS-bi0s Night"
+                "description": "FOSS-bi0s Night",
+                "alt": "FOSS-bi0s Night"
             },
             {
                 "url": "/assets/images/gallery/events/15.jpg",
-                "description": "Waste treatment plant visit"
+                "description": "Waste treatment plant visit",
+                "alt": "Waste treatment plant visit"
             },
             {
                 "url": "/assets/images/gallery/events/16.jpg",
-                "description": "FOSSTalk"
+                "description": "FOSSTalk",
+                "alt": "FOSSTalk"
             },
             {
                 "url": "/assets/images/gallery/events/17.jpg",
-                "description": "FOSSTalk"
+                "description": "FOSSTalk",
+                "alt": "FOSSTalk"
             },
             {
                 "url": "/assets/images/gallery/events/18.jpg",
-                "description": "OpenTalk"
+                "description": "OpenTalk",
+                "alt": "OpenTalk"
             },
             {
                 "url": "/assets/images/gallery/events/19.jpg",
-                "description": "OpenTalk"
+                "description": "OpenTalk",
+                "alt": "OpenTalk"
             },
             {
                 "url": "/assets/images/gallery/events/20.jpg",
-                "description": "Gautham delivering a talk"
+                "description": "Gautham delivering a talk",
+                "alt": "Gautham delivering a talk"
             },
             {
                 "url": "/assets/images/gallery/events/21.jpg",
-                "description": "amFOSS at Cython"
+                "description": "amFOSS at Cython",
+                "alt": "amFOSS at Cython"
             },
             {
                 "url": "/assets/images/gallery/events/22.jpg",
-                "description": "Cython winners"
+                "description": "Cython winners",
+                "alt": "Cython winners"
             }
         ]
     },
@@ -97,31 +119,31 @@
         "imageURLS": [
             {
                 "url": "/assets/images/gallery/fossplay/foss-play-1.png",
-                "description": ""
+                "alt": "amFOSS Play image_1"
             },
             {
                 "url": "/assets/images/gallery/fossplay/foss-play-2.jpg",
-                "description": ""
+                "alt": "amFOSS Play image_2"
             },
             {
                 "url": "/assets/images/gallery/fossplay/foss-play-3.jpg",
-                "description": ""
+                "alt": "amFOSS Play image_3"
             },
             {
                 "url": "/assets/images/gallery/fossplay/foss-play-4.jpg",
-                "description": ""
+                "alt": "amFOSS Play image_4"
             },
             {
                 "url": "/assets/images/gallery/fossplay/foss-play-5.jpg",
-                "description": ""
+                "alt": "amFOSS Play image_5"
             },
             {
                 "url": "/assets/images/gallery/fossplay/foss-play-6.jpg",
-                "description": ""
+                "alt": "amFOSS Play image_6"
             },
             {
                 "url": "/assets/images/gallery/fossplay/foss-play-7.jpg",
-                "description": ""
+                "alt": "amFOSS Play image_7"
             }
         ]
     },
@@ -130,51 +152,51 @@
         "imageURLS": [
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-1.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_1"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-2.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_2"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-3.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_3"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-4.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_4"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-5.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_5"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-6.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_6"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-7.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_7"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-8.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_8"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-9.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_9"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-10.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_10"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-11.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_11"
             },
             {
                 "url": "/assets/images/gallery/fbnights/foss-bios-12.jpg",
-                "description": ""
+                "alt": "amFOSS-bi0s NIGHT image_12"
             }
         ]
     }
