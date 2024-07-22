@@ -69,44 +69,47 @@ const page = () => {
               <Title title={data.fosslab.title} />
             </motion.div>
 
-            <motion.div
-              className="md:col-span-2 col-span-1 md:py-10 md:px-5"
-              variants={clubLife2Varients}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              initial="initial"
-              whileInView="animate"
-              viewport={{ once: true }}
-            >
-              <p className="h-full flex justify-center items-center text-white md:text-2xl p-5 text-justify">
-                {data.fosslab.description}
-              </p>
-            </motion.div>
-            <motion.img
-              src="/assets/misc/thelab3.png"
-              className="w-full h-auto p-5"
-              whileHover={{ scale: 1.02 }}
-              transition={{ duration: 0.3 }}
-            />
-            <motion.img
-              src="/assets/misc/thelab.png"
-              className="w-full h-auto p-5"
-              whileHover={{ scale: 1.02 }}
-              transition={{ duration: 0.3 }}
-            />
-            <motion.img
-              src="/assets/misc/thelab2.png"
-              className="w-full h-auto p-5"
-              whileHover={{ scale: 1.02 }}
-              transition={{ duration: 0.3 }}
-            />
-          </div>
-        </div>  
+          <motion.div
+            className="md:col-span-2 col-span-1 md:py-10 md:px-5"
+            variants={clubLife2Varients}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+          >
+            <p className="h-full flex justify-center items-center text-white md:text-2xl p-5 text-justify">
+              {data.fosslab.description}
+            </p>
+          </motion.div>
+          <motion.img
+            alt="Inside the amFOSS lab with computers and students"
+            src="/assets/misc/thelab3.png"
+            className="w-full h-auto p-5"
+            whileHover={{ scale: 1.02 }}
+            transition={{ duration: 0.3 }}
+          />
+          <motion.img
+            alt="Mentor Mentee meeting at amFOSS lab"
+            src="/assets/misc/thelab.png"
+            className="w-full h-auto p-5"
+            whileHover={{ scale: 1.02 }}
+            transition={{ duration: 0.3 }}
+          />
+          <motion.img
+            alt="Collaborative project at amFOSS lab"
+            src="/assets/misc/thelab2.png"
+            className="w-full h-auto p-5"
+            whileHover={{ scale: 1.02 }}
+            transition={{ duration: 0.3 }}
+          />
         </div>
-        {/* taskforces */}
-        <TaskForcesComponent />
-        {/* activities */}
-        <ActivitiesComponent />
-        {/* Contact Us */ } 
+      </div>  
+      </div>
+      {/* taskforces */}
+      <TaskForcesComponent />
+      {/* activities */}
+      <ActivitiesComponent />
+      {/* Contact Us */ } 
       <div className='pt-5 md:pt-40'><Contact /></div>     
     </>
   );

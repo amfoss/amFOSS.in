@@ -43,7 +43,7 @@ const activitiesComponent = () => {
           </motion.div>
           <motion.img 
           src= {data.activities.amfossplays.image}
-          alt="foss_play"
+          alt="amFOSS members playing football during amFOSS play"
           className="row-span-2 h-[90%] bg-white mr-20 2xl:block hidden"
           variants={imageVarients}
           initial="initial"
@@ -103,7 +103,7 @@ const activitiesComponent = () => {
           </motion.div>
           <motion.img 
           src= {data.activities.socialservice.image}
-          alt="social_service"
+          alt="amFOSS members doing social work"
            className="row-span-2 h-[90%] bg-white mr-20 2xl:block hidden"
            variants={imageVarients}
            initial="initial"
