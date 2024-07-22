@@ -18,6 +18,7 @@ const memberCard = ({
             width={250}
             height ={250}
             className="h-full w-full md:rounded-3xl rounded-[2rem]"
+            alt={name}
           />
         </div>
         <div className="text-white lg:mt-40 md:mt-28 mt-10 text-center px-1">

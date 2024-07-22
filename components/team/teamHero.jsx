@@ -22,7 +22,7 @@ const teamHero = () => {
         viewport={{once:true}}>
           <img src={data.hero.img}
           className="sm:w-[35rem] max-sm:w-[23rem] max-md:mx-5 sm:h-95"
-            alt="team" />
+            alt="Vipin Pavithran, chief mentor and founder"/>
           <h1 className="md:text-[31px] text-center text-3xl mt-5">{data.hero.title}</h1>
           <p className="mt-3 text-[1.1rem] text-center">
             {data.hero.subtitle}

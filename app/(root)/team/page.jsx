@@ -52,6 +52,7 @@ const page = () => {
 
       <div className="w-full flex justify-center items-center my-20">
         <motion.img
+          alt="reConnect Alumni meetup"
           variants={imgVariants}
           initial="initial"
           whileInView="animate"
