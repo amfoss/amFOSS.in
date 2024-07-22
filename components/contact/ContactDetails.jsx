@@ -85,7 +85,7 @@ const ContactDetails = () => {
                                         src={social.url}
                                         width={social.width}
                                         height={social.height}
-
+                                        alt={`Icon for ${social.name}`}
                                         className="hover:animate-pulse cursor-pointer transition duration-200"
                                     />
                                 </Link>

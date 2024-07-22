@@ -19,31 +19,36 @@
         "url": "/assets/icons/socials/instagram.svg",
         "width": 33,
         "height": 33,
-        "ref": "https://www.instagram.com/amfoss.in"
+        "ref": "https://www.instagram.com/amfoss.in",
+        "name": "Instagram"
       },
       {
         "url": "/assets/icons/socials/facebook.svg",
         "width": 33,
         "height": 33,
-        "ref": "https://www.facebook.com/amfoss.in"
+        "ref": "https://www.facebook.com/amfoss.in",
+        "name": "Facebook"
       },
       {
         "url": "/assets/icons/socials/Vector.svg",
         "width": 33,
         "height": 33,
-        "ref": "https://github.com/amfoss"
+        "ref": "https://github.com/amfoss",
+        "name": "GitHub"
       },
       {
         "url": "/assets/icons/socials/twitter-x.svg",
         "width": 33,
         "height": 33,
-        "ref": "https://twitter.com/amfoss_in"
+        "ref": "https://twitter.com/amfoss_in",
+        "name": "Twitter"
       },
       {
         "url": "/assets/icons/socials/linkedin.svg",
         "width": 33,
         "height": 33,
-        "ref": "https://www.linkedin.com/company/amfoss"
+        "ref": "https://www.linkedin.com/company/amfoss",
+        "name": "LinkedIn"
       }
     ]
   }
