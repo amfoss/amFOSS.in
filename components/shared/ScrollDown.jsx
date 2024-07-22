@@ -34,7 +34,7 @@ const ScrollDownButton = ({ targetRef }) => {
             <div className="md:text-xl text-[#D0A730] mr-2">
                 Read More
             </div>
-            <Image src="/assets/icons/down-arrow.svg" width={32} height={32} />
+            <Image src="/assets/icons/down-arrow.svg" width={32} height={32} alt="Arrow icon"/>
         </motion.div>
     );
 };

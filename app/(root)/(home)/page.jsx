@@ -103,6 +103,7 @@ const page = () => {
       <div className='bg-[#1E1D1D]'>
         <motion.img 
             src={whoweare.image} 
+            alt='Club members group photo'
             className="w-full max-w-[70rem] max-h-[42rem] object-cover max-w-screen-2xl mx-auto md:py-10 pb-10 md:pb-20 xl:mb-10 px-6 xs:px-8 sm:px-16"          
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
