@@ -1,33 +1,16 @@
 image: node:lts
 
-cache:
-  paths:
-    - node_modules/
-
 stages:
-  - install
   - build
-  - deploy
 
-install:
-  stage: install
-  script:
-    - npm install
-
-build:
+pages:
   stage: build
   script:
+    - npm install
     - npm run build
   artifacts:
     paths:
-      - .next
-
-deploy:
-  stage: deploy
-  script:
-    - mv .next public
-  artifacts:
-    paths:
-      - public
+      - out
+  publish: out
   only:
     - main
