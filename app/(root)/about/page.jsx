@@ -45,7 +45,7 @@ const About = () => {
           <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
-      <div ref={scrollRef}>
+      <div ref={scrollRef} className="md:mt-6 min-[1700px]:mt-28">
         <Hero />
         {/* Our mission */}
         <OurMission />
