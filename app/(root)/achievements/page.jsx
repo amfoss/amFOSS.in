@@ -46,7 +46,7 @@ const page = () => {
           <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
-      <div className="p-[5vw] pb-0 max-sm:mt-[10vw]" ref={scrollRef}>
+      <div className="p-[5vw] pb-0 max-sm:mt-[10vw] md:mt-6 min-[1700px]:mt-28" ref={scrollRef}>
         <GSOCComponent/>
         <HackathonsComponent/>
         <TalksComponent/>

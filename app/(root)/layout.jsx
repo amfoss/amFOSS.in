@@ -9,7 +9,7 @@ const layout = ({ children }) => {
       <Bg />
       <Navbar />
       <SmoothScrolling>
-        <div className="md:-mt-[93px]">
+        <div className="md:-mt-[92px] xl:-mt-[96px]">
           {children}
         </div>
       </SmoothScrolling>  

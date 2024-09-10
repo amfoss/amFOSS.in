@@ -47,7 +47,7 @@ const Gallery = () => {
           <ScrollDownButton targetRef={scrollRef} />
         </div>
       </div>
-      <div ref={scrollRef} />
+      <div ref={scrollRef} className="md:mt-10" />
       <Component1 />
       <Component2 />
       <Component3 />
