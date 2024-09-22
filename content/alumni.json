@@ -1,7 +1,95 @@
 [
   {
+    "name": "Akshat Tripathi",
+    "title": "(2024)",
+    "githubLink": "https://github.com/Akshatji800",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Akshat_Tripathi.jpeg"
+  },
+  {
+    "name": "Aman Kumar Singh",
+    "title": "(2024)",
+    "githubLink": "https://github.com/theamankumarsingh",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Aman_Kumar_Singh.jpeg"
+  },
+  {
+    "name": "Pranavdhar",
+    "title": "(2024)",
+    "githubLink": "https://github.com/iampranavdhar",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Pranavdhar.jpeg"
+  },
+  {
+    "name": "Pavithra Nair",
+    "title": "(2024)",
+    "githubLink": "https://github.com/pavithranair",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Pavitra_Nair.jpeg"
+  },
+  {
+    "name": "Lakshmi Warrier",
+    "title": "(2024)",
+    "githubLink": "https://github.com/lakshmi-warrier",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Lakshmi_Warrier.jpeg"
+  },
+  {
+    "name": "Kavya Krishnan",
+    "title": "(2024)",
+    "githubLink": "https://github.com/krishkavya",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Kavya_Krishnan.jpeg"
+  },
+  {
+    "name": "Sujith Bolisetty",
+    "title": "(2024)",
+    "githubLink": "https://github.com/BolisettySujith",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Sujith.jpeg"
+  },
+  {
+    "name": "Geo Jolly",
+    "title": "(2024)",
+    "githubLink": "https://github.com/geojolly",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Geo_Jolly.jpeg"
+  },
+  {
+    "name": "Anoushka Ramesh",
+    "title": "(2024)",
+    "githubLink": "https://github.com/anoura12",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Anouska_Ramesh.jpeg"
+  },
+  {
+    "name": "Arun Govind M",
+    "title": "(2024)",
+    "githubLink": "https://github.com/arungovindm2001",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Arun_Govind.jpeg"
+  },
+  {
+    "name": "Adithya Kumar",
+    "title": "(2024)",
+    "githubLink": "https://github.com/SilentCruzer",
+    "twitterLink": "",
+    "linkedinLink": "",
+    "imgPath": "/assets/members/Alumni/Adithya_Kumar.jpeg"
+  },
+  {
     "name": "Shashank Priyadarshi",
-    "title": "(2019)",
+    "title": "(2023)",
     "githubLink": "https://github.com/iamsh4shank",
     "twitterLink": "",
     "linkedinLink": "",
@@ -9,7 +97,7 @@
   },
   {
     "name": "Anantha Nandanan",
-    "title": "(2019)",
+    "title": "(2023)",
     "githubLink": "https://github.com/ananthanandanan",
     "twitterLink": "",
     "linkedinLink": "",
@@ -17,7 +105,7 @@
   },
   {
     "name": "Govind Goel",
-    "title": "(2019)",
+    "title": "(2023)",
     "githubLink": "https://github.com/govindgoel",
     "twitterLink": "",
     "linkedinLink": "",
@@ -25,7 +113,7 @@
   },
   {
     "name": "Rishab Mudliar",
-    "title": "(2019)",
+    "title": "(2023)",
     "githubLink": "https://github.com/lazyCodes7",
     "twitterLink": "",
     "linkedinLink": "",
@@ -33,7 +121,7 @@
   },
   {
     "name": "Akshay V",
-    "title": "(2019)",
+    "title": "(2023)",
     "githubLink": "https://github.com/akshayaky",
     "twitterLink": "",
     "linkedinLink": "",
@@ -41,7 +129,7 @@
   },
   {
     "name": "Abhijit Ramesh",
-    "title": "(2018)",
+    "title": "(2022)",
     "githubLink": "https://github.com/abhijitramesh",
     "twitterLink": "",
     "linkedinLink": "",
@@ -49,7 +137,7 @@
   },
   {
     "name": "Yash Khare",
-    "title": "(2018)",
+    "title": "(2022)",
     "githubLink": "https://github.com/yashk2000",
     "twitterLink": "",
     "linkedinLink": "",
@@ -57,7 +145,7 @@
   },
   {
     "name": "Akhil KG",
-    "title": "(2018)",
+    "title": "(2022)",
     "githubLink": "https://github.com/akhilam512",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/akhil-k-g",
@@ -65,7 +153,7 @@
   },
   {
     "name": "Vasanth Gopa",
-    "title": "(2017)",
+    "title": "(2021)",
     "githubLink": "https://github.com/gopavasanth",
     "twitterLink": "https://twitter.com/gopavasanth1999",
     "linkedinLink": "https://in.linkedin.com/in/gopa-vasanth",
@@ -73,7 +161,7 @@
   },
   {
     "name": "Sai Rajendra",
-    "title": "(2017)",
+    "title": "(2021)",
     "githubLink": "https://github.com/immadisairaj",
     "twitterLink": "https://www.twitter.com/immadisairaj",
     "linkedinLink": " https://in.linkedin.com/in/immadisairaj",
@@ -81,7 +169,7 @@
   },
   {
     "name": "Bhanu Prakash",
-    "title": "(2017)",
+    "title": "(2021)",
     "githubLink": "https://github.com/BhanuPrakashNani",
     "twitterLink": "https://twitter.com/PBhanuPrakash99",
     "linkedinLink": "https://www.linkedin.com/in/bhanu-prakash-poluparthi/",
@@ -89,7 +177,7 @@
   },  
   {
     "name": "Abhishek BVS",
-    "title": "(2017)",
+    "title": "(2021)",
     "githubLink": "https://github.com/abhishekbvs",
     "twitterLink": "https://twitter.com/abhishekbvs",
     "linkedinLink": "https://www.linkedin.com/in/abhishek-bvs/",
@@ -97,7 +185,7 @@
   },
   {
     "name": "Anirudh C",
-    "title": "(2017)",
+    "title": "(2021)",
     "githubLink": "https://github.com/C-Anirudh",
     "twitterLink": "https://twitter.com/c_anirudh16",
     "linkedinLink": "https://www.linkedin.com/in/c-anirudh",
@@ -105,7 +193,7 @@
   },
   {
     "name": "Girija Manoj",
-    "title": "(2017)",
+    "title": "(2021)",
     "githubLink": "https://github.com/girijamanoj",
     "twitterLink": "https://twitter.com/ManojGirija",
     "linkedinLink": "https://www.linkedin.com/in/girijamanoj/",
@@ -113,7 +201,7 @@
   },
   {
     "name": "Manikishan Ghantasala",
-    "title": "(2017)",
+    "title": "(2021)",
     "githubLink": "https://github.com/sh4nnu",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/manikishang/",

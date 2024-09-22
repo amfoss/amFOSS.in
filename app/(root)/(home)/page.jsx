@@ -176,7 +176,7 @@ const page = () => {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            SUMMER SCHOOLS
+            UNIVERSITIES
           </motion.div>
 
           <div
