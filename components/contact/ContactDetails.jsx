@@ -31,7 +31,9 @@ const ContactDetails = () => {
                     {data.contact.address1.map((desc, id) => {
                         return (
                             <p className="text-xl md:text-xl ml-1 mt-2" key={id}>
-                                {desc}
+                                <a href={`mailto:${desc}`} className = "underline">
+                                    {desc}
+                                </a>                           
                             </p>
                         );
                     })}
