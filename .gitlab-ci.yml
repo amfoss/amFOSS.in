@@ -1,10 +1,29 @@
-image: node:lts
-
 stages:
+  - fetch_json_data
   - build
+
+variables:
+  GIT_DEPTH: "1"
+
+fetch_json_data:
+  stage: fetch_json_data
+  image: alpine/git
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_PIPELINE_SOURCE == "trigger" && $CI_PIPELINE_TRIGGERED'
+  script:
+    - git clone --depth 1 https://github.com/amfoss/amfoss-member-directory.git
+    - cp amfoss-member-directory/member.json content/member.json
+    - cp amfoss-member-directory/alumni.json content/alumni.json
+    - echo "Copied member and alumni JSON files to content"
+  artifacts:
+    paths:
+      - content/member.json
+      - content/alumni.json
 
 pages:
   stage: build
+  image: node:lts
   script:
     - npm install
     - npm run build
