@@ -1,0 +1,27 @@
+[
+    {
+        "name":["Gautham Mohanraj"],
+        "event":"Outreachy mentor group",
+        "description":"Outreachy mentor for Wikimedia Foundation through Scribe",
+        "link": ""
+    },
+    {
+        "name":["Gautham Mohanraj"],
+        "event":"Linux Foundation Experience",
+        "description":" LFX Mentorship to advance blockchain tech with Kotlin smart contracts",
+        "link":"https://www.youtube.com/watch?v=0andmJFkjzQ&list=PLU2OcwpQkYCxhPVnFTcoPr_6h4A82Q7om&index=18"
+    },
+    {
+        "name":"Harigovind C B and Rihaan B H",
+        "event":"Indic Wikimedia user group",
+        "description":"Provides technical support to Indian language wikimedia projects",
+        "link": ""
+    },
+    {
+        "name":"Swayam Agrahari",
+        "event":"Wikimania 2025 (Kenya)",
+        "description":"The global conference organized by the Wikimedia Foundation",
+        "link": ""
+    }
+
+]
