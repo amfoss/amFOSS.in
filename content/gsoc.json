@@ -1,5 +1,36 @@
 [
   {
+    "2025":[
+        {
+            "name": "Ivin Joel Abraham",
+            "role": "The Linux Foundation (Contributor)",
+            "title": "Third year",
+            "githubLink": "https://github.com/ivinjabraham",
+            "twitterLink": "",
+            "linkedinLink": "https://www.linkedin.com/in/ivinjabraham/",
+            "imgPath": ""
+          },
+          {
+            "name": "Shrisharanyan Vasu",
+            "role": "DeepChem  (Contributor)",
+            "title": "Third year",
+            "githubLink": "https://github.com/spellsharp",
+            "twitterLink": "https://twitter.com/PBanchalia",
+            "linkedinLink": "https://www.linkedin.com/in/shrisharanyan",
+            "imgPath": ""
+          },
+          {
+            "name": "Hridesh MG",
+            "role": "CCExtractor Development (Contributor)",
+            "title": "Second year",
+            "githubLink": "https://github.com/hrideshmg",
+            "twitterLink": "https://x.com/HrideshMg",
+            "linkedinLink": "https://www.linkedin.com/in/hridesh-mg/",
+            "imgPath": ""
+          }
+    ]
+  },
+  {
     "2024":[
         {
             "name": "Kshitij Thareja",
