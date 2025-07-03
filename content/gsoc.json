@@ -1,41 +1,37 @@
 [
   {
+    "2025":[
+        {
+            "name": "Ivin Joel Abraham",
+            "role": "The Linux Foundation (Contributor)"
+          },
+          {
+            "name": "Shrisharanyan Vasu",
+            "role": "DeepChem  (Contributor)"
+          },
+          {
+            "name": "Hridesh MG",
+            "role": "CCExtractor Development (Contributor)"
+          }
+    ]
+  },
+  {
     "2024":[
         {
             "name": "Kshitij Thareja",
-            "role": "Learning Equality (Contributor)",
-            "title": "Second year",
-            "githubLink": "https://github.com/KshitijThareja",
-            "twitterLink": "https://twitter.com/TharejaKshitij",
-            "linkedinLink": "https://www.linkedin.com/in/kshitijthareja/",
-            "imgPath": "/assets/members/Secondyears/kshitij_thareja.jpg"
+            "role": "Learning Equality (Contributor)"
           },
           {
             "name": "Pakhi Banchalia",
-            "role": "INCF (Contributor)",
-            "title": "Third year",
-            "githubLink": "https://github.com/Pakhi07",
-            "twitterLink": "https://twitter.com/PBanchalia",
-            "linkedinLink": "https://www.linkedin.com/in/pakhi07/",
-            "imgPath": "/assets/members/Thirdyears/pakhi_banchalia.jpg"
+            "role": "INCF (Contributor)"
           },
           {
             "name": "Gautham Krishnan",
-            "role": "Deepchem (Contributor)",
-            "title": "Third year",
-            "githubLink": "https://github.com/gauthamk02",
-            "twitterLink": "https://twitter.com/gauthamk02",
-            "linkedinLink": "https://www.linkedin.com/in/gautham-krishnan-p/",
-            "imgPath": "/assets/members/Thirdyears/gautham_krishnan.jpg"
+            "role": "Deepchem (Contributor)"
           },
           {
             "name": "Akshat Tripathi",
-            "role": "CCExtractor (Mentor)",
-            "title": "Fourth year",
-            "githubLink": "https://github.com/Akshatji800",
-            "twitterLink": "",
-            "linkedinLink": "",
-            "imgPath": "/assets/members/Fourthyears/Akshat_Tripathi.jpeg"
+            "role": "CCExtractor (Mentor)"
           }
     ]
   },
@@ -43,30 +39,15 @@
     "2023":[
         {
             "name": "R.V.Rajagopalan",
-            "role": "INCF (Contributor)",
-            "title": "Third year",
-            "githubLink": "https://github.com/rv602",
-            "twitterLink": "https://twitter.com/rv260",
-            "linkedinLink": "https://www.linkedin.com/in/rv602",
-            "imgPath": "/assets/members/Thirdyears/rajagopalan.jpg"
+            "role": "INCF (Contributor)"
           },
           {
             "name": "Geo Jolly",
-            "role": "ML4SCI (Contributor)",
-            "title": "Fourth year",
-            "githubLink": "https://github.com/geojolly",
-            "twitterLink": "",
-            "linkedinLink": "",
-            "imgPath": "/assets/members/Fourthyears/Geo_Jolly.jpeg"
+            "role": "ML4SCI (Contributor)"
           },
           {
             "name": "Akshat Tripathi",
-            "role": "CCExtractor (Mentor)",
-            "title": "Fourth year",
-            "githubLink": "https://github.com/Akshatji800",
-            "twitterLink": "",
-            "linkedinLink": "",
-            "imgPath": "/assets/members/Fourthyears/Akshat_Tripathi.jpeg"
+            "role": "CCExtractor (Mentor)"
           }
     ]},
   {
@@ -85,12 +66,7 @@
         },
         {
           "name": "Akshat Tripathi",
-          "role": "CCExtractor Development (Contributor)",
-          "title": "Fourth year",
-          "githubLink": "https://github.com/Akshatji800",
-          "twitterLink": "",
-          "linkedinLink": "",
-          "imgPath": "/assets/members/Fourthyears/Akshat_Tripathi.jpeg"
+          "role": "CCExtractor Development (Contributor)"
         },
         {
             "name": "Harikrishna Pillai",
