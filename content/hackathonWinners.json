@@ -69,6 +69,24 @@
             }
         ]
     },
+    "Evolumin": {
+        "imgPath": "/assets/images/achievements/hackthons/Evolumin.png",
+        "link": "https://www.youtube.com/watch?si=eLsRexjzNR_HkCrY&v=w2bG2SpP8Vs&feature=youtu.be",
+        "Winners": [
+            {
+                "name": "Abhinav M"
+            },
+            {
+                "name": "Hridesh MG"
+            },
+            {
+                "name": "Aman V Shafeeq"
+            },
+            {
+                "name": "Gautham Mohanraj"
+            }
+        ]
+    },
     "Cython 2024": {
         "imgPath": "/assets/images/achievements/hackthons/cython.jpeg",
         "link": "https://fitt-iitd.in/Cython/",
