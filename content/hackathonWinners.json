@@ -5,7 +5,7 @@
     },
     "Olabs Hackathon": {
         "imgPath": "/assets/images/achievements/hackthons/Olabs.jpeg",
-        "link": "https://fitt-iitd.in/Cython/",
+        "link": "https://olabs-hackathon.devfolio.co/",
         "Finalists": [
             {
                 "name": "Abhinav M"
@@ -35,7 +35,7 @@
     },
     "Globstar Open Source Hackathon": {
         "imgPath": "/assets/members/Secondyears/hridesh_mg.jpg",
-        "link": "https://fitt-iitd.in/Cython/",
+        "link": "https://deepsource.com/changelog/jan-25-2025",
         "Winner": [
             {
                 "name": "Hridesh MG"
