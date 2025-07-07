@@ -14,10 +14,10 @@ fetch_json_data:
     - if: '$CI_PIPELINE_SOURCE == "trigger" && $CI_PIPELINE_TRIGGERED'
   script:
     - apk add --no-cache git
-    - git clone --depth 1 https://github.com/Iron-56/test-amfoss-member-directory.git
+    - git clone --depth 1 https://github.com/amfoss/amfoss-member-directory.git
     - mkdir -p content
-    - cp test-amfoss-member-directory/members.json content/members.json
-    - cp test-amfoss-member-directory/alumni.json content/alumni.json
+    - cp amfoss-member-directory/members.json content/members.json
+    - cp amfoss-member-directory/alumni.json content/alumni.json
   artifacts:
     paths:
       - content/
