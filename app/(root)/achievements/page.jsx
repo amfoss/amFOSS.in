@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import GSOCComponent from "@/components/achievements/gsocComponent/gsocComponent";
 import HackathonsComponent from "@/components/achievements/hackathonsComponent/hackathonsComponent";
 import TalksComponent from "@/components/achievements/talks/talksComponent"
-// import GridderComponent from "@/components/achievements/test/gird";
 import Contact from "../contact/page";
 import ScrollDownButton from "@/components/shared/ScrollDown";
+import OpenSourceComponent from "@/components/achievements/openSourceComponent/openSourceComponent";
 
 const page = () => {
   const baseText = "ACHIEVEMENTS";
@@ -47,6 +47,7 @@ const page = () => {
         </div>
       </div>
       <div className="p-[5vw] pb-0 max-sm:mt-[10vw] md:mt-6 min-[1700px]:mt-28" ref={scrollRef}>
+        <OpenSourceComponent />
         <GSOCComponent/>
         <HackathonsComponent/>
         <TalksComponent/>

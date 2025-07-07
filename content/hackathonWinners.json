@@ -1,38 +1,96 @@
 {
-   "Hackverse 4.0 2023":{
-        "imgPath":"/assets/images/achievements/hackthons/hackverse4.0.png",
-        "link":"https://hackverse.nitk.ac.in/",
-        "Winners":[
+    "Indic Wikimedia Hackathon 2024": {
+        "imgPath": "assets/images/achievements/hackthons/Indic_Wikimedia_Hackathon_Bhubaneswar_2024.jpeg",
+        "link": "https://meta.wikimedia.org/wiki/Indic_Wikimedia_Hackathon_Bhubaneswar_2024"
+    },
+    "Olabs Hackathon": {
+        "imgPath": "/assets/images/achievements/hackthons/Olabs.jpeg",
+        "link": "https://olabs-hackathon.devfolio.co/",
+        "Finalists": [
             {
-                "name": "Aashraya Katiyar",
-                "title": "Third year",
-                "githubLink": "https://github.com/Aashray446",
-                "twitterLink": "https://twitter.com/aashray_katiyar",
-                "linkedinLink": "https://linkedin.com/in/aashray446",
-                "imgPath": "/assets/members/Thirdyears/Aashray.jpeg"
+                "name": "Abhinav M"
             },
             {
-                "name": "Abhinav Pandey",
-                "title": "Third year",
-                "githubLink": "https://github.com/Abhinavxox",
-                "twitterLink": "https://twitter.com/MeroNaamAbhinav",
-                "linkedinLink": "https://www.linkedin.com/in/itsmeabhinavpandey/",
-                "imgPath": "/assets/members/Thirdyears/abhinav_pandey.jpg"
+                "name": "Hridesh MG"
             },
             {
-                "name": "Gautham Krishnan",
-                "title": "Third year",
-                "githubLink": "https://github.com/gauthamk02",
-                "twitterLink": "https://twitter.com/gauthamk02",
-                "linkedinLink": "https://www.linkedin.com/in/gautham-krishnan-p/",
-                "imgPath": "/assets/members/Thirdyears/gautham_krishnan.jpg"
+                "name": "Harikrishna TP"
+            },
+            {
+                "name": "KK Surendran"
+            },
+            {
+                "name": "Atharva Unnikrishnan Nair"
+            },
+            {
+                "name": "Ashwin Praveen"
+            },
+            {
+                "name": "Navaneeth B"
+            },
+            {
+                "name": "Nishtha Jain"
             }
         ]
     },
-    "Cython 2024":{
-        "imgPath":"/assets/images/achievements/hackthons/cython.jpeg",
-        "link":"https://fitt-iitd.in/Cython/",
-        "Winners":[
+    "Globstar Open Source Hackathon": {
+        "imgPath": "/assets/members/Secondyears/hridesh_mg.jpg",
+        "link": "https://deepsource.com/changelog/jan-25-2025",
+        "Winner": [
+            {
+                "name": "Hridesh MG"
+            }
+        ]
+    },
+    "Define3": {
+        "imgPath": "/assets/images/achievements/hackthons/Define3.jpeg",
+        "link": "https://definehack-3.devfolio.co/",
+        "Winners": [
+            {
+                "name": " Team 1 - Nishtha Jain"
+            },
+            {
+                "name": "Rohith K Pradeep"
+            },
+            {
+                "name": "Aadarsh Mahesh K"
+            },
+            {
+                "name": "Nandu Krishna M"
+            },
+            {
+                "name": "Team 2 - Chinmay Ajith"
+            },
+            {
+                "name": "Mukund Menon"
+            },
+            {
+                "name": "Navaneeth B"
+            }
+        ]
+    },
+    "Evolumin": {
+        "imgPath": "/assets/images/achievements/hackthons/Evolumin.png",
+        "link": "https://www.youtube.com/watch?si=eLsRexjzNR_HkCrY&v=w2bG2SpP8Vs&feature=youtu.be",
+        "Winners": [
+            {
+                "name": "Abhinav M"
+            },
+            {
+                "name": "Hridesh MG"
+            },
+            {
+                "name": "Aman V Shafeeq"
+            },
+            {
+                "name": "Gautham Mohanraj"
+            }
+        ]
+    },
+    "Cython 2024": {
+        "imgPath": "/assets/images/achievements/hackthons/cython.jpeg",
+        "link": "https://fitt-iitd.in/Cython/",
+        "Winners": [
             {
                 "name": "Hemanth Krishnakumar",
                 "title": "Second year",
@@ -59,9 +117,9 @@
             }
         ]
     },
-    "Code with consequences, Vidyut, 2023":{
-        "imgPath":"/assets/images/achievements/hackthons/CodeWithConsequences.png",
-        "Winners":[
+    "Code with consequences, Vidyut, 2023": {
+        "imgPath": "/assets/images/achievements/hackthons/CodeWithConsequences.png",
+        "Winners": [
             {
                 "name": "Anshuman Swain",
                 "title": "Third year",
@@ -79,7 +137,7 @@
                 "imgPath": "/assets/members/Thirdyears/Pranav_Krishnan.jpeg"
             }
         ],
-        "Runner up":[
+        "Runner up": [
             {
                 "name": "Aniketh Vijesh",
                 "title": "Second year",
