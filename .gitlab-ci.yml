@@ -1,16 +1,41 @@
-image: node:lts
-
 stages:
+  - fetch_json_data
   - build
+
+variables:
+  GIT_DEPTH: "1"
+
+fetch_json_data:
+  stage: fetch_json_data
+  image: alpine
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_PIPELINE_SOURCE == "trigger" && $CI_PIPELINE_TRIGGERED'
+  script:
+    - apk add --no-cache git
+    - git clone --depth 1 https://github.com/amfoss/member-directory.git
+    - mkdir -p content
+    - cp member-directory/members.json content/members.json
+    - cp member-directory/alumni.json content/alumni.json
+  artifacts:
+    paths:
+      - content/
 
 pages:
   stage: build
+  image: node:lts
+  cache:
+      paths:
+        - .next/cache
+  dependencies:
+    - fetch_json_data
   script:
     - npm install
     - npm run build
+    - cp -r out/* public/
   artifacts:
     paths:
-      - out
-  publish: out
+      - public
   only:
     - main
