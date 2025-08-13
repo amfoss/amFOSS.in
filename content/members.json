@@ -1,386 +1,434 @@
 [
   {
-    "name": "Pakhi Banchalia",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/Pakhi07",
-    "twitterLink": "https://twitter.com/PBanchalia",
-    "linkedinLink": "https://www.linkedin.com/in/pakhi07/",
-    "imgPath": "/assets/members/Fourthyears/pakhi_banchalia.jpg"
-  },
-  {
-    "name": "Abhinav Pandey",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/Abhinavxox",
-    "twitterLink": "https://twitter.com/MeroNaamAbhinav",
-    "linkedinLink": "https://www.linkedin.com/in/itsmeabhinavpandey/",
-    "imgPath": "/assets/members/Fourthyears/abhinav_pandey.jpg"
-  },
-  {
-    "name": "Vishal J",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/vishalj0501",
-    "twitterLink": "https://twitter.com/Vishalj0501",
-    "linkedinLink": "https://www.linkedin.com/in/vishalj0501/",
-    "imgPath": "/assets/members/Fourthyears/vishal.jpg"
-  },
-  {
-    "name": "R.V.Rajagopalan",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/rv602",
-    "twitterLink": "https://twitter.com/rv260",
-    "linkedinLink": "https://www.linkedin.com/in/rv602",
-    "imgPath": "/assets/members/Fourthyears/rajagopalan.jpg"
-  },
-  {
-    "name": "Gautham Krishnan",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/gauthamk02",
-    "twitterLink": "https://twitter.com/gauthamk02",
-    "linkedinLink": "https://www.linkedin.com/in/gautham-krishnan-p/",
-    "imgPath": "/assets/members/Fourthyears/gautham_krishnan.jpg"
-  },
-  {
-    "name": "Aashraya Katiyar",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/Aashray446",
-    "twitterLink": "https://twitter.com/aashray_katiyar",
-    "linkedinLink": "https://linkedin.com/in/aashray446",
-    "imgPath": "/assets/members/Fourthyears/Aashray.jpeg"
-  },
-  {
-    "name": "Harikrishna Pillai",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/Harikrishna-AL/",
-    "twitterLink": "https://twitter.com/HarikrishnaPi10",
-    "linkedinLink": "",
-    "imgPath": "/assets/members/Fourthyears/harikrishna_pillai.jpeg"
-  },
-  {
-    "name": "Anshuman Swain",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/anshuman-8",
-    "twitterLink": "https://twitter.com/an8human",
-    "linkedinLink": "",
-    "imgPath": "/assets/members/Fourthyears/anshuman.jpg"
-  },
-  {
-    "name": "Pranav Krishnan",
-    "title": "Fourth year",
-    "githubLink": "",
-    "twitterLink": "",
-    "linkedinLink": "",
-    "imgPath": "/assets/members/Fourthyears/Pranav_Krishnan.jpeg"
-  },
-  {
-    "name": "Rishav Kumar",
-    "title": "Fourth year",
-    "githubLink": "https://github.com/rishuriya",
-    "twitterLink": "https://twitter.com/rishava2z",
-    "linkedinLink": "",
-    "imgPath": "/assets/members/Fourthyears/Rishav.jpg"
-  },
-  {
     "name": "Harigovind C B",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/Viserion-7",
     "twitterLink": "https://twitter.com/_viserion7_",
     "linkedinLink": "https://www.linkedin.com/in/harigovindcb/",
-    "imgPath": "/assets/members/Thirdyears/harigovind.jpg"
+    "imgPath": "/assets/members/Fourthyears/harigovind.jpg"
   },
   {
     "name": "Ivin",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/ivinjabraham",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/ivinjabraham/",
-    "imgPath": "/assets/members/Thirdyears/ivin.jpeg"
+    "imgPath": "/assets/members/Fourthyears/ivin.jpeg"
   },
   {
     "name": "Kartikey Singh",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/QuantuM410",
     "twitterLink": "https://twitter.com/kartikeys2ks",
     "linkedinLink": "https://www.linkedin.com/in/kartikey--singh",
-    "imgPath": "/assets/members/Thirdyears/kartikey.jpg"
+    "imgPath": "/assets/members/Fourthyears/kartikey.jpg"
   },
   {
     "name": "Kshitij Thareja",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/KshitijThareja",
     "twitterLink": "https://twitter.com/TharejaKshitij",
     "linkedinLink": "https://www.linkedin.com/in/kshitijthareja/",
-    "imgPath": "/assets/members/Thirdyears/kshitij_thareja.jpg"
+    "imgPath": "/assets/members/Fourthyears/kshitij_thareja.jpg"
   },
   {
     "name": "Farzana Shajahan",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/Fuzzphorescent",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/farzana-shajahan/",
-    "imgPath": "/assets/members/Thirdyears/farzana.jpeg"
+    "imgPath": "/assets/members/Fourthyears/farzana.jpeg"
   },
   {
     "name": "Akshaya Krishnan",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/akshaya9999/",
     "twitterLink": "https://twitter.com/akshaya28805",
     "linkedinLink": "https://www.linkedin.com/in/akshaya--krishnan/",
-    "imgPath": "/assets/members/Thirdyears/akshaya_krishnan.jpg"
+    "imgPath": "/assets/members/Fourthyears/akshaya_krishnan.jpg"
   },
   {
     "name": "Shrisharanyan Vasu",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/spellsharp",
     "twitterLink": "https://twitter.com/shrisharanyan",
     "linkedinLink": "https://www.linkedin.com/in/shrisharanyan",
-    "imgPath": "/assets/members/Thirdyears/shrisharanyan.jpg"
+    "imgPath": "/assets/members/Fourthyears/shrisharanyan.jpg"
   },
   {
     "name": "Aniketh Vijesh",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/TheHuntsman4",
     "twitterLink": "https://twitter.com/achi1135__464",
     "linkedinLink": "https://www.linkedin.com/in/aniketh-vijesh-7a9466277/",
-    "imgPath": "/assets/members/Thirdyears/aniketh_vijesh.jpeg"
+    "imgPath": "/assets/members/Fourthyears/aniketh_vijesh.jpeg"
   },
   {
     "name": "Kirti Sikka",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/kirtisikka1211",
     "twitterLink": "https://twitter.com/KirtiSikka",
     "linkedinLink": "https://www.linkedin.com/in/kirti-sikka-5098b1276/",
-    "imgPath": "/assets/members/Thirdyears/kirtisikka.png"
+    "imgPath": "/assets/members/Fourthyears/kirtisikka.png"
   },
   {
     "name": "Satvik Mishra",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/satvshr",
     "twitterLink": "https://twitter.com/satvshr",
     "linkedinLink": "https://www.linkedin.com/in/satvik-mishra-318194275/",
-    "imgPath": "/assets/members/Thirdyears/satvik_mishra.jpg"
+    "imgPath": "/assets/members/Fourthyears/satvik_mishra.jpg"
   },
   {
     "name": "Siddharth Menon",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/BiscuitBobby",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/biscuitbobby",
-    "imgPath": "/assets/members/Thirdyears/Siddharth_Menon.jpeg"
+    "imgPath": "/assets/members/Fourthyears/Siddharth_Menon.jpeg"
   },
   {
     "name": "Hemanth KrishnaKumar",
-    "title": "Third year",
+    "title": "Fourth year",
     "githubLink": "https://github.com/Wreck-X",
     "twitterLink": "",
     "linkedinLink": "",
-    "imgPath": "/assets/members/Thirdyears/Hemanth_Krishnakumar.jpg"
+    "imgPath": "/assets/members/Fourthyears/Hemanth_Krishnakumar.jpg"
   },
   {
     "name": "Hridesh Mg",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/hrideshmg",
     "twitterLink": "https://twitter.com/HrideshMg",
     "linkedinLink": "https://www.linkedin.com/in/hridesh-mg",
-    "imgPath": "/assets/members/Secondyears/hridesh_mg.jpg"
+    "imgPath": "/assets/members/Thirdyears/hridesh_mg.jpg"
   },
   {
     "name": "Navaneeth B",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/navaneeth0041",
     "twitterLink": "https://twitter.com/Navaneeth_0000",
     "linkedinLink": "https://www.linkedin.com/in/navaneeth-b-777b8a287/",
-    "imgPath": "/assets/members/Secondyears/Navaneeth_B_.jpg"
+    "imgPath": "/assets/members/Thirdyears/Navaneeth_B_.jpg"
   },
   {
     "name": "K K Surendran",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/KKSurendran06/",
     "twitterLink": "https://twitter.com/KKSurendran06",
     "linkedinLink": "https://www.linkedin.com/in/kk-surendran/",
-    "imgPath": "/assets/members/Secondyears/KK_Surendran.jpg"
+    "imgPath": "/assets/members/Thirdyears/KK_Surendran.jpg"
   },
   {
     "name": "Swayam Agrahari",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/swayam-agrahari",
     "twitterLink": "https://twitter.com/swayam_0_0",
     "linkedinLink": "https://www.linkedin.com/in/swayam-agrahari-416088266",
-    "imgPath": "/assets/members/Secondyears/swayam_agrahari.jpg"
+    "imgPath": "/assets/members/Thirdyears/swayam_agrahari.jpg"
   },
   {
     "name": "Mukund Menon",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/Mukund-Menon",
     "twitterLink": "https://twitter.com/mukund12005",
     "linkedinLink": "https://www.linkedin.com/in/mukund-menon-1a535a27a/",
-    "imgPath": "/assets/members/Secondyears/Mukund_Menon.jpeg"
+    "imgPath": "/assets/members/Thirdyears/Mukund_Menon.jpeg"
   },
   {
     "name": "Abhinav M",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/ItsAbhinavM",
     "twitterLink": "https://twitter.com/itsabhinavm",
     "linkedinLink": "https://www.linkedin.com/in/abhinav-m-7a6716287/",
-    "imgPath": "/assets/members/Secondyears/Abhinav_M.jpg"
+    "imgPath": "/assets/members/Thirdyears/Abhinav_M.jpg"
   },
   {
     "name": "Atharva Unnikrishnan Nair",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/AtharvaNair04",
     "twitterLink": "https://twitter.com/ath4rv4_nair",
     "linkedinLink": "https://www.linkedin.com/in/atharva-nair-260b8b287/",
-    "imgPath": "/assets/members/Secondyears/Atharva_Unnikrishnan_Nair.png"
+    "imgPath": "/assets/members/Thirdyears/Atharva_Unnikrishnan_Nair.png"
   },
   {
     "name": "G O Ashwin Praveen",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/ashwinpraveengo",
     "twitterLink": "https://twitter.com/GOAshwinPravee1",
     "linkedinLink": "https://www.linkedin.com/in/g-o-ashwin-praveen-493b73202/",
-    "imgPath": "/assets/members/Secondyears/G_O_Ashwin_Praveen.jpg"
+    "imgPath": "/assets/members/Thirdyears/G_O_Ashwin_Praveen.jpg"
   },
   {
     "name": "Chinmay Ajith",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/chimnayajith",
     "twitterLink": "https://twitter.com/AjithChinmay",
     "linkedinLink": "https://www.linkedin.com/in/chinmay-ajith-9032722b1/",
-    "imgPath": "/assets/members/Secondyears/Chinmay_Ajith.jpg"
+    "imgPath": "/assets/members/Thirdyears/Chinmay_Ajith.jpg"
   },
   {
     "name": "Harikrishna TP",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/hkx05",
     "twitterLink": "https://twitter.com/Harikrishn79884",
     "linkedinLink": "https://www.linkedin.com/in/harikrishna-t-p-9b4a3829a/",
-    "imgPath": "/assets/members/Secondyears/harikrishnatp.jpg"
+    "imgPath": "/assets/members/Thirdyears/harikrishnatp.jpg"
   },
   {
     "name": "Aman V Shafeeq",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/amansxcalibur",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/aman-valiyakath",
-    "imgPath": "/assets/members/Secondyears/Aman_V_Shafeeq.png"
+    "imgPath": "/assets/members/Thirdyears/Aman_V_Shafeeq.png"
   },
   {
     "name": "Vishnu Mohandas",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/Vishnu-M-E",
     "twitterLink": "https://twitter.com/vishnu240404",
     "linkedinLink": "www.linkedin.com/in/vishnu-mohandas-b2a00128a",
-    "imgPath": "/assets/members/Secondyears/Vishnu_M.jpg"
+    "imgPath": "/assets/members/Thirdyears/Vishnu_M.jpg"
   },
   {
     "name": "Gautham Mohanraj",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/angrezichatterbox",
     "twitterLink": "https://twitter.com/gouthammohanraj",
     "linkedinLink": "https://www.linkedin.com/in/gauthammohanraj",
-    "imgPath": "/assets/members/Secondyears/Gautham_M.jpg"
+    "imgPath": "/assets/members/Thirdyears/Gautham_M.jpg"
   },
   {
     "name": "Sabarinath J",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/sabarixr",
     "twitterLink": "",
     "linkedinLink": "http://www.linkedin.com/in/sabarinath-j-w7560",
-    "imgPath": "/assets/members/Secondyears/Sabarinath_J.jpg"
+    "imgPath": "/assets/members/Thirdyears/Sabarinath_J.jpg"
   },
   {
     "name": "Shrivaths S Nair",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/JATAYU000",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/shrivaths-s-64a159288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "imgPath": "/assets/members/Secondyears/Shrivaths_S_Nair.jpg"
+    "imgPath": "/assets/members/Thirdyears/Shrivaths_S_Nair.jpg"
   },
   {
     "name": "Rihaan B H",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/RihaanBH-1810",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/rihaan-b-h-6671b5288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "imgPath": "/assets/members/Secondyears/Rihaan_B_H.jpg"
+    "imgPath": "/assets/members/Thirdyears/Rihaan_B_H.jpg"
   },
   {
     "name": "Manas Varma K",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/Drone944",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/manas-varma-111a68287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "imgPath": "/assets/members/Secondyears/Manas_Varma.jpg"
+    "imgPath": "/assets/members/Thirdyears/Manas_Varma.jpg"
   },
   {
     "name": "Keerthan K K",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/cr3ativ3cod3r",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/keerthan-k-k-6204692b3?originalSubdomain=in",
-    "imgPath": "/assets/members/Secondyears/Keerthan_K_K.jpg"
+    "imgPath": "/assets/members/Thirdyears/Keerthan_K_K.jpg"
   },
   {
     "name": "Shravya K Suresh",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/shraavv",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/shravya-k-suresh-1b60862b1/",
-    "imgPath": "/assets/members/Secondyears/shravyaksuresh.jpg"
+    "imgPath": "/assets/members/Thirdyears/shravyaksuresh.jpg"
   },
   {
     "name": "Souri S",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/Iruos8805",
     "twitterLink": "https://x.com/souri008_s",
     "linkedinLink": "https://www.linkedin.com/in/souri7s",
-    "imgPath": "/assets/members/Secondyears/souri_s.jpg"
+    "imgPath": "/assets/members/Thirdyears/souri_s.jpg"
   },
   {
     "name": "Anamika V Menon",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/Anamika457",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/anamika-v-menon-343858275/",
-    "imgPath": "/assets/members/Secondyears/Anamika_v_menon.jpeg"
+    "imgPath": "/assets/members/Thirdyears/Anamika_v_menon.jpeg"
   },
   {
     "name": "VishnuTejas",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/he1senbrg",
     "twitterLink": "https://x.com/rickastley",
     "linkedinLink": "https://www.linkedin.com/in/vishnutejase",
-    "imgPath": "/assets/members/Secondyears/Vishnu_Tejas.jpg"
+    "imgPath": "/assets/members/Thirdyears/Vishnu_Tejas.jpg"
   },
   {
     "name": "Dheeraj M",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/CrownDestro",
     "twitterLink": "https://x.com/dheeraj34696812",
     "linkedinLink": "https://www.linkedin.com/in/dheerajmotupalli/",
-    "imgPath": "/assets/members/Secondyears/Dheeraj_M.jpg"
+    "imgPath": "/assets/members/Thirdyears/Dheeraj_M.jpg"
   },
   {
     "name": "Dande Ganeswar",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/ganidande905",
     "twitterLink": "https://twitter.com/GaniDande",
     "linkedinLink": "https://linkedin.com/in/ganeswara-dande-b973b5261/",
-    "imgPath": "/assets/members/Secondyears/Dande_Ganeswar.jpg"
+    "imgPath": "/assets/members/Thirdyears/Dande_Ganeswar.jpg"
   },
   {
     "name": "Shria Nair",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/shrimpnaur",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/shria-nair-80a2142b5/",
-    "imgPath": "/assets/members/Secondyears/Shria_Nair.jpg"
+    "imgPath": "/assets/members/Thirdyears/Shria_Nair.jpg"
   },
   {
     "name": "John Yohan",
-    "title": "Second year",
+    "title": "Third year",
     "githubLink": "https://github.com/The-Yearly",
     "twitterLink": "",
     "linkedinLink": "https://www.linkedin.com/in/john-yohan-90a92a28b/",
-    "imgPath": "/assets/members/Secondyears/John_Yohan.jpeg"
+    "imgPath": "/assets/members/Thirdyears/John_Yohan.jpeg"
+  },
+  {
+    "name": "Nishtha Jain",
+    "title": "Second year",
+    "githubLink": "https://github.com/Nishthajain7",
+    "twitterLink": "https://x.com/Nishtha_jain_",
+    "linkedinLink": "https://www.linkedin.com/in/nishtha-jain-44b6b32a1",
+    "imgPath": "/assets/members/Secondyears/Nishtha_Jain.jpg"
+  },
+  {
+    "name": "Rohit Reddy Anumolu",
+    "title": "Second year",
+    "githubLink": "https://github.com/A-Rohit-Reddy",
+    "twitterLink": "https://x.com/AnumoluRohit",
+    "linkedinLink": "https://www.linkedin.com/in/rohit-reddy-anumolu-37ba33323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "imgPath": "/assets/members/Secondyears/Rohit_Reddy_Anumolu.jpg"
+  },
+  {
+    "name": "Malavika M",
+    "title": "Second year",
+    "githubLink": "https://github.com/Malavika05M",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/malavika-m-426236230/",
+    "imgPath": "/assets/members/Secondyears/Malavika_M.jpg"
+  },
+  {
+    "name": "Rohith K Pradeep",
+    "title": "Second year",
+    "githubLink": "https://github.com/PinJinx",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/rohith-pradeep-2346b3320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "imgPath": "/assets/members/Secondyears/Rohith_K_Pradeep.jpg"
+  },
+  {
+    "name": "Peechara Harshith Rao",
+    "title": "Second year",
+    "githubLink": "https://github.com/Harshith-2208",
+    "twitterLink": "",
+    "linkedinLink": "http://www.linkedin.com/in/harshith-peechara",
+    "imgPath": "/assets/members/Secondyears/Peechara_Harshith_Rao.jpg"
+  },
+  {
+    "name": "U Karthik Krishna",
+    "title": "Second year",
+    "githubLink": "https://github.com/flykrth",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/flykrth",
+    "imgPath": "/assets/members/Secondyears/U_Karthik_Krishna.jpg"
+  },
+  {
+    "name": "Aadarsh Mahesh K",
+    "title": "Second year",
+    "githubLink": "https://github.com/AadarshM07",
+    "twitterLink": "",
+    "linkedinLink": "https://in.linkedin.com/in/aadarsh-mahesh-k-7954682aa",
+    "imgPath": "/assets/members/Secondyears/Aadarsh_Mahesh_K.jpg"
+  },
+  {
+    "name": "P Naveen Srinivas",
+    "title": "Second year",
+    "githubLink": "https://github.com/naveen28204280",
+    "twitterLink": "https://x.com/naveen_282",
+    "linkedinLink": "https://www.linkedin.com/in/naveen-srinivas-623667320",
+    "imgPath": "/assets/members/Secondyears/P_Naveen_Srinivas.jpg"
+  },
+  {
+    "name": "Anandajith S",
+    "title": "Second year",
+    "githubLink": "https://github.com/AnandajithS",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/anandajith-s/",
+    "imgPath": "/assets/members/Secondyears/Anandajith_S.jpg"
+  },
+  {
+    "name": "Chandra Mouli P",
+    "title": "Second year",
+    "githubLink": "https://github.com/wavexnani",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/chandra-mouli-525bb831b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "imgPath": "/assets/members/Secondyears/Chandra_Mouli_P.jpg"
+  },
+  {
+    "name": "B. Teja Sai Charan",
+    "title": "Second year",
+    "githubLink": "https://github.com/tejasai2007",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/tejacharanbellamkonda/",
+    "imgPath": "/assets/members/Secondyears/B_Teja_Sai_Charan.jpg"
+  },
+  {
+    "name": "Jagadeeshwar Reddy Kota",
+    "title": "Second year",
+    "githubLink": "https://github.com/Kota-Jagadeesh",
+    "twitterLink": "https://x.com/JAGADEESH_KOTA_",
+    "linkedinLink": "https://www.linkedin.com/in/jagadeeshwar-reddy-kota",
+    "imgPath": "/assets/members/Secondyears/Jagadeeshwar_Reddy_Kota.jpg"
+  },
+  {
+    "name": "Nandu Krishna M",
+    "title": "Second year",
+    "githubLink": "https://github.com/Iron-56",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/nandu-krishna-8b1ab2334/",
+    "imgPath": "/assets/members/Secondyears/Nandu_Krishna_M.jpg"
+  },
+  {
+    "name": "Khushal Chitturi",
+    "title": "Second year",
+    "githubLink": "https://github.com/Khushal928",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/khushal-chitturi-548533324/",
+    "imgPath": "/assets/members/Secondyears/Khushal_Chitturi.jpg"
+  },
+  {
+    "name": "Kota Sravan",
+    "title": "Second year",
+    "githubLink": "https://github.com/Sravan-k-177",
+    "twitterLink": "",
+    "linkedinLink": "https://www.linkedin.com/in/sravan-kota-253757204/",
+    "imgPath": "/assets/members/Secondyears/K_Sravan.jpg"
+  },
+  {
+    "name": "Rohith A P",
+    "title": "Second year",
+    "githubLink": "https://github.com/c-Wiz92",
+    "twitterLink": "https://x.com/c_Wiz92",
+    "linkedinLink": "https://www.linkedin.com/in/rohith-a-p-193485319/",
+    "imgPath": "/assets/members/Secondyears/Rohith_A_P.jpg"
   }
 ]
