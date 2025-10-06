@@ -23,6 +23,8 @@ const InfiniteSlider = ({ data, direction }) => {
                   src={company.img_path}
                   alt={company.alt}
                   className="md:w-44 md:h-44"
+                  width={44}
+                  height={44}
                 />
               </Slider.Slide>
             </div>
