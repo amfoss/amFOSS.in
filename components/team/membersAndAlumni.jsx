@@ -76,7 +76,7 @@ const MembersAndAlumni = ({ contentFor }) => {
       >
         <div className="flex justify-center flex-col items-center">
           {showAllMembers ? "See less" : "See more"}
-          <img
+          <Image
             src="/assets/icons/seeMore2.png"
             className={`w-10 h-10 my-5 ${
               showAllMembers ? "transform rotate-180" : ""

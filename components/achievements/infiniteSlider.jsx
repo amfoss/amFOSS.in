@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import Slider from 'react-infinite-logo-slider'
 
@@ -18,7 +19,7 @@ const InfiniteSlider = ({ data, direction }) => {
           {data.map((company, index) => (
             <div className="flex justify-center items-center" key={index}>
               <Slider.Slide className="">
-                <img
+                <Image
                   src={company.img_path}
                   alt={company.alt}
                   className="md:w-44 md:h-44"

@@ -25,24 +25,24 @@ const memberCard = ({
           <p className="md:text-lg text-xs">{title}</p>
           <div className="flex justify-center lg:mt-10 md:mt-5 mt-1">
             {githubLink ? <a href={githubLink} target="_blank" rel="noreferrer">
-              <img
+              <Image
                 src="assets/icons/socials/Vector-3.svg"
                 alt="github"
                 className="lg:w-8 md:w-6 w-3 lg:h-8 md:h-6 h-3 mx-2"
               />
             </a> :null}
             {twitterLink ? <a href={twitterLink} target="_blank" rel="noreferrer">
-              <img
+              <Image
                 src="assets/icons/socials/Vector-2.svg"
                 alt="twitter"
                 className="lg:w-8 md:w-6 w-3 lg:h-8 md:h-6 h-3 mx-2"
               />
             </a> :null}
             {linkedinLink ? <a href={linkedinLink} target="_blank" rel="noreferrer">
-              <img
+              <Image
                 src="assets/icons/socials/Vector-4.svg"
                 alt="linkedin"
-                className="llg:w-8 md:w-6 w-3 lg:h-8 md:h-6 h-3 mx-2"
+                className="lg:w-8 md:w-6 w-3 lg:h-8 md:h-6 h-3 mx-2"
               />
             </a> :null}
           </div>
