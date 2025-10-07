@@ -22,7 +22,8 @@
     "react-infinite-logo-slider": "^1.0.13",
     "react-multi-carousel": "^2.8.5",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "transitions-kit": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "18.2.69",
