@@ -39,7 +39,7 @@ const Slider = ({ sliderImageUrl, showDescription }) => {
                 {sliderImageUrl.map((imageUrl, index) => {
                     return (
                         <div className="slider group" key={index}>
-                            <Image src={imageUrl.url} Transition={Blur} loading="lazy"/>
+                            <Image src={imageUrl.url} Transition={Blur} loading="lazy" width={64} height={64}/>
                             {showDescription && ( 
                             <div className="absolute rounded-b-[0.6rem] inset-x-0 bottom-8 bg-black bg-opacity-80 py-2 px-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p className="text-center">{imageUrl.description}</p>

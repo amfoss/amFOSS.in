@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Title from "@/components/ui/title";
 import MemberCard from "@/components/team/memberCard";
 import data from "@/content/team.json";
+import Image from "next/image";
 import members from "@/content/members.json";
 import alumni from "@/content/alumni.json";
 import { motion } from "framer-motion";
@@ -78,6 +79,9 @@ const MembersAndAlumni = ({ contentFor }) => {
           {showAllMembers ? "See less" : "See more"}
           <Image
             src="/assets/icons/seeMore2.png"
+            alt="see more"
+            width={40}
+            height={40}
             className={`w-10 h-10 my-5 ${
               showAllMembers ? "transform rotate-180" : ""
             }`}
