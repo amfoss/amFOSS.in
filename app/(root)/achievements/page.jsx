@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { useRef } from "react";
 import { motion } from "framer-motion";
 import GSOCComponent from "@/components/achievements/gsocComponent/gsocComponent";
 import HackathonsComponent from "@/components/achievements/hackathonsComponent/hackathonsComponent";
@@ -8,10 +7,11 @@ import TalksComponent from "@/components/achievements/talks/talksComponent"
 import Contact from "../contact/page";
 import ScrollDownButton from "@/components/shared/ScrollDown";
 import OpenSourceComponent from "@/components/achievements/openSourceComponent/openSourceComponent";
+import useScrollRef from '@/lib/hooks/useScrollRef';
 
 const page = () => {
   const baseText = "ACHIEVEMENTS";
-  const scrollRef = useRef(null);
+  const { scrollRef } = useScrollRef();
 
   return (
     <div className="overflow-hidden">

@@ -1,17 +1,17 @@
 "use client";
 import React from "react";
-import { useRef } from "react";
 import { useRouter } from "next/navigation";
 import Component1 from "@/components/story/Component1";
 import Component2 from "@/components/story/Component2";
 import Component3 from "@/components/story/Component3";
 import { motion } from "framer-motion";
 import ScrollDownButton from "@/components/shared/ScrollDown";
+import useScrollRef from '@/lib/hooks/useScrollRef';
 
 const OurStory = () => {
   const baseText = "OUR STORY";
   const router = useRouter();
-  const scrollRef = useRef(null);
+  const { scrollRef } = useScrollRef();
 
   return (
     <>

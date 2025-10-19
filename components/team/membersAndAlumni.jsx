@@ -5,43 +5,12 @@ import data from "@/content/team.json";
 import members from "@/content/members.json";
 import alumni from "@/content/alumni.json";
 import { motion } from "framer-motion";
+import { useResponsiveGrid } from "@/lib/hooks/useResponsiveGrid";
 
 const MembersAndAlumni = ({ contentFor }) => {
   const dataFinal = contentFor === "members" ? members : alumni;
-  const [visibleMembers, setVisibleMembers] = useState(dataFinal.slice(0, 6));
-  const [showAllMembers, setShowAllMembers] = useState(false);
-
-  const updateVisibleMembers = () => {
-    const screenSize = window.innerWidth;
-    if (screenSize >= 768) {
-      setVisibleMembers(dataFinal.slice(0, 9));
-    } else {
-      setVisibleMembers(dataFinal.slice(0, 6));
-    }
-  };
-
-  useEffect(() => {
-    updateVisibleMembers();
-
-    const handleResize = () => {
-      updateVisibleMembers();
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  const toggleMembersVisibility = () => {
-    setShowAllMembers(!showAllMembers);
-    if (showAllMembers) {
-      updateVisibleMembers();
-    } else {
-      setVisibleMembers(dataFinal);
-    }
-  };
+  const { visibleMembers, showAllMembers, toggleMembersVisibility } =
+    useResponsiveGrid(dataFinal);
 
   return (
     <>

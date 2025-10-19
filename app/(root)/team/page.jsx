@@ -1,19 +1,17 @@
 "use client";
 import React from "react";
-import { useRef } from "react";
 import TeamHero from "@/components/team/teamHero";
 import MembersAndAlumni from "@/components/team/membersAndAlumni";
 import { motion } from 'framer-motion'
 import Contact from "../contact/page";
 import ScrollDownButton from "@/components/shared/ScrollDown";
+import useScrollRef from '@/lib/hooks/useScrollRef';
+import useAnimationVariants from '@/lib/hooks/useAnimationVariants';
 
 const page = () => {
   const baseText = "MEET THE TEAM";
-  const scrollRef = useRef(null);
-  const imgVariants = {
-    initial: { opacity: 0, x: -50 },
-    animate: { opacity: 1, x: 0 }
-  }
+  const { scrollRef } = useScrollRef();
+  const { imageVariants: imgVariants, textAnimationVariants } = useAnimationVariants();
   return (
     <>
       <div className="flex-col flex-center justify-center items-center">
@@ -22,16 +20,7 @@ const page = () => {
             {baseText.split(" ").map((word, index) => (
               <motion.span
                 key={index}
-                variants={{
-                  initial: {
-                    opacity: 0,
-                    y: 20,
-                  },
-                  animate: {
-                    opacity: 1,
-                    y: 0,
-                  },
-                }}
+                variants={textAnimationVariants}
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true, }}
