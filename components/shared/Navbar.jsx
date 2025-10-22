@@ -3,56 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import NavbarData from "@/content/navbartab.json";
 import Socials from "@/content/socials.json";
-import { useState, useEffect } from "react";
 import MenuDrawer from "./MenuDrawer";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
+import { useDrawerState } from "@/lib/hooks/useDrawerState";
+import { useScrollDirection } from "@/lib/hooks/useScrollDirection";
+import { useNavbarColor } from "@/lib/hooks/useNavbarColor";
 
 const Navbar = () => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const [hidden, setHidden] = useState(false);
-  const [navColor, setNavColor] = useState(false)
-  const { scrollY } = useScroll();
+  const { isDrawerOpen, openDrawer, closeDrawer } = useDrawerState();
+  const hidden = useScrollDirection(isDrawerOpen, closeDrawer);
+  const navColor = useNavbarColor();
 
-  const openDrawer = () => {
-    setIsDrawerOpen(true);
-  };
-
-  const closeDrawer = () => {
-    setIsDrawerOpen(false);
-  };
-
-  function handleNavColor(latest) {
-    setNavColor((prevNavColor) => {
-      if (latest+93 <= window.innerHeight && prevNavColor === true) {
-        return false;
-      } else if (latest+93 > window.innerHeight && prevNavColor === false) {
-        return true;
-      }
-      return prevNavColor;
-    });
-  }
-  
-  useEffect(() => {
-    const handleScroll = () => {
-      const latest = window.scrollY;
-      const previous = scrollY.getPrevious();
-      if (latest > previous && latest > 150) {
-        setHidden(true);
-      } else {
-        setHidden(false);
-      }
-      if (isDrawerOpen && window.innerHeight>424) {
-        closeDrawer();
-      }
-      handleNavColor(latest);
-    };
-  
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [isDrawerOpen, scrollY]);
-  
   return (
     <>
     <motion.nav

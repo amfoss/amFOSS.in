@@ -1,15 +1,15 @@
 "use client";
 import React from "react";
 import Hero from "@/components/about/Hero";
-import { useRef } from "react";
 import OurMission from "@/components/about/OurMission";
 import Modus from "@/components/about/Modus";
 import Contact from "../contact/page";
 import { motion } from 'framer-motion'
 import ScrollDownButton from "@/components/shared/ScrollDown";
+import useScrollRef from '@/lib/hooks/useScrollRef';
 
 const About = () => {
-  const scrollRef = useRef(null);
+  const { scrollRef } = useScrollRef();
   const baseText = "ABOUT";
 
   return (

@@ -1,6 +1,5 @@
 "use client";
 import React from 'react'
-import { useRef } from 'react'
 import herotext from '@/content/homehero.json'
 import whoweare from '@/content/whoweare.json'
 import Contact from '../contact/page';
@@ -14,19 +13,18 @@ import companies_data from "@/content/companies";
 import summerschools_data from "@/content/summerschools";
 import InfiniteSlider from '@/components/achievements/infiniteSlider';
 import ScrollDownButton from '@/components/shared/ScrollDown';
+import useScrollRef from '@/lib/hooks/useScrollRef';
+import useAnimationVariants from '@/lib/hooks/useAnimationVariants';
 
 const page = () => {
   const baseText = herotext.hero;
-  const scrollRef = useRef(null);
-
-  const clubLife1Varients = {
-    initial: { opacity: 0, x: 50 },
-    animate: { opacity: 1, x: 0 }
-  }
-  const clubLife2Varients = {
-    initial: { opacity: 0, x: -50 },
-    animate: { opacity: 1, x: 0 }
-  }
+  const { scrollRef } = useScrollRef();
+  const { 
+    clubLife1Variants: clubLife1Varients,
+    clubLife2Variants: clubLife2Varients,
+    imageVariants: imageVarients,
+    textAnimationVariants
+  } = useAnimationVariants();
 
   const companies_slices = [
     { data: companies_data, direction: true },
@@ -36,11 +34,6 @@ const page = () => {
     { data: summerschools_data, direction: false },
   ];
 
-  const imageVarients={
-    initial: { opacity: 0, x: -50 },
-    animate: { opacity: 1, x: 0 }
-  }
-
   return (
     <div className="flex-col flex-center justify-center overflow-clip items-center">
       <div className="max-sm:py-8 md:text-left text-center max-md:justify-center md:py-32 py-72 md:h-screen mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 flex items-center">
@@ -48,16 +41,7 @@ const page = () => {
           {baseText.split(" ").map((word, index) => (
             <motion.span
               key={index}
-              variants={{
-                initial: {
-                  opacity: 0,
-                  y: 20,
-                },
-                animate: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
+              variants={textAnimationVariants}
               initial="initial"
               whileInView="animate"
               viewport={{ once: true, }}

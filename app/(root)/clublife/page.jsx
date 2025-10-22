@@ -1,25 +1,24 @@
 "use client";
+
 import React from "react";
-import { useRef } from "react";
-import data from "@/content/clublife.json";
 import Title from "../../(root)/../../components/ui/title";
 import TaskForcesComponent from "@/components/clublife/taskForcesComponent";
 import ActivitiesComponent from "@/components/clublife/activitiesComponent";
 import Contact from "../contact/page";
 import { motion } from "framer-motion";
 import ScrollDownButton from "@/components/shared/ScrollDown";
+import useScrollRef from '@/lib/hooks/useScrollRef';
+import useAnimationVariants from '@/lib/hooks/useAnimationVariants';
+import clubLifeData from '@/content/clublife.json';
 
-const page = () => {
-  const scrollRef = useRef(null);
+const Page = () => {
+  const { scrollRef } = useScrollRef();
+  const { 
+    slideUpVariant: clubLife1Varients, 
+    slideInLeftVariant: clubLife2Varients,
+    textAnimationVariants
+  } = useAnimationVariants();
   const baseText = "LIFE IN THE CLUB";
-  const clubLife1Varients = {
-    initial: { opacity: 0, y: 50 },
-    animate: { opacity: 1, y: 0 },
-  };
-  const clubLife2Varients = {
-    initial: { opacity: 0, x: -50 },
-    animate: { opacity: 1, x: 0 },
-  };
 
   return (
     <>
@@ -29,16 +28,7 @@ const page = () => {
             {baseText.split(" ").map((word, index) => (
               <motion.span
                 key={index}
-                variants={{
-                  initial: {
-                    opacity: 0,
-                    y: 20,
-                  },
-                  animate: {
-                    opacity: 1,
-                    y: 0,
-                  },
-                }}
+                variants={textAnimationVariants}
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
@@ -66,7 +56,7 @@ const page = () => {
               whileInView="animate"
               viewport={{ once: true }}
             >
-              <Title title={data.fosslab.title} />
+              <Title title={clubLifeData.fosslab.title} />
             </motion.div>
 
             <motion.div
@@ -78,7 +68,7 @@ const page = () => {
               viewport={{ once: true }}
             >
               <p className="h-full flex justify-center items-center text-white md:text-2xl p-5 text-justify">
-                {data.fosslab.description}
+                {clubLifeData.fosslab.description}
               </p>
             </motion.div>
             <motion.img
@@ -101,15 +91,15 @@ const page = () => {
             />
           </div>
         </div>  
-        </div>
-        {/* taskforces */}
-        <TaskForcesComponent />
-        {/* activities */}
-        <ActivitiesComponent />
-        {/* Contact Us */ } 
+      </div>
+      {/* taskforces */}
+      <TaskForcesComponent />
+      {/* activities */}
+      <ActivitiesComponent />
+      {/* Contact Us */ } 
       <div className='pt-5 md:pt-40'><Contact /></div>     
     </>
   );
 };
 
-export default page;
+export default Page;
