@@ -44,7 +44,7 @@ const ContactDetails = () => {
                     initial="initial"
                     whileInView="animate"
                     viewport={{ once: true }}>
-                    <img src={data.contact.img} width={155}
+                    <Image src={data.contact.img} width={155}
                         height={155}
                         alt="white bulb" />
                 </motion.div>
