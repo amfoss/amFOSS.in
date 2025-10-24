@@ -25,7 +25,7 @@
       },
       {
         "title": "Internal Events",
-        "description": "Handles scheduling and coordinating internal events like FOSSTalks, movie screenings, and amFOSS Play."
+        "description": "Handles scheduling and coordinating internal events like FOSSTalks, movie screenings, and FOSS Play."
       }
     ]
   },
@@ -36,7 +36,7 @@
     },
     "amfossplays": {
       "image": "/assets/images/clublife_1.jpg",
-      "title": "amFOSS Play",
+      "title": "FOSS Play",
       "description": "A biweekly event for sports activities featuring a range of activities like marathons, football, badminton, and cricket."
     },
     "documentary": {
