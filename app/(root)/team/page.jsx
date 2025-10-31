@@ -3,8 +3,8 @@ import MembersAndAlumni from "@/components/team/membersAndAlumni";
 import Contact from "../contact/page";
 import TeamHeroSection from "@/components/team/teamHeroSection"; // Client Component for the page's hero and motion logic
 
-const MEMBERS_DATA_URL = 'https://raw.githubusercontent.com/amfoss/member-directory/main/members.json';
-const ALUMNI_DATA_URL = 'https://raw.githubusercontent.com/amfoss/member-directory/main/alumni.json';
+const MEMBERS_DATA_URL = 'https://raw.githubusercontent.com/amfoss/production-data/main/members.json';
+const ALUMNI_DATA_URL = 'https://raw.githubusercontent.com/amfoss/production-data/main/alumni.json';
 async function fetchTeamData(url) {
   try {
     const response = await fetch(url);
