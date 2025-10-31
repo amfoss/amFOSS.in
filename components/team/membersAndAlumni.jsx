@@ -1,21 +1,19 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import Title from "@/components/ui/title";
 import MemberCard from "@/components/team/memberCard";
-import data from "@/content/team.json";
-import members from "@/content/members.json";
-import alumni from "@/content/alumni.json";
 import { motion } from "framer-motion";
 import { useResponsiveGrid } from "@/lib/hooks/useResponsiveGrid";
 
-const MembersAndAlumni = ({ contentFor }) => {
-  const dataFinal = contentFor === "members" ? members : alumni;
+const MembersAndAlumni = ({ membersData, title }) => {
+  // useResponsiveGrid operates on the data passed via props
   const { visibleMembers, showAllMembers, toggleMembersVisibility } =
-    useResponsiveGrid(dataFinal);
+    useResponsiveGrid(membersData);
 
   return (
     <>
       <div className="w-full mx-auto max-w-screen-2xl px-6 xs:px-8 sm:px-16 pt-10 md:pb-10">
-        <Title title={contentFor === "members" ? "MEMBERS" : "ALUMNI"} />
+        <Title title={title} />
       </div>
       <div className="w-full max-w-screen-2xl mx-auto xl:px-1 px-7 sm:px-12 my-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 col lg:gap-x-20 md:gap-x-10 gap-x-3 lg:gap-y-10">
         {visibleMembers.map((member, i) => (
@@ -34,7 +32,7 @@ const MembersAndAlumni = ({ contentFor }) => {
               githubLink={member.githubLink}
               twitterLink={member.twitterLink}
               linkedinLink={member.linkedinLink}
-              imgPath={member.imgPath}
+              imgPath={member.imgPath} // imgPath contains the full external GitHub url
             />
           </motion.div>
         ))}
