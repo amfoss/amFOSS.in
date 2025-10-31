@@ -7,10 +7,7 @@ const MEMBERS_DATA_URL = 'https://raw.githubusercontent.com/amfoss/member-direct
 const ALUMNI_DATA_URL = 'https://raw.githubusercontent.com/amfoss/member-directory/main/alumni.json';
 async function fetchTeamData(url) {
   try {
-    const response = await fetch(url, {
-      //cache: 'no-store' 
-      cache: 'force-cache' 
-    });
+    const response = await fetch(url);
 
     if (!response.ok) {
       console.error(`Failed to fetch data from ${url}. Status: ${response.status}`);
