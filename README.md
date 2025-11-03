@@ -32,18 +32,32 @@ npm run dev
 ## Project Structure
 
 ```
-├── app/                    # Next.js App Router pages
-├── components/            # Reusable React components
-├── content/              # JSON data files for website content
-├── lib/                  # Utility functions and configurations
-├── public/               # Static assets
-├── package.json          # Project dependencies and scripts
-├── tailwind.config.js    # Tailwind CSS configuration
-└── postcss.config.js     # PostCSS configuration
+amFOSS.in/  
+├── app/                    # Next.js App Router pages  
+│   ├── (root)/            # Main route group  
+│   │   ├── (home)/        # Home page  
+│   │   ├── about/         # About page  
+│   │   ├── story/         # Story page  
+│   │   ├── team/          # Team page  
+│   │   └── contact/       # Contact page  
+│   ├── layout.jsx         # Root layout  
+│   └── globals.css        # Global styles  
+├── components/            # Reusable React components  
+│   ├── ui/               # UI components  
+│   ├── shared/           # Shared components  
+│   └── [feature]/        # Feature-specific components  
+├── content/              # JSON data files  
+│   ├── members.json      # Team member data  
+│   ├── about.json        # About page content  
+│   └── [other].json      # Other content files  
+├── public/               # Static assets  
+└── package.json          # Dependencies and scripts
 ```
 
-The content for different sections is managed through JSON files in the `content/` 
+## Content Management
+The site uses a JSON-based content management system. All textual content, member information, and achievements are stored in JSON files under the `content/` directory. This allows content updates without code modifications
 
+.
 ## Contributing
 
 We welcome contributions! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
