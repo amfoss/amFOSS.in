@@ -7,6 +7,7 @@ const memberCard = ({
   githubLink,
   twitterLink,
   linkedinLink,
+  mailLink,
   imgPath,
 }) => {
   return (
@@ -42,7 +43,14 @@ const memberCard = ({
               <img
                 src="assets/icons/socials/Vector-4.svg"
                 alt="linkedin"
-                className="llg:w-8 md:w-6 w-3 lg:h-8 md:h-6 h-3 mx-2"
+                className="lg:w-8 md:w-6 w-3 lg:h-8 md:h-6 h-3 mx-2"
+              />
+            </a> :null}
+            {mailLink ? <a href={mailLink} target="_blank" rel="noreferrer">
+              <img
+                src="assets/icons/socials/Vector-5.svg"
+                alt="mail"
+                className="lg:w-8 md:w-6 w-3 lg:h-8 md:h-6 h-3 mx-2"
               />
             </a> :null}
           </div>

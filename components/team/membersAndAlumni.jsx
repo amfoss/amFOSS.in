@@ -32,6 +32,7 @@ const MembersAndAlumni = ({ membersData, title }) => {
               githubLink={member.githubLink}
               twitterLink={member.twitterLink}
               linkedinLink={member.linkedinLink}
+              mailLink={member.mailLink}
               imgPath={member.imgPath} // imgPath contains the full external GitHub url
             />
           </motion.div>
