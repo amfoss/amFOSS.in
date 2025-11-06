@@ -11,25 +11,31 @@ const InfiniteSlider = ({ data, direction }) => {
     }, 1000);
     return () => clearTimeout(delay);
   }, []);
+
+  const moveRight = direction === "right" || direction === true;
+
   return (
-    <div>
+    <div className="w-full flex justify-center items-center">
       {showSlider && (
-        <Slider toRight={direction} blurBoderColor={'black'}>
+        <Slider
+          toRight={moveRight}
+          blurBorderColor="black"
+          duration={90}
+        >
           {data.map((company, index) => (
-            <div className="flex justify-center items-center" key={index}>
-              <Slider.Slide className="">
-                <img
-                  src={company.img_path}
-                  alt={company.alt}
-                  className="md:w-44 md:h-44"
-                />
-              </Slider.Slide>
-            </div>
+            <Slider.Slide key={index}>
+              <img
+                src={company.img_path}
+                alt={company.alt || `company-${index}`}
+                className="md:w-44 md:h-44 object-contain"
+              />
+            </Slider.Slide>
           ))}
         </Slider>
       )}
     </div>
   );
 };
+
 
 export default InfiniteSlider;
