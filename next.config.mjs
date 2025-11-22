@@ -7,7 +7,7 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'raw.githubusercontent.com',
             port: '',
-            pathname: '/amfoss/member-directory/production-data/**',
+            pathname: '/amfoss/member-directory/main/**',
         },
     ],
   },
