@@ -5,6 +5,8 @@ import MemberCard from "@/components/team/memberCard";
 import { motion } from "framer-motion";
 import { useResponsiveGrid } from "@/lib/hooks/useResponsiveGrid";
 
+const CDN_URL='https://cdn.jsdelivr.net/gh'
+
 const MembersAndAlumni = ({ membersData, title }) => {
   // useResponsiveGrid operates on the data passed via props
   const { visibleMembers, showAllMembers, toggleMembersVisibility } =
@@ -33,7 +35,7 @@ const MembersAndAlumni = ({ membersData, title }) => {
               twitterLink={member.twitterLink}
               linkedinLink={member.linkedinLink}
               mailLink={member.mailLink}
-              imgPath={member.imgPath} // imgPath contains the full external GitHub url
+              imgPath={CDN_URL + member.imgPath} // imgPath contains the full external GitHub url
             />
           </motion.div>
         ))}
