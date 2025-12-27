@@ -25,6 +25,8 @@ const Page = async () => {
   const members = await fetchTeamData(MEMBERS_DATA_URL);
   const alumni = await fetchTeamData(ALUMNI_DATA_URL);
 
+  members.pop();
+
   return (
     <>
       {/* Client Component for the animated header, scroll ref, and hero image */}
