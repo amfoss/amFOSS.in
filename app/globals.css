@@ -47,3 +47,10 @@
     box-shadow: 0 0 15px 3px rgba(208, 167, 48, 0.9); /* Increase glow on hover */
   }  
 }
+/* To hide navbar arrows on small screens */
+@media (max-width: 767px) {
+  .react-multiple-carousel__arrow--left,
+  .react-multiple-carousel__arrow--right {
+    display: none !important;
+  }
+}
