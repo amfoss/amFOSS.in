@@ -7,7 +7,7 @@ export const metadata = {
   title: "amFOSS | INDIA'S FASTEST GROWING FOSS & COMPUTER SCIENCE CLUB",
   description: "amFoss Official Website",
   icons: {
-    icon: "/assets/icons/amfoss_bulb_white.svg",
+    icon: "/assets/icons/amfoss.svg",
   },
 };
 
