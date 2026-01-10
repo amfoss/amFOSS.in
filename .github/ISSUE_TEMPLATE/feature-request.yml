@@ -1,0 +1,62 @@
+name: "⭐ Feature request"
+description: Suggest an idea or enhancement for this web project
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        - Please search existing issues before creating a new one to avoid duplicates.
+        - Each issue should describe **one** feature request only.
+        - Feature requests work best when they focus on the **problem**, not a demanded solution.
+          (e.g., “There should be an easier way to do X” instead of “Add Y button”.)
+
+  - type: textarea
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the user problem or growth opportunity.
+      placeholder: Users find it hard to discover recently added content.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Why is this important?
+      description: How do you know this problem exists? Any evidence or examples?
+      placeholder: Users frequently ask about this in discussions / issues.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Who will benefit from this feature?
+      description: Describe the target users or contributors who would benefit.
+      placeholder: New users, contributors, maintainers, etc.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Suggested approach (optional)
+      description: If you have ideas, share them—but avoid being overly prescriptive.
+      placeholder: This could be improved by showing a filter or a quick access section.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Mockups, links, screenshots, or related issues.
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Would you like to work on this feature?
+      description: Let us know if you want to implement this feature yourself.
+      options:
+        - "Yes"
+        - Prefer not
+    validations:
+      required: false
