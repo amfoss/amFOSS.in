@@ -8,12 +8,12 @@ Briefly describe what changes you made and why they were necessary.
 
 **Tests performed (required)**
 
-Describe how you tested your changes.
+Please check all that apply:
 
-Example:
-- Tested locally on Chrome / Firefox
-- Verified on desktop and mobile view
-- Checked affected routes/pages
+- [ ] Tested locally on Chrome / Firefox
+- [ ] Verified on both desktop and mobile view
+- [ ] Checked affected routes/pages
+- [ ] Not tested (please explain why)
 
 ---
 
