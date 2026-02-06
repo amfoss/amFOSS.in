@@ -16,17 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" />
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PZQ4MW46');`,
-          }}
-        />
-        {/* End Google Tag Manager */}
+        {/* Umami Tag Manager */}
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="3d92ff66-a2b0-4a36-b7ac-402c70ff6cb3"></script>
+        {/* End Umami Tag Manager */}
       </head>
       <body
         suppressHydrationWarning={true}
