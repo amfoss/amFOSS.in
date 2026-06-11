@@ -61,7 +61,7 @@ export default async function Page({ params }) {
 
       <div className="mt-8 grid lg:grid-cols-2 gap-8 items-start">
         <div className="rounded-2xl overflow-hidden bg-slate-950/70 shadow-lg">
-          <div className="relative h-[30rem] md:h-[350rem] lg:h-[40rem]">
+          <div className="relative h-[30rem] md:h-[29rem] lg:h-[40rem]">
             <Image
               src={imgSrc}
               alt={member.name}
