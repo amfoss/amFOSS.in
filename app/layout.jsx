@@ -5,7 +5,7 @@ const sen = Sen({ subsets: ["latin"] });
 
 export const metadata = {
   title: "amFOSS | INDIA'S LONGEST-RUNNING FOSS & COMPUTER SCIENCE CLUB",
-  description: "amFoss Official Website",
+  description: "The Official Website For amFOSS",
   icons: {
     icon: "/assets/icons/amfoss.svg",
   },
