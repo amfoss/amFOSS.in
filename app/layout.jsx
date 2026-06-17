@@ -4,7 +4,7 @@ import "./globals.css";
 const sen = Sen({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "amFOSS | INDIA'S FASTEST GROWING FOSS & COMPUTER SCIENCE CLUB",
+  title: "amFOSS | INDIA'S LONGEST-RUNNING FOSS & COMPUTER SCIENCE CLUB",
   description: "amFoss Official Website",
   icons: {
     icon: "/assets/icons/amfoss.svg",
