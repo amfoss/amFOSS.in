@@ -18,5 +18,9 @@
   {
     "title": "GALLERY",
     "ref": "/gallery"
+  },
+  {
+    "title":"BRANDING",
+    "ref" : "/branding"
   }
 ]
