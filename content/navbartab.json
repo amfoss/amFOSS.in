@@ -18,5 +18,9 @@
   {
     "title": "GALLERY",
     "ref": "/gallery"
+  },
+  {
+    "title": "FOOTPRINT",
+    "ref": "/footprint"
   }
 ]
