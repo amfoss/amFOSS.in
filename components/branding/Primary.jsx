@@ -66,10 +66,6 @@ const Primary = () => {
             </button>
           </div>
         </div>
-
-        {/* <h1 className="md:text-[31px] text-center text-3xl mt-5">
-          {data1?.icon1?.title}
-        </h1> */}
       </motion.div>
     </>
   );
