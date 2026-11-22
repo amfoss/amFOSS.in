@@ -1,0 +1,59 @@
+{
+    "first": {
+        "title": "PRIMARY ICON",
+        "imageURLS": [
+            {
+                "url": "/assets/branding/logos/png/amfoss-white-full.png",
+                "description": "amfoss png full black icon"
+            },
+            {
+                "url": "/assets/branding/logos/png/amfoss-full-black@3x.png",
+                "description": "amfoss png full white icon"
+            },
+            {
+                "url": "/assets/branding/logos/svg/amfoss_svg_full.svg",
+                "description": "amfoss svg full icon"
+            }
+            
+        ]
+    },
+    "second":{
+        "title":"ONLY BULB",
+        "imageURLS":[
+            {
+                "url":"/assets/branding/logos/png/amfoss-bulb-white@3x.png",
+                "description":"amfoss black bulb icon"
+            },
+            {
+                "url":"/assets/branding/logos/png/amfoss-bulb-black@3x.png",
+                "description":"amfoss white bulb icon"
+            }
+        ]
+    },
+    "third":{
+        "title":"BULB WITH TEXT",
+        "imageURLS":[
+            {
+                "url":"/assets/branding/logos/png/amfoss-bulb-text-white@3x.png",
+                "description":"amfoss white bulb and text icon"
+            },
+            {
+                "url":"/assets/branding/logos/png/amfoss-bulb-text-black@3x.png",
+                "description":"amfoss black bulb and text icon"
+            }
+        ]
+    },
+    "fourth":{
+        "title":"FOOTER",
+        "imageURLS":[
+            {
+                "url":"/assets/branding/logos/png/amfoss-footer-black@3x.png",
+                "description":"amfoss black footer icon"
+            },
+            {
+                "url":"/assets/branding/logos/png/amfoss-footer-white@3x.png",
+                "description":"amfoss white footer icon"
+            }
+        ]
+    }
+}
